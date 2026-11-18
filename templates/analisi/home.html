@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block contenuto %}
+<h1>Partiti</h1>
+{% if not partiti_header %}
+  <p class="vuoto">Nessun partito inserito. Aggiungili dall'<a href="/admin/">area di gestione</a>.</p>
+{% endif %}
+{% regroup partiti_header by get_schieramento_display as gruppi %}
+{% for g in gruppi %}
+  <h2 class="titoletto">{{ g.grouper }}</h2>
+  <div class="griglia">
+    {% for p in g.list %}
+      <a class="card {{ p.schieramento }}" href="{{ p.get_absolute_url }}">{{ p.nome }}</a>
+    {% endfor %}
+  </div>
+{% endfor %}
+{% endblock %}

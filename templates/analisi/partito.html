@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}{{ partito.nome }}{% endblock %}
+{% block contenuto %}
+<h1 class="intestazione {{ partito.schieramento }}">{{ partito.nome }}</h1>
+{% if not programmi %}
+  <p class="vuoto">Nessun programma inserito per questo partito.</p>
+{% endif %}
+<div class="griglia">
+  {% for pr in programmi %}
+    <a class="card {{ partito.schieramento }}" href="{{ pr.get_absolute_url }}">
+      {{ pr.titolo }}<span class="anno">{{ pr.anno }} · {{ pr.get_ambito_display }}</span>
+    </a>
+  {% endfor %}
+</div>
+{% endblock %}

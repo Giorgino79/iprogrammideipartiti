@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}{{ programma.titolo }}{% endblock %}
+{% block contenuto %}
+<p class="briciole"><a href="{{ partito.get_absolute_url }}">&larr; {{ partito.nome }}</a></p>
+<h1 class="intestazione {{ partito.schieramento }}">{{ programma.titolo }} <span class="anno">{{ programma.anno }}</span></h1>
+
+<div class="due-colonne">
+  <section class="pannello originale" aria-label="Programma originale">
+    <header>
+      <h3>Programma originale</h3>
+      {% if programma.documento %}<a class="tasto-pagina" href="{{ programma.documento.url }}" target="_blank" rel="noopener">Apri il PDF</a>{% endif %}
+    </header>
+    {% if programma.documento %}
+      <iframe id="pdf" src="{{ programma.documento.url }}" title="Programma originale"></iframe>
+    {% else %}
+      <p class="vuoto">Documento non caricato.</p>
+    {% endif %}
+  </section>
+
+  <section class="colonna-commenti" aria-label="Commenti">
+    {% for c in commenti %}
+      <article class="commento">
+        <header>
+          <h3>{{ c.titolo }}</h3>
+          {% if c.pagina %}<button type="button" class="tasto-pagina" data-pagina="{{ c.pagina }}">p. {{ c.pagina }}</button>{% endif %}
+        </header>
+        <p class="fattibilita f-{{ c.fattibilita }}">
+          <strong>Fattibilità: {{ c.get_fattibilita_display|lower }}</strong>
+          <span class="misuratore" aria-hidden="true"><i></i><i></i><i></i></span>
+        </p>
+        {% if c.motivazione %}<p class="motivazione">{{ c.motivazione }}</p>{% endif %}
+        <h4>Cosa promette</h4>{{ c.promessa|linebreaks }}
+        {% if c.precedenti %}<h4>Precedenti storici</h4>{{ c.precedenti|linebreaks }}{% endif %}
+        {% if c.fondi %}<h4>Fondi</h4>{{ c.fondi|linebreaks }}{% endif %}
+        {% if c.rischi_benefici %}<h4>Rischi e benefici</h4>{{ c.rischi_benefici|linebreaks }}{% endif %}
+      </article>
+    {% empty %}
+      <p class="vuoto">Nessun commento ancora.</p>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+  var pdf = document.getElementById('pdf');
+  document.querySelectorAll('.tasto-pagina[data-pagina]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      if (!pdf) return;
+      pdf.setAttribute('src', pdf.getAttribute('src').split('#')[0] + '#page=' + b.dataset.pagina);
+      pdf.scrollIntoView({block: 'nearest'});
+    });
+  });
+</script>
+{% endblock %}
