@@ -20,9 +20,15 @@ class Command(BaseCommand):
                 partito.save()
             for p in e['programmi']:
                 pdf = Path(settings.MEDIA_ROOT) / 'programmi' / p['pdf']
-                programma, _ = Programma.objects.get_or_create(
-                    partito=partito, titolo=p['titolo'], anno=p['anno'],
-                    defaults=dict(ambito=p['ambito'], documento=f"programmi/{p['pdf']}" if pdf.exists() else ''))
+                documento = f"programmi/{p['pdf']}" if pdf.exists() else ''
+                programma = Programma.objects.filter(partito=partito, documento=documento).first() if documento else None
+                if programma is None:
+                    programma, _ = Programma.objects.get_or_create(
+                        partito=partito, titolo=p['titolo'], anno=p['anno'],
+                        defaults=dict(ambito=p['ambito'], documento=documento))
+                elif programma.titolo != p['titolo']:
+                    programma.titolo = p['titolo']
+                    programma.save()
                 if not programma.commenti.exists():
                     for c in p['commenti']:
                         Commento.objects.create(programma=programma, **c)
