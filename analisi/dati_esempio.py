@@ -201,3 +201,13 @@ ESEMPI = [
          programmi=[dict(titolo='B.I.P. - Base Ideologica e Programmatica (prima e seconda parte)', anno=2026, ambito='IT',
                          pdf='fn-2026.pdf', commenti=COMMENTI_FN)]),
 ]
+
+# Programmi europei 2024 e partiti aggiunti dopo
+from .dati_europee import EUROPEE, NUOVI_PARTITI  # noqa: E402
+
+for _p in NUOVI_PARTITI:
+    ESEMPI.append(dict(partito=_p, programmi=[]))
+for _e in ESEMPI:
+    _eu = EUROPEE.get(_e['partito']['slug'])
+    if _eu:
+        _e['programmi'].append(_eu)
