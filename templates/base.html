@@ -8,13 +8,15 @@
 </head>
 <body>
 <header class="testata">
-  <a class="marchio" href="{% url 'home' %}">Analisi programmi dei partiti</a>
+  <a class="bandiera" href="{% url 'home' %}" aria-label="Analisi programmi dei partiti - home">
+    <span class="verde"></span>
+    <span class="bianco"><strong>Analisi programmi dei partiti</strong></span>
+    <span class="rosso"></span>
+  </a>
   <nav class="simboli" aria-label="Partiti">
-    {% for p in partiti_header %}
-      <a class="simbolo {{ p.schieramento }}{% if p.logo %} con-logo{% endif %}{% if partito and partito.pk == p.pk %} attivo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}">
-        {% if p.logo %}<img src="{{ p.logo.url }}" alt="{{ p.nome }}">{% else %}<span>{{ p.sigla }}</span>{% endif %}
-      </a>
-    {% endfor %}
+    <div class="gruppo sx">{% for p in partiti_sx %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
+    <div class="gruppo ce">{% for p in partiti_ce %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
+    <div class="gruppo dx">{% for p in partiti_dx %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
   </nav>
 </header>
 <main class="pagina">

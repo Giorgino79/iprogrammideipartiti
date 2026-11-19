@@ -16,16 +16,23 @@ a { color: inherit; }
 h1 { font-size: 1.6rem; margin: .4rem 0 1rem; }
 h2.titoletto { font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; color: var(--neutro); margin: 1.4rem 0 .6rem; }
 
-/* Testata: barra metà rossa e metà blu, poi i simboli */
+/* Testata a due piani: bandiera sopra, simboli sotto */
 .testata { background: #fff; border-bottom: 1px solid var(--bordo); position: sticky; top: 0; z-index: 10; }
-.testata::before { content: ""; display: block; height: 6px; background: linear-gradient(90deg, var(--rosso) 0 50%, var(--blu) 50% 100%); }
-.marchio { display: block; padding: .6rem 1rem 0; font-weight: 700; text-decoration: none; }
-.simboli { display: flex; gap: .6rem; overflow-x: auto; padding: .6rem 1rem .8rem; -webkit-overflow-scrolling: touch; }
+.bandiera { display: grid; grid-template-columns: 1fr 1fr 1fr; height: 52px; text-decoration: none; }
+.bandiera .verde { background: #009246; }
+.bandiera .bianco { background: #fff; display: grid; place-items: center; text-align: center; padding: 0 .4rem;
+                    font-size: .8rem; line-height: 1.15; border-block: 1px solid var(--bordo); }
+.bandiera .rosso { background: #ce2b37; }
+.simboli { display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: .5rem; padding: .6rem 1rem; }
+.gruppo { display: flex; flex-wrap: wrap; gap: .5rem; }
+.gruppo.sx { justify-content: flex-start; }
+.gruppo.ce { justify-content: center; }
+.gruppo.dx { justify-content: flex-end; }
 .simbolo { flex: 0 0 auto; width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center;
            border: 3px solid var(--bordo); background: #fff; text-decoration: none; font-weight: 700; font-size: .8rem; overflow: hidden; }
 .simbolo img { width: 100%; height: 100%; object-fit: contain; }
-.simbolo.con-logo { width: auto; min-width: 64px; max-width: 110px; border-radius: 12px; padding: 3px; background: #fff; }
-.simbolo.con-logo img { width: auto; max-width: 100%; }
+.simbolo.con-logo { display: flex; align-items: center; justify-content: center; width: auto; min-width: 0; max-width: none; height: 64px; border-radius: 12px; padding: 3px; background: #fff; }
+.simbolo.con-logo img { display: block; width: auto; height: 100%; max-width: 96px; object-fit: contain; }
 .simbolo.attivo.con-logo { box-shadow: 0 0 0 3px currentColor; }
 .simbolo.SX { border-color: var(--rosso); color: var(--rosso); }
 .simbolo.DX { border-color: var(--blu); color: var(--blu); }
@@ -60,7 +67,7 @@ h1 .anno { display: inline; margin-left: .4rem; }
 .pannello { background: #fff; border: 1px solid var(--bordo); border-radius: 12px; padding: 1rem; }
 .pannello header { display: flex; justify-content: space-between; align-items: center; gap: .6rem; margin-bottom: .6rem; }
 .pannello h3 { margin: 0; font-size: 1.1rem; }
-.originale { position: sticky; top: 118px; }
+.originale { position: sticky; top: 160px; }
 #pdf { display: block; width: 100%; height: calc(100vh - 260px); min-height: 420px; border: 1px solid var(--bordo); border-radius: 8px; background: #fff; }
 .colonna-commenti .commento { margin-bottom: 1rem; }
 .tasto, .tasto-pagina { display: inline-block; padding: .6rem 1rem; border-radius: 8px; border: 1px solid var(--bordo);
@@ -80,6 +87,11 @@ h1 .anno { display: inline; margin-left: .4rem; }
 
 /* Telefono: colonne una sotto l'altra */
 @media (max-width: 900px) {
+  .testata { position: static; }
+  .gruppo.dx { grid-column: 1 / -1; grid-row: 2; }
+  .simbolo { width: 52px; height: 52px; }
+  .simbolo.con-logo { height: 52px; }
+  .simbolo.con-logo img { max-width: 80px; }
   .due-colonne { grid-template-columns: 1fr; }
   .originale { position: static; }
   #pdf { height: 60vh; min-height: 300px; }
