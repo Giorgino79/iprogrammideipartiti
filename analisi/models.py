@@ -13,6 +13,11 @@ class Partito(models.Model):
     schieramento = models.CharField(max_length=2, choices=SCHIERAMENTI)
     logo = models.ImageField(upload_to='loghi/', blank=True)
     ordine = models.PositiveSmallIntegerField(default=0)
+    coalizione = models.BooleanField(default=False, help_text='Una coalizione non compare nell\'header dei partiti')
+    sondaggio = models.DecimalField('Intenzioni di voto (%)', max_digits=4, decimal_places=1, null=True, blank=True)
+    sondaggio_data = models.DateField(null=True, blank=True)
+    sondaggio_fonte = models.CharField(max_length=200, blank=True)
+    sondaggio_url = models.URLField(blank=True)
 
     class Meta:
         ordering = ['ordine', 'nome']

@@ -211,3 +211,8 @@ for _e in ESEMPI:
     _eu = EUROPEE.get(_e['partito']['slug'])
     if _eu:
         _e['programmi'].append(_eu)
+
+from .dati_sondaggi import NUOVI_PARTITI as _NUOVI_SONDAGGI  # noqa: E402
+
+for _p in _NUOVI_SONDAGGI:
+    ESEMPI.append(dict(partito=_p, programmi=[]))

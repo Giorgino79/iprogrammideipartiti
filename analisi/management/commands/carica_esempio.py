@@ -4,6 +4,7 @@ from django.conf import settings
 from django.core.management.base import BaseCommand
 
 from analisi.dati_esempio import ESEMPI
+from analisi.dati_sondaggi import COALIZIONI, DATA, FONTE, URL, VALORI
 from analisi.dati_voti import TEMI, VOTI
 from analisi.models import Commento, Partito, Programma, Tema
 
@@ -44,4 +45,8 @@ class Command(BaseCommand):
                         commento.voto_fattibilita, commento.voto_copertura, commento.voto_esiti = f, co, s
                         commento.voto_chiarezza, commento.voto_rischi, commento.costo = ch, ri, costo
                         commento.save()
+        for slug, valore in VALORI.items():
+            Partito.objects.filter(slug=slug).update(
+                sondaggio=valore, sondaggio_data=DATA, sondaggio_fonte=FONTE, sondaggio_url=URL)
+        Partito.objects.filter(slug__in=COALIZIONI).update(coalizione=True)
         self.stdout.write(self.style.SUCCESS('Esempi caricati.'))

@@ -13,11 +13,10 @@
     <span class="bianco"><strong>Osservatorio comparato dei programmi dei partiti</strong></span>
     <span class="rosso"></span>
   </a>
-  <nav class="simboli" aria-label="Partiti">
-    <div class="gruppo sx">{% for p in partiti_sx %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
-    <div class="gruppo ce">{% for p in partiti_ce %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
-    <div class="gruppo dx">{% for p in partiti_dx %}{% include 'analisi/_simbolo.html' %}{% endfor %}</div>
+  <nav class="simboli" aria-label="Partiti, dal più basso al più alto nei sondaggi">
+    {% for p in partiti_header %}{% include 'analisi/_simbolo.html' %}{% endfor %}
   </nav>
+  {% if sondaggio_fonte %}<p class="nota-ordine">Dal più basso al più alto nelle intenzioni di voto: <a href="{{ sondaggio_url }}" target="_blank" rel="noopener">{{ sondaggio_fonte }}</a></p>{% endif %}
 </header>
 <main class="pagina">
   {% block contenuto %}{% endblock %}

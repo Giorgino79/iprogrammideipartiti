@@ -1,3 +1,4 @@
-<a class="simbolo {{ p.schieramento }}{% if p.logo %} con-logo{% endif %}{% if partito and partito.pk == p.pk %} attivo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}">
+<a class="simbolo{% if p.logo %} con-logo{% endif %}{% if partito and partito.pk == p.pk %} attivo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}{% if p.sondaggio %} - {{ p.sondaggio|floatformat:1 }}%{% endif %}">
   {% if p.logo %}<img src="{{ p.logo.url }}" alt="{{ p.nome }}">{% else %}<span>{{ p.sigla }}</span>{% endif %}
+  {% if p.sondaggio %}<small class="percento">{{ p.sondaggio|floatformat:1 }}%</small>{% endif %}
 </a>
