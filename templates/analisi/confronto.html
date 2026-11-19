@@ -3,9 +3,16 @@
 {% block contenuto %}
 <h1>Confronto per tema</h1>
 <p class="invito">Scegli un tema per vedere come lo affrontano i vari programmi.</p>
-<div class="griglia">
-  {% for t in temi %}
-    <a class="card neutra" href="{{ t.get_absolute_url }}">{{ t.nome }}</a>
-  {% endfor %}
-</div>
+{% if pronti %}
+<h2 class="titoletto">Confronti disponibili</h2>
+<div class="griglia">{% for t in pronti %}<a class="card neutra" href="{{ t.get_absolute_url }}">{{ t.nome }}</a>{% endfor %}</div>
+{% endif %}
+{% if uno_solo %}
+<h2 class="titoletto">Una sola proposta per ora</h2>
+<div class="griglia">{% for t in uno_solo %}<a class="card neutra" href="{{ t.get_absolute_url }}">{{ t.nome }}</a>{% endfor %}</div>
+{% endif %}
+{% if in_preparazione %}
+<h2 class="titoletto">In preparazione</h2>
+<div class="griglia">{% for t in in_preparazione %}<a class="card neutra preparazione" href="{{ t.get_absolute_url }}">{{ t.nome }}</a>{% endfor %}</div>
+{% endif %}
 {% endblock %}

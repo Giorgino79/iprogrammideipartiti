@@ -3,25 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}Osservatorio comparato dei programmi dei partiti{% endblock %}</title>
+  <title>{% block title %}OSSERVATORIOPARTITI.IT - Osservatorio comparato dei programmi dei partiti{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'analisi/stile.css' %}">
 </head>
 <body>
 <header class="testata">
-  <a class="bandiera" href="{% url 'home' %}" aria-label="Osservatorio comparato dei programmi dei partiti - home">
+  <a class="bandiera" href="{% url 'home' %}" aria-label="OSSERVATORIOPARTITI.IT - home">
     <span class="verde"></span>
-    <span class="bianco"><strong>Osservatorio comparato dei programmi dei partiti</strong></span>
+    <span class="bianco"><strong class="nome-sito">OSSERVATORIOPARTITI.IT</strong></span>
     <span class="rosso"></span>
   </a>
-  <nav class="simboli" aria-label="Partiti, dal più basso al più alto nei sondaggi">
+  <nav class="simboli" aria-label="Partiti, dal più alto al più basso nei sondaggi">
     {% for p in partiti_header %}{% include 'analisi/_simbolo.html' %}{% endfor %}
   </nav>
-  {% if sondaggio_fonte %}<p class="nota-ordine">Dal più basso al più alto nelle intenzioni di voto: <a href="{{ sondaggio_url }}" target="_blank" rel="noopener">{{ sondaggio_fonte }}</a></p>{% endif %}
+  {% if sondaggio_fonte %}<p class="nota-ordine">Dal più alto al più basso nelle intenzioni di voto: <a href="{{ sondaggio_url }}" target="_blank" rel="noopener">{{ sondaggio_fonte }}</a></p>{% endif %}
 </header>
 <main class="pagina">
   {% block contenuto %}{% endblock %}
 </main>
 <footer class="piede">
+  <p class="marchio-piede"><strong>OSSERVATORIOPARTITI.IT</strong> &middot; Osservatorio comparato dei programmi dei partiti</p>
   <nav class="menu-piede" aria-label="Menu">
     <a href="{% url 'home' %}">Home</a>
     <a href="{% url 'metodo' %}">Come giudichiamo</a>

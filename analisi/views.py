@@ -1,3 +1,4 @@
+from django.db.models import Count
 from django.shortcuts import get_object_or_404, render
 
 from .models import Commento, Partito, Programma, Tema
@@ -29,7 +30,12 @@ def metodo(request):
 
 
 def confronto(request):
-    return render(request, 'analisi/confronto.html', {'temi': Tema.objects.all()})
+    temi = Tema.objects.annotate(partiti=Count('commenti__programma__partito', distinct=True)).order_by('ordine', 'nome')
+    return render(request, 'analisi/confronto.html', {
+        'pronti': [t for t in temi if t.partiti >= 2],
+        'uno_solo': [t for t in temi if t.partiti == 1],
+        'in_preparazione': [t for t in temi if t.partiti == 0],
+    })
 
 
 def confronto_tema(request, slug):
@@ -39,6 +45,9 @@ def confronto_tema(request, slug):
                 .order_by('programma__partito__ordine', 'programma__anno', 'ordine'))
     if ambito in (Programma.ITALIANO, Programma.EUROPEO):
         commenti = commenti.filter(programma__ambito=ambito)
+    commenti = list(commenti)
+    partiti = {c.programma.partito_id for c in commenti}
     return render(request, 'analisi/confronto_tema.html', {
         'tema': tema, 'commenti': commenti, 'ambito': ambito, 'voti': Commento.VOTI,
+        'n_partiti': len(partiti),
     })

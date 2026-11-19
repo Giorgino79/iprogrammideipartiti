@@ -3,12 +3,14 @@
 {% block contenuto %}
 <p class="briciole"><a href="{% url 'confronto' %}">&larr; Tutti i temi</a></p>
 <h1>{{ tema.nome }}</h1>
+{% if tema.descrizione %}<p class="invito">{{ tema.descrizione }}</p>{% endif %}
 <p class="filtri">
   <a class="tasto-filtro{% if not ambito %} on{% endif %}" href="?">Tutti</a>
   <a class="tasto-filtro{% if ambito == 'IT' %} on{% endif %}" href="?ambito=IT">Programmi italiani</a>
   <a class="tasto-filtro{% if ambito == 'EU' %} on{% endif %}" href="?ambito=EU">Programmi europei</a>
 </p>
-{% if not commenti %}<p class="vuoto">Nessuna proposta analizzata per questo tema.</p>{% endif %}
+{% if not commenti %}<p class="vuoto">Pagina in preparazione: nessuna proposta analizzata per questo tema{% if ambito %} in questo tipo di programmi{% endif %}.</p>
+{% elif n_partiti == 1 %}<p class="avviso">Per ora c'è la proposta di un solo partito: stiamo cercando che cosa dicono gli altri programmi.</p>{% endif %}
 <div class="colonne-confronto">
   {% for c in commenti %}
     <article class="commento confronto {{ c.programma.partito.schieramento }}">

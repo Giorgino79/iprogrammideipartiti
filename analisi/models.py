@@ -54,6 +54,7 @@ class Programma(models.Model):
 class Tema(models.Model):
     nome = models.CharField(max_length=80)
     slug = models.SlugField(unique=True)
+    descrizione = models.CharField(max_length=300, blank=True)
     ordine = models.PositiveSmallIntegerField(default=0)
 
     class Meta:
