@@ -7,6 +7,9 @@ staticfiles/
 .env
 /*.pdf
 /media/*
+!/media/loghi/
+/media/loghi/*
+!/media/loghi/*.png
 !/media/programmi/
 /media/programmi/*
 !/media/programmi/*.pdf

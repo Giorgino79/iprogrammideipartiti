@@ -13,7 +13,11 @@ class Command(BaseCommand):
     def handle(self, *args, **opts):
         for e in ESEMPI:
             dati = dict(e['partito'])
+            logo = dati.pop('logo', '')
             partito, _ = Partito.objects.get_or_create(slug=dati.pop('slug'), defaults=dati)
+            if logo and not partito.logo and (Path(settings.MEDIA_ROOT) / 'loghi' / logo).exists():
+                partito.logo = f'loghi/{logo}'
+                partito.save()
             for p in e['programmi']:
                 pdf = Path(settings.MEDIA_ROOT) / 'programmi' / p['pdf']
                 programma, _ = Programma.objects.get_or_create(

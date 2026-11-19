@@ -11,7 +11,7 @@
   <a class="marchio" href="{% url 'home' %}">Analisi programmi dei partiti</a>
   <nav class="simboli" aria-label="Partiti">
     {% for p in partiti_header %}
-      <a class="simbolo {{ p.schieramento }}{% if partito and partito.pk == p.pk %} attivo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}">
+      <a class="simbolo {{ p.schieramento }}{% if p.logo %} con-logo{% endif %}{% if partito and partito.pk == p.pk %} attivo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}">
         {% if p.logo %}<img src="{{ p.logo.url }}" alt="{{ p.nome }}">{% else %}<span>{{ p.sigla }}</span>{% endif %}
       </a>
     {% endfor %}
