@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Confronto per tema{% endblock %}
+{% block contenuto %}
+<h1>Confronto per tema</h1>
+<p class="invito">Scegli un tema per vedere come lo affrontano i vari programmi.</p>
+<div class="griglia">
+  {% for t in temi %}
+    <a class="card neutra" href="{{ t.get_absolute_url }}">{{ t.nome }}</a>
+  {% endfor %}
+</div>
+{% endblock %}

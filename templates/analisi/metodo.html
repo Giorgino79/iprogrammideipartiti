@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}Come giudichiamo{% endblock %}
+{% block contenuto %}
+<article class="testo">
+<h1>Come giudichiamo</h1>
+
+<h2>Cosa osserviamo</h2>
+<p>Osserviamo i programmi dei partiti italiani, per le elezioni politiche ed europee, e ci chiediamo una cosa sola:
+   quali proposte possono davvero essere realizzate, a che costo e con quali risultati, tenendo conto di che cosa è
+   successo quando in Italia e in altri Paesi si è provato qualcosa di simile.</p>
+<p>Non giudichiamo i valori né le ideologie di un partito. Giudichiamo la logica, la realizzabilità, i costi e i
+   risultati delle singole proposte, con le stesse regole per tutti.</p>
+
+<h2>Come lavoriamo</h2>
+<ol>
+  <li>Dal programma originale estraiamo alcune proposte, e a ciascuna colleghiamo la pagina del documento.</li>
+  <li>Per ogni proposta scriviamo: che cosa promette, che cosa è successo in passato, quali fondi servono e quanto sono stabili, quali rischi e benefici comporta.</li>
+  <li>Assegniamo cinque punteggi da 1 a 5 e indichiamo un costo approssimativo.</li>
+  <li>Dove possibile mettiamo i precedenti italiani e quelli di altri Paesi, con la fonte.</li>
+</ol>
+
+<h2>I cinque punteggi</h2>
+<table class="tabella">
+  <thead><tr><th>Criterio</th><th>1 vuol dire</th><th>5 vuol dire</th></tr></thead>
+  <tbody>
+    <tr><td>Fattibilità</td><td>serve l'unanimità dell'UE o una riforma costituzionale</td><td>già realizzata o realizzabile subito</td></tr>
+    <tr><td>Copertura</td><td>nessuna copertura e costo molto alto</td><td>coperta in modo credibile, o senza costo</td></tr>
+    <tr><td>Esiti storici</td><td>tentativi simili falliti o con effetti negativi</td><td>tentativi simili con esiti positivi</td></tr>
+    <tr><td>Chiarezza</td><td>proposta generica</td><td>misura precisa, con numeri e tempi</td></tr>
+    <tr><td>Rischi</td><td>rischi alti</td><td>rischi bassi</td></tr>
+  </tbody>
+</table>
+<p>Il punteggio medio di una proposta è la media dei cinque. I punteggi sono giudizi dell'analisi, non misure
+   esatte: vanno letti insieme alle motivazioni.</p>
+
+<h2>Chi scrive le analisi</h2>
+<p>Le analisi sono elaborate con l'aiuto di un'intelligenza artificiale. Può sbagliare. Per questo i dati e i fatti non
+   ancora controllati sulle fonti ufficiali portano l'etichetta <span class="etichetta">da verificare</span>.</p>
+
+<h2>I limiti, detti chiaramente</h2>
+<ul>
+  <li>Analizziamo un campione di proposte per ogni programma, non tutto il programma.</li>
+  <li>Per questo non diamo un voto complessivo ai partiti: sarebbe ingiusto con un campione.</li>
+  <li>Confrontiamo solo programmi dello stesso tipo (politiche con politiche, europee con europee).</li>
+  <li>Le cifre di costo sono stime approssimative, con la fonte quando c'è.</li>
+</ul>
+<p><a class="tasto" href="{% url 'confronto' %}">Vai al confronto per tema</a></p>
+</article>
+{% endblock %}

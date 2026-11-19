@@ -1,0 +1,6 @@
+<div class="voti">
+  {% for nome, v in c.voti %}
+    {% if v %}<div class="voto"><span>{{ nome }}</span><span class="barra" style="--v:{{ v }}"></span><b>{{ v }}</b></div>{% endif %}
+  {% endfor %}
+  {% if c.media %}<p class="media">Punteggio medio: <b>{{ c.media }}</b> su 5{% if c.da_verificare %} <span class="etichetta">da verificare</span>{% endif %}</p>{% endif %}
+</div>

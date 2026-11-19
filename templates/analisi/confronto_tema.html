@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}{{ tema.nome }} - confronto{% endblock %}
+{% block contenuto %}
+<p class="briciole"><a href="{% url 'confronto' %}">&larr; Tutti i temi</a></p>
+<h1>{{ tema.nome }}</h1>
+<p class="filtri">
+  <a class="tasto-filtro{% if not ambito %} on{% endif %}" href="?">Tutti</a>
+  <a class="tasto-filtro{% if ambito == 'IT' %} on{% endif %}" href="?ambito=IT">Programmi italiani</a>
+  <a class="tasto-filtro{% if ambito == 'EU' %} on{% endif %}" href="?ambito=EU">Programmi europei</a>
+</p>
+{% if not commenti %}<p class="vuoto">Nessuna proposta analizzata per questo tema.</p>{% endif %}
+<div class="colonne-confronto">
+  {% for c in commenti %}
+    <article class="commento confronto {{ c.programma.partito.schieramento }}">
+      <header class="partito-riga">
+        {% if c.programma.partito.logo %}<img src="{{ c.programma.partito.logo.url }}" alt="">{% endif %}
+        <div><strong>{{ c.programma.partito.nome }}</strong><br>
+          <span class="anno">{{ c.programma.get_ambito_display }} {{ c.programma.anno }}</span></div>
+      </header>
+      <h3>{{ c.titolo }}</h3>
+      {% include 'analisi/_voti.html' %}
+      <p class="costo"><strong>Costo:</strong> {{ c.costo|default:"non indicato" }}</p>
+      <a class="tasto" href="{{ c.programma.get_absolute_url }}#commento-{{ c.pk }}">Leggi l'analisi</a>
+    </article>
+  {% endfor %}
+</div>
+{% endblock %}

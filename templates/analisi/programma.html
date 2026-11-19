@@ -19,16 +19,15 @@
 
   <section class="colonna-commenti" aria-label="Commenti">
     {% for c in commenti %}
-      <article class="commento">
+      <article class="commento" id="commento-{{ c.pk }}">
         <header>
           <h3>{{ c.titolo }}</h3>
           {% if c.pagina %}<button type="button" class="tasto-pagina" data-pagina="{{ c.pagina }}">p. {{ c.pagina }}</button>{% endif %}
         </header>
-        <p class="fattibilita f-{{ c.fattibilita }}">
-          <strong>Fattibilità: {{ c.get_fattibilita_display|lower }}</strong>
-          <span class="misuratore" aria-hidden="true"><i></i><i></i><i></i></span>
-        </p>
+        {% include 'analisi/_voti.html' %}
+        <p class="costo"><strong>Costo approssimativo:</strong> {{ c.costo|default:"non indicato" }}</p>
         {% if c.motivazione %}<p class="motivazione">{{ c.motivazione }}</p>{% endif %}
+        {% if c.tema %}<p class="tema"><a href="{{ c.tema.get_absolute_url }}">Confronta con gli altri programmi: {{ c.tema.nome }}</a></p>{% endif %}
         <h4>Cosa promette</h4>{{ c.promessa|linebreaks }}
         {% if c.precedenti %}<h4>Precedenti storici</h4>{{ c.precedenti|linebreaks }}{% endif %}
         {% if c.fondi %}<h4>Fondi</h4>{{ c.fondi|linebreaks }}{% endif %}
