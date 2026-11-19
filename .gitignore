@@ -5,8 +5,8 @@ db.sqlite3
 staticfiles/
 .claude/
 .env
-/Commento tipo*.pdf
+/*.pdf
 /media/*
 !/media/programmi/
 /media/programmi/*
-!/media/programmi/pd-2022.pdf
+!/media/programmi/*.pdf
