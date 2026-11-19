@@ -102,4 +102,7 @@ ESEMPI = [
                          pdf='fdi-europee-2024.pdf', commenti=COMMENTI_FDI_EUROPEE),
                     dict(titolo='Legge di bilancio 2024 spiegata in pillole (brochure)', anno=2024, ambito='IT',
                          pdf='fdi-bilancio-2024.pdf', commenti=COMMENTI_FDI_BILANCIO)]),
+    dict(partito=dict(nome='Forza Italia', sigla='FI', slug='forza-italia', schieramento='DX', ordine=4), programmi=[]),
+    dict(partito=dict(nome='Lega', sigla='Lega', slug='lega', schieramento='DX', ordine=5), programmi=[]),
+    dict(partito=dict(nome='Movimento 5 Stelle', sigla='M5S', slug='m5s', schieramento='CE', ordine=6), programmi=[]),
 ]
