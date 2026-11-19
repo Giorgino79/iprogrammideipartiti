@@ -46,7 +46,8 @@ class Command(BaseCommand):
                         commento.voto_chiarezza, commento.voto_rischi, commento.costo = ch, ri, costo
                         commento.save()
         for slug, valore in VALORI.items():
-            Partito.objects.filter(slug=slug).update(
+            # solo la prima volta: dopo, i valori li aggiorna il comando aggiorna_sondaggi
+            Partito.objects.filter(slug=slug, sondaggio__isnull=True).update(
                 sondaggio=valore, sondaggio_data=DATA, sondaggio_fonte=FONTE, sondaggio_url=URL)
         Partito.objects.filter(slug__in=COALIZIONI).update(coalizione=True)
         self.stdout.write(self.style.SUCCESS('Esempi caricati.'))
