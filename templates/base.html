@@ -8,11 +8,12 @@
 </head>
 <body>
 <header class="testata">
-  <a class="bandiera" href="{% url 'home' %}" aria-label="OSSERVATORIOPARTITI.IT - home">
-    <span class="verde"></span>
-    <span class="bianco"><strong class="nome-sito">OSSERVATORIOPARTITI.IT</strong></span>
-    <span class="rosso"></span>
-  </a>
+  <a class="logo-navbar" href="{% url 'home' %}" aria-label="OSSERVATORIOPARTITI.IT - home"><img src="{% static 'analisi/logo-navbar.png' %}" alt="OsservatorioPartiti.it"></a>
+  <nav class="voci-navbar" aria-label="Sezioni">
+    <a href="#">Comparazione Programmi</a>
+    <a href="#">Percentuali dei Votanti</a>
+    <a href="#">Risultati Leggi, dopo 3 Anni</a>
+  </nav>
   <nav class="simboli" aria-label="Partiti, dal più alto al più basso nei sondaggi">
     {% for p in partiti_header %}{% include 'analisi/_simbolo.html' %}{% endfor %}
   </nav>

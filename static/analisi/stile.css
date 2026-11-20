@@ -179,3 +179,18 @@ h1 .anno { display: inline; margin-left: .4rem; }
 @media (max-width: 640px) { .quadro { grid-template-columns: repeat(2, 1fr); } }
 .sigla-lista { font-size: .55rem; line-height: 1.1; padding: 4px; word-break: break-word; }
 .quadro .simbolo { overflow: hidden; }
+
+/* Home: simboli dei partiti come link ai programmi, senza colori di schieramento */
+.simboli-home { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 1rem; justify-items: center; }
+.simbolo-home { width: 104px; height: 104px; border-radius: 50%; border: 3px solid var(--bordo); background: #fff; display: grid; place-items: center; text-decoration: none; color: var(--neutro); font-weight: 700; overflow: hidden; }
+.simbolo-home img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.simbolo-home:hover, .simbolo-home:focus-visible { box-shadow: 0 0 0 3px var(--testo); }
+@media (max-width: 480px) { .simboli-home { grid-template-columns: repeat(3, 1fr); } .simbolo-home { width: 88px; height: 88px; } }
+
+/* Nuova testata: logo + tre voci */
+.logo-navbar { display: block; max-width: 680px; margin: 0 auto; }
+.logo-navbar img { display: block; width: 100%; height: auto; }
+.voci-navbar { display: flex; justify-content: center; gap: .4rem 2rem; flex-wrap: wrap; padding: .5rem 1rem 0; }
+.voci-navbar a { color: var(--testo); text-decoration: none; font-size: 1rem; padding: .35rem .2rem; white-space: nowrap; }
+.voci-navbar a:hover { text-decoration: underline; }
+@media (max-width: 480px) { .voci-navbar { flex-wrap: nowrap; gap: .3rem; padding: .5rem .3rem 0; } .voci-navbar a { font-size: 2.75vw; padding: .35rem 0; } }

@@ -1,0 +1,3 @@
+<a class="simbolo-home{% if p.logo %} con-logo{% endif %}" href="{{ p.get_absolute_url }}" title="{{ p.nome }}" aria-label="{{ p.nome }}">
+  {% if p.logo %}<img src="{{ p.logo.url }}" alt="{{ p.nome }}">{% else %}<span>{{ p.sigla }}</span>{% endif %}
+</a>
