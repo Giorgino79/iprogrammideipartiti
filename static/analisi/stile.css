@@ -166,3 +166,5 @@ h1 .anno { display: inline; margin-left: .4rem; }
 .si-no { height: 14px; border-radius: 7px; background: var(--neutro); overflow: hidden; margin: .5rem 0 .3rem; }
 .si-no .si { display: block; height: 100%; background: var(--testo); }
 .valori-si-no { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; }
+.card.attiva { background: var(--neutro); color: #fff; }
+.riquadro h3.titoletto { margin: 1rem 0 .3rem; }

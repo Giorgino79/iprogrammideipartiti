@@ -5,8 +5,8 @@ from pathlib import Path
 from django.core.management.base import BaseCommand
 from django.db import transaction
 
-from analisi.models import (Affluenza, Elezione, Lista, Partito, Quesito, RisultatoLista, RisultatoQuesito,
-                            Territorio)
+from analisi.models import (Affluenza, Elezione, Lista, Partito, Quesito, RisultatoCandidato, RisultatoLista,
+                            RisultatoQuesito, Territorio)
 
 DATI = Path(__file__).resolve().parents[2] / 'dati_elezioni'
 FONTE = 'Ministero dell\'Interno, Eligendo - Archivio storico (open data)'
@@ -22,6 +22,12 @@ NOTA_REFERENDUM = ('Risultati in Italia, sommati per provincia dai dati del Mini
                    'Le percentuali di sì e no sono sui voti validi. Il Ministero precisa che i dati per comune in parte '
                    'sono ufficiosi e possono differire dai riepiloghi ufficiali. Per il 2022 i titoli dei quesiti sono '
                    'sintetici.')
+NOTA_REGIONALI = ('Voti di lista e ai candidati presidente, sommati per provincia dai dati per comune (o per sezione) del '
+                  'Ministero dell\'Interno. Le percentuali sono sui voti validi. L\'affluenza è calcolata sugli elettori '
+                  'iscritti nelle liste del territorio. Il Ministero precisa che i dati per comune in parte sono ufficiosi '
+                  'e possono differire dai riepiloghi ufficiali. Sono presenti solo le elezioni pubblicate nell\'archivio '
+                  'del Ministero: mancano, per esempio, Valle d\'Aosta, Trentino-Alto Adige, Sardegna e Friuli-Venezia '
+                  'Giulia e quasi tutte le elezioni siciliane.')
 MESI = ['', 'gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre',
         'novembre', 'dicembre']
 
@@ -105,6 +111,7 @@ class Command(BaseCommand):
                               bianche=int(r['bianche']) if r['bianche'] != '' else None)
                     for r in csv.DictReader(f)])
             self.stdout.write(f'{elezione}: {len(liste)} liste, {len(risultati)} risultati')
+        self.regionali(partiti)
         for percorso in sorted(DATI.glob('referendum_*.csv')):
             d = percorso.stem.split('_')[1]
             data = date(int(d[:4]), int(d[4:6]), int(d[6:]))
@@ -128,3 +135,52 @@ class Command(BaseCommand):
             RisultatoQuesito.objects.bulk_create(risultati)
             self.stdout.write(f'{elezione}: {len(quesiti)} quesiti, {len(risultati)} risultati')
         self.stdout.write(self.style.SUCCESS('Elezioni importate.'))
+
+    def regionali(self, partiti):
+        """Una elezione per Regione e data, dai file regionali_AAAAMMGG_{liste,candidati,affluenza}.csv."""
+        def per_regione(percorso, campi):
+            righe = {}
+            with open(percorso, encoding='utf-8', newline='') as f:
+                for r in csv.DictReader(f):
+                    righe.setdefault(r['regione'], []).append(r)
+            return righe
+
+        for liste_csv in sorted(DATI.glob('regionali_*_liste.csv')):
+            d = liste_csv.stem.split('_')[1]
+            data = date(int(d[:4]), int(d[4:6]), int(d[6:]))
+            liste = per_regione(liste_csv, None)
+            candidati = per_regione(DATI / f'regionali_{d}_candidati.csv', None)
+            affluenze = per_regione(DATI / f'regionali_{d}_affluenza.csv', None)
+            for regione, righe in liste.items():
+                nome_regione = regione.title().replace("D'Aosta", "d'Aosta")
+                elezione, _ = Elezione.objects.get_or_create(
+                    tipo=Elezione.REGIONALI, data=data, ambito=nome_regione,
+                    defaults=dict(nome=f'Elezioni regionali {data.year} - {nome_regione}', fonte=FONTE,
+                                  fonte_url=FONTE_URL, nota=NOTA_REGIONALI))
+                elezione.risultati.all().delete()
+                elezione.affluenze.all().delete()
+                elezione.risultati_candidati.all().delete()
+                territori = {}
+
+                def territorio(prov):
+                    if prov not in territori:
+                        territori[prov], _ = Territorio.objects.get_or_create(regione=regione, provincia=prov)
+                    return territori[prov]
+
+                liste_db, risultati = {}, []
+                for r in righe:
+                    if r['lista'] not in liste_db:
+                        liste_db[r['lista']], _ = Lista.objects.get_or_create(
+                            elezione=elezione, nome=r['lista'], defaults=dict(partito=partito_di(r['lista'], partiti)))
+                    risultati.append(RisultatoLista(elezione=elezione, territorio=territorio(r['provincia']),
+                                                    lista=liste_db[r['lista']], voti=int(r['voti'])))
+                RisultatoLista.objects.bulk_create(risultati)
+                RisultatoCandidato.objects.bulk_create([
+                    RisultatoCandidato(elezione=elezione, territorio=territorio(r['provincia']),
+                                       candidato=r['candidato'][:150], voti=int(r['voti']))
+                    for r in candidati.get(regione, [])])
+                Affluenza.objects.bulk_create([
+                    Affluenza(elezione=elezione, territorio=territorio(r['provincia']), elettori=int(r['elettori']),
+                              votanti=int(r['votanti']), bianche=int(r['bianche']) if r['bianche'] != '' else None)
+                    for r in affluenze.get(regione, [])])
+            self.stdout.write(f'Regionali {data}: {len(liste)} regioni')

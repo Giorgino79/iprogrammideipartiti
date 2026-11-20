@@ -3,8 +3,15 @@
 {% block contenuto %}
 <p class="briciole"><a href="{% url 'risultati' %}">&larr; Risultati elettorali</a></p>
 <h1>{{ nome }}</h1>
+{% if regioni %}
+  <h2 class="titoletto">Scegli una Regione</h2>
+  <div class="griglia">
+    {% for r in regioni %}<a class="card neutra{% if r == scelta %} attiva{% endif %}" href="?regione={{ r|urlencode }}">{{ r }}</a>{% endfor %}
+  </div>
+  {% if scelta %}<h2 class="titoletto">{{ scelta }}</h2>{% endif %}
+{% endif %}
 <div class="griglia">
   {% for e in elezioni %}<a class="card neutra" href="{{ e.get_absolute_url }}">{{ e.nome }}<span class="anno">{{ e.data|date:"j F Y" }}</span></a>
-  {% empty %}<p class="vuoto">Nessuna elezione inserita.</p>{% endfor %}
+  {% empty %}{% if not regioni %}<p class="vuoto">Nessuna elezione inserita.</p>{% endif %}{% endfor %}
 </div>
 {% endblock %}

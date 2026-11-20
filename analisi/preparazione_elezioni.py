@@ -361,3 +361,181 @@ def prepara_politiche(cartella, cartella_europee):
         scrivi(f'politiche_{camera_senato}_{anno}', voti, affluenza)
         esito[(camera_senato, anno)] = (voti, affluenza, non_abbinati, totale)
     return esito
+
+
+# ------------------------------------------------------------------ lettura di file Excel (xlsx)
+def righe_xlsx(percorso, foglio=1):
+    """Legge un foglio xlsx senza librerie esterne: restituisce le righe come liste di testi."""
+    import xml.etree.ElementTree as ET
+    import zipfile
+    ns = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+    with zipfile.ZipFile(percorso) as z:
+        condivise = []
+        if 'xl/sharedStrings.xml' in z.namelist():
+            for si in ET.fromstring(z.read('xl/sharedStrings.xml')).findall('m:si', ns):
+                condivise.append(''.join(t.text or '' for t in si.iter('{%s}t' % ns['m'])))
+        radice = ET.fromstring(z.read(f'xl/worksheets/sheet{foglio}.xml'))
+        for riga in radice.iter('{%s}row' % ns['m']):
+            valori = {}
+            for c in riga.findall('m:c', ns):
+                col = re.match(r'[A-Z]+', c.get('r')).group(0)
+                v = c.find('m:v', ns)
+                if v is None:
+                    is_ = c.find('m:is', ns)
+                    valori[col] = ''.join(t.text or '' for t in is_.iter('{%s}t' % ns['m'])) if is_ is not None else ''
+                else:
+                    valori[col] = condivise[int(v.text)] if c.get('t') == 's' else v.text
+            if valori:
+                n = max(len(k) * 26 + (ord(k[-1]) - 64) for k in valori)  # indice massimo di colonna
+                yield valori
+
+
+# ------------------------------------------------------------------ regionali
+FORMATI_REGIONALI = {
+    # nome: colonne (alias separati da |)
+    'legacy': dict(reg='REGIONE', prov='PROVINCIA|provincia', comune='COMUNE', elettori='ELETTORI', votanti='VOTANTI',
+                   bianche='SCHEDE_BIANCHE', cogn='COGNOME', nome='NOME', vc='VOTI_CANDIDATO|VOTICANDIDLEADER',
+                   lista='LISTA', vl='VOTI_LISTA|VOTILISTA'),
+    'csvreg': dict(reg='REG', prov='PROV', comune='COMUNE', elettori='ELETTORITOT', votanti='VOTANTITOT',
+                   bianche='SKBIANCHE', cogn='COGNOME', nome='NOME', vc='VOTICANDIDATO', lista='DESCRLISTA', vl='VOTILISTA'),
+    'nuovo2023': dict(reg='REGIONE', prov='PROVINCIA', comune='COMUNE', elettori='ELETTORITOT', votanti='VOTANTITOT',
+                      bianche='SKBIANCHE', cogn='COGNOME', nome='NOME', vc='VOTICAND', lista='DESCRLISTA', vl='VOTILISTA'),
+    'xlsx': dict(reg='REGIONE|REG', prov='PROVINCIA|PROV', comune='COMUNE', elettori='ELETTORI_TOT|ELETTORITOT',
+                 votanti='VOTANTI_TOT|VOTANTITOT', bianche='SKBIANCHE', cogn='COGNOME', nome='NOME',
+                 vc='VOTICAND|VOTICANDLEADER', lista='DESCRLISTA', vl='VOTILISTA'),
+    'sezioni': dict(reg='REGIONE', prov='', comune='COMUNE', sezione='SEZIONE', elettori='ELETTORI_TOTALI',
+                    votanti='VOTANTI_TOTALI', bianche='SCHEDE_BIANCHE', cogn='COGNOME_CANDIDATO', nome='NOME_CANDIDATO',
+                    vc='VOTI_CANDIDATO', lista='LISTA', vl='VOTI_LISTA'),
+    'comuni2025': dict(reg='REGIONE', prov='', comune='COMUNE', elettori='ELETTORI', votanti='VOTANTI',
+                       bianche='SCHEDE_BIANCHE', cogn='COGNOME', nome='NOME', vc='VOTI_CANDIDATO', lista='LISTA',
+                       vl='VOTI_LISTA'),
+    'listecand': dict(reg='REGIONE', prov='PROVINCIA', comune='COMUNE', cogn='COGNOME', nome='NOME', vc='VOTICANDIDATO',
+                      lista='DESCRLISTA', vl='VOTILISTA'),
+    'scrutini2024': dict(reg='REGIONE', prov='PROVINCIA', comune='COMUNE', elettori='NUMELETTORI', votanti='VOTANTI',
+                         bianche='SKBIANCHE'),
+}
+
+# data -> [(file, formato, codifica)]
+FILE_REGIONALI = {
+    '20000416': [('regionali-20000416/regionali-20000416.txt', 'legacy', 'latin-1')],
+    '20010624': [('regionali-20010624/regionali-20010624.csv', 'csvreg', 'cp1252')],
+    '20011111': [('regionali-20011111/regionali-20011111.txt', 'legacy', 'latin-1')],
+    '20050403': [('regionali-20050403/regionali-20050403.txt', 'legacy', 'latin-1')],
+    '20050417': [('regionali-20050417/regionali-20050417.txt', 'legacy', 'latin-1')],
+    '20061105': [('regionali-20061105/regionali-20061105.txt', 'legacy', 'latin-1')],
+    '20081214': [('regionali-20081214/regionali-20081214.txt', 'legacy', 'latin-1')],
+    '20100328': [('regionali-20100328/regionali-20100328.txt', 'legacy', 'latin-1')],
+    '20111016': [('regionali-20111016/regionali-20111016.xlsx', 'xlsx', None)],
+    '20130224': [('regionali-20130224/regionali-20130224.txt', 'legacy', 'latin-1')],
+    '20131117': [('regionali-20131117/regionali-20131117.txt', 'legacy', 'latin-1')],
+    '20140525': [('regionali-20140525/regionali-20140525.txt', 'legacy', 'latin-1')],
+    '20141123': [('regionali-20141123/regionali-20141123.txt', 'legacy', 'latin-1')],
+    '20150531': [('regionali-20150531/regionali-20150531.txt', 'legacy', 'latin-1')],
+    '20180304': [('regionali-20180304/regionali-20180304.txt', 'legacy', 'latin-1')],
+    '20190210': [('regionali-20190210/regionali-20190210.txt', 'legacy', 'latin-1')],
+    '20190324': [('regionali-20190324/regionali-20190324.txt', 'legacy', 'latin-1')],
+    '20190526': [('regionali-20190526/regionali-20190526.txt', 'legacy', 'latin-1')],
+    '20191027': [('regionali-20191027/regionali-20191027.txt', 'legacy', 'latin-1')],
+    '20200126': [('regionali-20200126/regionali-20200126.txt', 'legacy', 'latin-1')],
+    '20200920': [('regionali-20200920/Regionali_AltreRegioni_Scrutini.xlsx', 'xlsx', None),
+                 ('regionali-20200920/RegionaliToscana_Scrutini.xlsx', 'xlsx', None)],
+    '20211003': [('regionali-20211003/scrutini-20211003.txt', 'legacy', 'latin-1')],
+    '20230212': [('regionali-20230212/regionali-20230212.csv', 'nuovo2023', 'cp1252')],
+    '20240310': [('regionali-20240310/Liste&Candidati_10032024.txt|regionali-20240310/Scrutini_10032024.txt', 'duefile', 'cp1252')],
+    '20240421': [('regionali-20240421/Liste&Candidati_21042024.txt|regionali-20240421/Scrutini_21042024.txt', 'duefile', 'cp1252')],
+    '20240609': [('regionali-20240609/regionali-20240609.csv', 'csvreg', 'cp1252')],
+    '20241027': [('regionali-20241027/Regionali_Liguria_2024_Scrutini.csv', 'sezioni', 'cp1252')],
+    '20241117': [('regionali-20241117/Regionali_Umbria_ 2024_Scrutini.csv', 'sezioni', 'cp1252'),
+                 ('regionali-20241117/Regionali_EmiliaRomagna_2024_Scrutini.csv', 'sezioni', 'cp1252')],
+    '20251005': [('regionali-20251005/20251005_REGIONALI_CALABRIA_SCRUTINI.csv', 'comuni2025', 'cp1252')],
+    '20251012': [('regionali-20251012/20251012_REGIONALI_TOSCANA_SCRUTINI.csv', 'comuni2025', 'cp1252')],
+    '20251123': [('regionali-20251123/20251123_REGIONALI_SCRUTINI.csv', 'comuni2025', 'cp1252')],
+}
+
+
+def _alias(riga, nomi):
+    for n in (nomi or '').split('|'):
+        if n and riga.get(n) not in (None, ''):
+            return riga[n]
+    return ''
+
+
+def _righe_dict(percorso, codifica):
+    if str(percorso).endswith('.xlsx'):
+        it = righe_xlsx(percorso)
+        intestazione = None
+        for valori in it:
+            if intestazione is None:
+                intestazione = {col: pulisci(v).upper() for col, v in valori.items()}
+                continue
+            yield {intestazione[col]: v for col, v in valori.items() if col in intestazione}
+        return
+    with open(percorso, encoding=codifica, errors='replace', newline='') as f:
+        r = csv.DictReader(f, delimiter=';')
+        r.fieldnames = [n.strip().upper() for n in r.fieldnames]
+        yield from r
+
+
+def _righe_regionali(cartella, spec, formato, codifica):
+    col = FORMATI_REGIONALI.get(formato)
+    if formato == 'duefile':
+        liste, scrutini = spec.split('|')
+        aff = {}
+        for r in _righe_dict(cartella / scrutini, codifica):
+            aff[(regione(r['REGIONE']), provincia(r['PROVINCIA']), pulisci(r['COMUNE']))] = (
+                _num(r['NUMELETTORI']), _num(r['VOTANTI']), _num(r['SKBIANCHE']))
+        for r in _righe_dict(cartella / liste, codifica):
+            reg, prov, com = regione(r['REGIONE']), provincia(r['PROVINCIA']), pulisci(r['COMUNE'])
+            el, vo, bi = aff.get((reg, prov, com), (0, 0, 0))
+            yield (reg, prov, com, (reg, prov, com), el, vo, bi, pulisci(r['DESCRLISTA']), _num(r['VOTILISTA']),
+                   pulisci(r['COGNOME']), pulisci(r['NOME']), _num(r['VOTICANDIDATO']))
+        return
+    for r in _righe_dict(cartella / spec, codifica):
+        reg = regione(_alias(r, col['reg']))
+        prov = provincia(_alias(r, col['prov'])) if col.get('prov') else None
+        com = pulisci(_alias(r, col['comune']))
+        unita = (reg, prov, com, pulisci(r.get(col.get('sezione', ''), '')) if col.get('sezione') else '')
+        yield (reg, prov or None, com, unita, _num(_alias(r, col['elettori'])), _num(_alias(r, col['votanti'])),
+               _num(_alias(r, col['bianche'])), pulisci(_alias(r, col['lista'])), _num(_alias(r, col['vl'])),
+               pulisci(_alias(r, col['cogn'])), pulisci(_alias(r, col['nome'])), _num(_alias(r, col['vc'])))
+
+
+def prepara_regionali(cartella, cartella_europee, solo=None):
+    cartella = Path(cartella)
+    mappe = mappe_comuni(cartella_europee)
+    compatte = {a: _compatte(m) for a, m in mappe.items()}
+    esito = {}
+    for data, specifiche in FILE_REGIONALI.items():
+        if solo and data not in solo:
+            continue
+        liste, candidati, affluenza = defaultdict(int), defaultdict(int), {}
+        viste_l, viste_c, viste_u = set(), set(), set()
+        non_abbinati = totale = 0
+        for spec, formato, codifica in specifiche:
+            for reg, prov, com, unita, el, vo, bi, lista, vl, cogn, nome, vc in _righe_regionali(cartella, spec, formato, codifica):
+                if not prov:
+                    prov = trova_provincia(reg, com, [2024, 2019, 2014], mappe, compatte) or NON_ASSEGNATA
+                if lista and (unita, cogn, nome, lista) not in viste_l:
+                    viste_l.add((unita, cogn, nome, lista))
+                    liste[(reg, prov, lista)] += vl
+                    totale += vl
+                    if prov == NON_ASSEGNATA:
+                        non_abbinati += vl
+                if cogn and (unita, cogn, nome) not in viste_c:
+                    viste_c.add((unita, cogn, nome))
+                    candidati[(reg, prov, f'{cogn} {nome}'.strip())] += vc
+                if unita not in viste_u:
+                    viste_u.add(unita)
+                    a = affluenza.setdefault((reg, prov), [0, 0, 0])
+                    a[0] += el
+                    a[1] += vo
+                    a[2] += bi
+        scrivi(f'regionali_{data}', liste, affluenza)
+        with open(USCITA / f'regionali_{data}_candidati.csv', 'w', encoding='utf-8', newline='') as f:
+            w = csv.writer(f)
+            w.writerow(['regione', 'provincia', 'candidato', 'voti'])
+            for (reg, prov, cand), n in sorted(candidati.items()):
+                if n:
+                    w.writerow([reg, prov, cand, n])
+        esito[data] = (liste, candidati, affluenza, non_abbinati, totale)
+    return esito

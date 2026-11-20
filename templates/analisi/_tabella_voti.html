@@ -1,7 +1,7 @@
 {% load humanize %}
 <div class="scroll-orizzontale">
 <table class="tabella tabella-voti">
-  <thead><tr><th>Lista</th><th class="num">Voti</th><th class="num">%</th>{% if con_differenza %}<th class="num" title="Differenza rispetto alla media nazionale">vs Italia</th>{% endif %}</tr></thead>
+  <thead><tr><th>Lista o candidato</th><th class="num">Voti</th><th class="num">%</th>{% if con_differenza %}<th class="num" title="Differenza rispetto alla media nazionale">vs Italia</th>{% endif %}</tr></thead>
   <tbody>
   {% for r in righe %}
     <tr>

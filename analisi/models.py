@@ -226,3 +226,14 @@ class RisultatoQuesito(models.Model):
 
     class Meta:
         unique_together = [('quesito', 'territorio')]
+
+
+class RisultatoCandidato(models.Model):
+    """Voti ai candidati presidente (regionali) per provincia."""
+    elezione = models.ForeignKey(Elezione, on_delete=models.CASCADE, related_name='risultati_candidati')
+    territorio = models.ForeignKey(Territorio, on_delete=models.CASCADE, related_name='risultati_candidati')
+    candidato = models.CharField(max_length=150)
+    voti = models.PositiveIntegerField()
+
+    class Meta:
+        indexes = [models.Index(fields=['elezione', 'territorio'])]
