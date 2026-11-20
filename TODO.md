@@ -113,7 +113,10 @@ Dalla matrice di copertura (parole chiave) i temi dove ci sono più programmi co
 Fonte: Ministero dell'Interno, Eligendo - Archivio storico, sezione Open data (elezionistorico.interno.gov.it). Dati per comune, sommati per provincia con `analisi/preparazione_elezioni.py`; i file piccoli sono in `analisi/dati_elezioni/`; il comando `importa_elezioni` li carica nel database. Le liste restano come erano sulla scheda di ogni anno.
 
 - [x] **Europee 2004, 2009, 2014, 2019, 2024** per provincia (Italia, senza gli elettori all'estero). Controllate le percentuali nazionali con i risultati noti: coincidono entro pochi decimi.
-- [ ] **Referendum dal 2000** (21/05/2000, 07/10/2001, 15/06/2003, 12/06/2005, 25/06/2006, 21/06/2009, 12/06/2011, 17/04/2016, 04/12/2016, 20/09/2020, 12/06/2022, 08/06/2025, 22/03/2026): archivi già individuati nell'elenco del Ministero (`referendum/referendum-AAAAMMGG.zip`). Per ogni quesito: sì, no, quorum, affluenza.
+- [x] **Referendum dal 2000** (13 consultazioni: 2000, 2001, 2003, 2005, 2006, 2009, 2011, 2016 aprile, 2016 dicembre, 2020, 2022, 2025, 2026), per quesito e per provincia: affluenza, sì e no. Controllati con i risultati noti (es. 2022 affluenza 20,9%, 2025 quesito cittadinanza sì 65,5%).
+  - [ ] Il **quorum ufficiale** si calcola con gli elettori all'estero, che qui mancano: per ora si mostra "sopra/sotto il 50%" solo come indicazione. Aggiungere i dati dell'estero (file `Estero` nello stesso archivio).
+  - [ ] Nel 2016 (dicembre), 2020 e 2025 risultano 106-107 province contro 110: verificare quali nomi mancano.
+  - [ ] **Titoli dei quesiti del 2022**: sono sintetici (il file non li riporta): sostituire con i testi ufficiali.
 - [ ] **Politiche** (Camera e Senato) 2001, 2006, 2008, 2013, 2018, 2022: archivi `camera/` e `senato/` nello stesso elenco. Attenzione a coalizioni, liste, collegi uninominali e plurinominali (2018, 2022), Valle d'Aosta e Trentino-Alto Adige.
 - [ ] **Regionali** dal 2000: archivi `regionali/` (una elezione per Regione e data; Regioni a statuto speciale con regole proprie). Includere presidenti e liste.
 - [ ] **Grandi città** (Milano, Torino, Bologna, Roma, Napoli): comunali dal 2000, dopo i punti precedenti.

@@ -1,0 +1,722 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Rimborso spese per consultazioni elettorali e referendarie,A,359700,115499,10875,73260,27387
+ABRUZZO,L'AQUILA,1,Rimborso spese per consultazioni elettorali e referendarie,A,269692,84917,7969,57155,16950
+ABRUZZO,PESCARA,1,Rimborso spese per consultazioni elettorali e referendarie,A,266384,86140,7189,57660,18719
+ABRUZZO,TERAMO,1,Rimborso spese per consultazioni elettorali e referendarie,A,254055,82104,8618,53403,17260
+BASILICATA,MATERA,1,Rimborso spese per consultazioni elettorali e referendarie,A,171117,49663,4323,33567,9494
+BASILICATA,POTENZA,1,Rimborso spese per consultazioni elettorali e referendarie,A,354891,93827,10547,60272,19196
+CALABRIA,CATANZARO,1,Rimborso spese per consultazioni elettorali e referendarie,A,325485,70747,7333,47846,12691
+CALABRIA,COSENZA,1,Rimborso spese per consultazioni elettorali e referendarie,A,643141,150092,15799,99704,25927
+CALABRIA,CROTONE,1,Rimborso spese per consultazioni elettorali e referendarie,A,145678,24204,2414,16724,4224
+CALABRIA,REGGIO CALABRIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,489130,94338,9030,62136,18698
+CALABRIA,VIBO VALENTIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,152597,29703,3788,19336,5306
+CAMPANIA,AVELLINO,1,Rimborso spese per consultazioni elettorali e referendarie,A,407542,94453,9354,66000,16496
+CAMPANIA,BENEVENTO,1,Rimborso spese per consultazioni elettorali e referendarie,A,266181,62658,6684,43219,10162
+CAMPANIA,CASERTA,1,Rimborso spese per consultazioni elettorali e referendarie,A,688432,147789,14280,100514,28568
+CAMPANIA,NAPOLI,1,Rimborso spese per consultazioni elettorali e referendarie,A,2458456,566193,37936,392195,120872
+CAMPANIA,SALERNO,1,Rimborso spese per consultazioni elettorali e referendarie,A,904971,252914,24190,175757,44865
+EMILIA-ROMAGNA,BOLOGNA,1,Rimborso spese per consultazioni elettorali e referendarie,A,789352,394368,32156,193601,162019
+EMILIA-ROMAGNA,FERRARA,1,Rimborso spese per consultazioni elettorali e referendarie,A,310698,147284,12308,75271,56696
+EMILIA-ROMAGNA,FORLI'-CESENA,1,Rimborso spese per consultazioni elettorali e referendarie,A,306813,129004,10299,70430,45192
+EMILIA-ROMAGNA,MODENA,1,Rimborso spese per consultazioni elettorali e referendarie,A,526985,262171,26355,129433,102517
+EMILIA-ROMAGNA,PARMA,1,Rimborso spese per consultazioni elettorali e referendarie,A,347385,139021,12016,81907,41912
+EMILIA-ROMAGNA,PIACENZA,1,Rimborso spese per consultazioni elettorali e referendarie,A,234015,86253,8069,54214,21390
+EMILIA-ROMAGNA,RAVENNA,1,Rimborso spese per consultazioni elettorali e referendarie,A,304520,134871,12793,66645,52629
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,374852,191185,17495,84246,86417
+EMILIA-ROMAGNA,RIMINI,1,Rimborso spese per consultazioni elettorali e referendarie,A,232062,94077,6459,52212,33502
+FRIULI VENEZIA G.,GORIZIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,122609,49781,3852,31883,12608
+FRIULI VENEZIA G.,PORDENONE,1,Rimborso spese per consultazioni elettorali e referendarie,A,258842,84844,5459,59288,17752
+FRIULI VENEZIA G.,TRIESTE,1,Rimborso spese per consultazioni elettorali e referendarie,A,223198,73538,3811,52962,15215
+FRIULI VENEZIA G.,UDINE,1,Rimborso spese per consultazioni elettorali e referendarie,A,478581,156569,9870,110793,31520
+LAZIO,FROSINONE,1,Rimborso spese per consultazioni elettorali e referendarie,A,433972,124765,13636,77178,29281
+LAZIO,LATINA,1,Rimborso spese per consultazioni elettorali e referendarie,A,430170,120909,8595,84155,24438
+LAZIO,RIETI,1,Rimborso spese per consultazioni elettorali e referendarie,A,126158,41341,3787,25966,9708
+LAZIO,ROMA,1,Rimborso spese per consultazioni elettorali e referendarie,A,3216808,1108793,50089,771941,258169
+LAZIO,VITERBO,1,Rimborso spese per consultazioni elettorali e referendarie,A,244341,79121,6615,55056,15164
+LIGURIA,GENOVA,1,Rimborso spese per consultazioni elettorali e referendarie,A,797898,282748,19266,169007,88269
+LIGURIA,IMPERIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,188683,51418,3448,37533,9062
+LIGURIA,LA SPEZIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,196576,70938,5592,40527,23249
+LIGURIA,SAVONA,1,Rimborso spese per consultazioni elettorali e referendarie,A,247877,89204,7115,56381,23143
+LOMBARDIA,BERGAMO,1,Rimborso spese per consultazioni elettorali e referendarie,A,797388,258714,21375,156120,71095
+LOMBARDIA,BRESCIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,899160,263034,20590,164096,73314
+LOMBARDIA,COMO,1,Rimborso spese per consultazioni elettorali e referendarie,A,456873,135959,9752,90816,31159
+LOMBARDIA,CREMONA,1,Rimborso spese per consultazioni elettorali e referendarie,A,282510,96380,9770,54937,28640
+LOMBARDIA,LECCO,1,Rimborso spese per consultazioni elettorali e referendarie,A,255574,81107,6954,41088,23381
+LOMBARDIA,LODI,1,Rimborso spese per consultazioni elettorali e referendarie,A,163491,55298,5212,31752,16482
+LOMBARDIA,MANTOVA,1,Rimborso spese per consultazioni elettorali e referendarie,A,317724,124638,11925,68824,41524
+LOMBARDIA,MILANO,1,Rimborso spese per consultazioni elettorali e referendarie,A,3136953,1051879,63175,673272,290182
+LOMBARDIA,PAVIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,428636,147135,15274,88750,38238
+LOMBARDIA,SONDRIO,1,Rimborso spese per consultazioni elettorali e referendarie,A,154310,34294,2877,23195,7231
+LOMBARDIA,VARESE,1,Rimborso spese per consultazioni elettorali e referendarie,A,688108,210554,14742,136739,52859
+MARCHE,ANCONA,1,Rimborso spese per consultazioni elettorali e referendarie,A,382975,151649,12915,90634,44728
+MARCHE,ASCOLI PICENO,1,Rimborso spese per consultazioni elettorali e referendarie,A,314577,112534,10339,74884,24069
+MARCHE,MACERATA,1,Rimborso spese per consultazioni elettorali e referendarie,A,256717,94446,10068,60239,21316
+MARCHE,PESARO E URBINO,1,Rimborso spese per consultazioni elettorali e referendarie,A,302150,119073,9155,60967,45696
+MOLISE,CAMPOBASSO,1,Rimborso spese per consultazioni elettorali e referendarie,A,226753,61701,5221,41774,11471
+MOLISE,ISERNIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,88375,21654,2297,14611,3863
+PIEMONTE,ALESSANDRIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,375877,133972,12487,82319,35381
+PIEMONTE,ASTI,1,Rimborso spese per consultazioni elettorali e referendarie,A,180119,57290,5115,36543,13420
+PIEMONTE,BIELLA,1,Rimborso spese per consultazioni elettorali e referendarie,A,164910,60838,5663,37743,15100
+PIEMONTE,CUNEO,1,Rimborso spese per consultazioni elettorali e referendarie,A,466277,151454,14755,100050,31074
+PIEMONTE,NOVARA,1,Rimborso spese per consultazioni elettorali e referendarie,A,291494,99917,7658,64322,24818
+PIEMONTE,TORINO,1,Rimborso spese per consultazioni elettorali e referendarie,A,1885687,719602,42544,459551,196779
+PIEMONTE,VERB.-CUS.OSSOLA,1,Rimborso spese per consultazioni elettorali e referendarie,A,144021,41533,3358,26372,10508
+PIEMONTE,VERCELLI,1,Rimborso spese per consultazioni elettorali e referendarie,A,155646,54171,5032,34181,13100
+PUGLIA,BARI,1,Rimborso spese per consultazioni elettorali e referendarie,A,1314340,360786,26415,254391,69901
+PUGLIA,BRINDISI,1,Rimborso spese per consultazioni elettorali e referendarie,A,342408,86388,9556,55938,18182
+PUGLIA,FOGGIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,579207,146464,12636,100298,29050
+PUGLIA,LECCE,1,Rimborso spese per consultazioni elettorali e referendarie,A,704480,170622,19258,115957,30153
+PUGLIA,TARANTO,1,Rimborso spese per consultazioni elettorali e referendarie,A,488947,131571,12946,85128,29052
+SARDEGNA,CAGLIARI,1,Rimborso spese per consultazioni elettorali e referendarie,A,654684,182053,10471,128963,38809
+SARDEGNA,NUORO,1,Rimborso spese per consultazioni elettorali e referendarie,A,234116,54196,3253,38701,11095
+SARDEGNA,ORISTANO,1,Rimborso spese per consultazioni elettorali e referendarie,A,135514,34798,1959,26311,5695
+SARDEGNA,SASSARI,1,Rimborso spese per consultazioni elettorali e referendarie,A,396714,111638,6156,83637,20092
+SICILIA,AGRIGENTO,1,Rimborso spese per consultazioni elettorali e referendarie,A,452226,91323,10621,58874,16343
+SICILIA,CALTANISSETTA,1,Rimborso spese per consultazioni elettorali e referendarie,A,273838,59733,6522,38660,11396
+SICILIA,CATANIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,898426,235668,19876,157148,44613
+SICILIA,ENNA,1,Rimborso spese per consultazioni elettorali e referendarie,A,184897,42847,4945,27143,7662
+SICILIA,MESSINA,1,Rimborso spese per consultazioni elettorali e referendarie,A,574692,151701,19217,95322,27290
+SICILIA,PALERMO,1,Rimborso spese per consultazioni elettorali e referendarie,A,1061142,271112,23545,174206,56828
+SICILIA,RAGUSA,1,Rimborso spese per consultazioni elettorali e referendarie,A,244996,71991,8346,44691,13996
+SICILIA,SIRACUSA,1,Rimborso spese per consultazioni elettorali e referendarie,A,343939,88278,7396,56984,20048
+SICILIA,TRAPANI,1,Rimborso spese per consultazioni elettorali e referendarie,A,375359,101649,12292,64303,18445
+TOSCANA,AREZZO,1,Rimborso spese per consultazioni elettorali e referendarie,A,271583,105077,10995,58514,33236
+TOSCANA,FIRENZE,1,Rimborso spese per consultazioni elettorali e referendarie,A,804627,360801,29978,186701,136839
+TOSCANA,GROSSETO,1,Rimborso spese per consultazioni elettorali e referendarie,A,186091,68768,6479,41101,19311
+TOSCANA,LIVORNO,1,Rimborso spese per consultazioni elettorali e referendarie,A,289386,120399,9857,59055,49333
+TOSCANA,LUCCA,1,Rimborso spese per consultazioni elettorali e referendarie,A,332327,111378,8547,73443,25876
+TOSCANA,MASSA-CARRARA,1,Rimborso spese per consultazioni elettorali e referendarie,A,177334,53037,4455,33409,13581
+TOSCANA,PISA,1,Rimborso spese per consultazioni elettorali e referendarie,A,327725,135480,13438,72591,46567
+TOSCANA,PISTOIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,232218,90522,8539,50812,28571
+TOSCANA,PRATO,1,Rimborso spese per consultazioni elettorali e referendarie,A,187449,75091,5711,43872,23559
+TOSCANA,SIENA,1,Rimborso spese per consultazioni elettorali e referendarie,A,215672,99599,10320,40589,46485
+TRENTINO A.A.,BOLZANO,1,Rimborso spese per consultazioni elettorali e referendarie,A,376030,121973,12175,63720,43244
+TRENTINO A.A.,TRENTO,1,Rimborso spese per consultazioni elettorali e referendarie,A,397197,150980,11441,95722,40035
+UMBRIA,PERUGIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,518739,189015,16480,113009,54542
+UMBRIA,TERNI,1,Rimborso spese per consultazioni elettorali e referendarie,A,191574,68852,5787,39762,21120
+VALLE D'AOSTA,AOSTA,1,Rimborso spese per consultazioni elettorali e referendarie,A,102499,33913,2803,24197,6128
+VENETO,BELLUNO,1,Rimborso spese per consultazioni elettorali e referendarie,A,197381,54871,3181,40892,9645
+VENETO,PADOVA,1,Rimborso spese per consultazioni elettorali e referendarie,A,715979,285708,17320,197569,63849
+VENETO,ROVIGO,1,Rimborso spese per consultazioni elettorali e referendarie,A,211290,82637,7637,50908,22104
+VENETO,TREVISO,1,Rimborso spese per consultazioni elettorali e referendarie,A,671279,224823,13650,161041,44420
+VENETO,VENEZIA,1,Rimborso spese per consultazioni elettorali e referendarie,A,706620,259859,14969,175900,62920
+VENETO,VERONA,1,Rimborso spese per consultazioni elettorali e referendarie,A,676739,229292,15910,161069,47016
+VENETO,VICENZA,1,Rimborso spese per consultazioni elettorali e referendarie,A,651878,225671,15495,160894,44562
+ABRUZZO,CHIETI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,359700,115935,11612,80969,19485
+ABRUZZO,L'AQUILA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,269692,85610,8116,62670,12048
+ABRUZZO,PESCARA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,266384,86760,7246,63801,12819
+ABRUZZO,TERAMO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,254055,82612,8561,59083,12013
+BASILICATA,MATERA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,171117,49879,4267,35991,7240
+BASILICATA,POTENZA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,354891,94197,10719,64900,14731
+CALABRIA,CATANZARO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,325485,71005,7270,51577,9267
+CALABRIA,COSENZA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,643141,150529,15731,106512,19754
+CALABRIA,CROTONE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,145678,24254,2306,18214,2914
+CALABRIA,REGGIO CALABRIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,489130,94583,9491,65601,14773
+CALABRIA,VIBO VALENTIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,152597,29818,3739,20707,4110
+CAMPANIA,AVELLINO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,407542,94574,9715,68585,13740
+CAMPANIA,BENEVENTO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,266181,62887,7011,45166,8121
+CAMPANIA,CASERTA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,688432,148086,15561,105549,22395
+CAMPANIA,NAPOLI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,2458456,568315,37734,426702,88065
+CAMPANIA,SALERNO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,904971,253407,26120,181700,37446
+EMILIA-ROMAGNA,BOLOGNA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,789352,402075,21723,320365,52765
+EMILIA-ROMAGNA,FERRARA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,310698,148228,10444,111469,22947
+EMILIA-ROMAGNA,FORLI'-CESENA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,306813,130511,8162,101280,17703
+EMILIA-ROMAGNA,MODENA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,526985,265732,18510,204872,38052
+EMILIA-ROMAGNA,PARMA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,347385,140671,10502,103669,23054
+EMILIA-ROMAGNA,PIACENZA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,234015,86786,8218,61635,14163
+EMILIA-ROMAGNA,RAVENNA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,304520,137474,8953,107454,18295
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,374852,193912,14171,147361,29079
+EMILIA-ROMAGNA,RIMINI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,232062,95047,5533,74086,13210
+FRIULI VENEZIA G.,GORIZIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,122609,50266,3813,36615,8274
+FRIULI VENEZIA G.,PORDENONE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,258842,85429,6375,62724,13623
+FRIULI VENEZIA G.,TRIESTE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,223198,74246,4189,57210,11009
+FRIULI VENEZIA G.,UDINE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,478581,157338,11635,116577,24071
+LAZIO,FROSINONE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,433972,125147,5248,95183,23404
+LAZIO,LATINA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,430170,121449,9151,90102,18181
+LAZIO,RIETI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,126158,41700,3849,29344,6606
+LAZIO,ROMA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,3216808,1123724,46702,894768,152631
+LAZIO,VITERBO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,244341,79884,6056,61650,9672
+LIGURIA,GENOVA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,797898,286749,17248,223275,39480
+LIGURIA,IMPERIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,188683,51517,3479,40530,6208
+LIGURIA,LA SPEZIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,196576,71743,432,55610,10063
+LIGURIA,SAVONA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,247877,90085,6905,67305,12984
+LOMBARDIA,BERGAMO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,797388,260294,24996,171295,55936
+LOMBARDIA,BRESCIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,899160,265605,23157,183974,52134
+LOMBARDIA,COMO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,456873,136375,11772,93725,26024
+LOMBARDIA,CREMONA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,282510,96605,11849,60055,21201
+LOMBARDIA,LECCO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,255574,81751,7951,53474,17218
+LOMBARDIA,LODI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,163491,55617,5326,36938,11279
+LOMBARDIA,MANTOVA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,317724,125582,11925,90552,21613
+LOMBARDIA,MILANO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,3136953,1061526,68026,762217,201899
+LOMBARDIA,PAVIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,428636,147897,16083,98677,27638
+LOMBARDIA,SONDRIO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,154310,34451,3369,24248,5757
+LOMBARDIA,VARESE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,688108,211505,16324,144147,43375
+MARCHE,ANCONA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,382975,153075,12338,114607,22408
+MARCHE,ASCOLI PICENO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,314577,113069,10565,83637,15453
+MARCHE,MACERATA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,256717,95131,9708,69631,12873
+MARCHE,PESARO E URBINO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,302150,119895,7287,93939,15189
+MOLISE,CAMPOBASSO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,226753,61905,5478,44605,8513
+MOLISE,ISERNIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,88375,21695,2643,15182,3048
+PIEMONTE,ALESSANDRIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,375877,134750,12750,92554,25111
+PIEMONTE,ASTI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,180119,57241,5942,37924,11118
+PIEMONTE,BIELLA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,164910,61111,6318,41283,10884
+PIEMONTE,CUNEO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,466277,151927,17555,102631,25490
+PIEMONTE,NOVARA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,291494,100305,8809,68627,19269
+PIEMONTE,TORINO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,1885687,723990,48129,505350,146580
+PIEMONTE,VERB.-CUS.OSSOLA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,144021,41692,3637,29389,7157
+PIEMONTE,VERCELLI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,155646,54367,5499,36755,10006
+PUGLIA,BARI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,1314340,361984,27198,269445,54546
+PUGLIA,BRINDISI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,342408,86926,9672,59888,14166
+PUGLIA,FOGGIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,579207,146959,11496,110124,20765
+PUGLIA,LECCE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,704480,171450,18971,124345,22678
+PUGLIA,TARANTO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,488947,132247,12974,92761,21849
+SARDEGNA,CAGLIARI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,654684,183158,10858,142467,25634
+SARDEGNA,NUORO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,234116,54468,3125,42451,7569
+SARDEGNA,ORISTANO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,135514,34961,2209,27580,4226
+SARDEGNA,SASSARI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,396714,112270,6302,90062,13879
+SICILIA,AGRIGENTO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,452226,91439,11092,62011,12764
+SICILIA,CALTANISSETTA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,273838,60079,6643,40777,9130
+SICILIA,CATANIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,898426,235552,21740,160679,38612
+SICILIA,ENNA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,184897,42904,5259,28130,6321
+SICILIA,MESSINA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,574692,151955,21098,96623,23772
+SICILIA,PALERMO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,1061142,271800,25974,178857,49387
+SICILIA,RAGUSA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,244996,72112,8317,48191,10533
+SICILIA,SIRACUSA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,343939,88452,7724,61238,15468
+SICILIA,TRAPANI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,375359,101759,13451,66225,15171
+TOSCANA,AREZZO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,271583,106701,8752,81031,14398
+TOSCANA,FIRENZE,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,804627,367928,20408,291599,48178
+TOSCANA,GROSSETO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,186091,69987,4847,54089,9170
+TOSCANA,LIVORNO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,289386,122480,6731,98257,15175
+TOSCANA,LUCCA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,332327,112461,8330,83624,16710
+TOSCANA,MASSA-CARRARA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,177334,53662,3835,40037,8167
+TOSCANA,PISA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,327725,137830,10916,102786,20849
+TOSCANA,PISTOIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,232218,91864,6689,70102,12306
+TOSCANA,PRATO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,187449,76120,4203,59941,9902
+TOSCANA,SIENA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,215672,101617,6602,81252,11782
+TRENTINO A.A.,BOLZANO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,376030,121471,16432,60502,42691
+TRENTINO A.A.,TRENTO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,397197,151841,13338,100351,34013
+UMBRIA,PERUGIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,518739,191408,11967,142864,29874
+UMBRIA,TERNI,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,191574,69734,4595,53401,9411
+VALLE D'AOSTA,AOSTA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,102499,34024,3410,25001,4707
+VENETO,BELLUNO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,197381,55158,3900,42216,7720
+VENETO,PADOVA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,715979,287462,20996,212051,46341
+VENETO,ROVIGO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,211290,82944,8150,57498,14991
+VENETO,TREVISO,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,671279,225809,17183,167846,34857
+VENETO,VENEZIA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,706620,261702,15997,196374,42231
+VENETO,VERONA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,676739,230592,18198,170707,35701
+VENETO,VICENZA,2,Elezione Camera dei Deputati (abolizione del voto di lista),A,651878,225953,18014,167914,34751
+ABRUZZO,CHIETI,3,Elezione del Consiglio Superiore della Magistratura,A,359700,114762,16591,66484,27243
+ABRUZZO,L'AQUILA,3,Elezione del Consiglio Superiore della Magistratura,A,269692,84256,12402,52183,16024
+ABRUZZO,PESCARA,3,Elezione del Consiglio Superiore della Magistratura,A,266384,85782,11705,53130,17521
+ABRUZZO,TERAMO,3,Elezione del Consiglio Superiore della Magistratura,A,254055,81731,12771,49759,15910
+BASILICATA,MATERA,3,Elezione del Consiglio Superiore della Magistratura,A,171117,49433,6071,31365,9380
+BASILICATA,POTENZA,3,Elezione del Consiglio Superiore della Magistratura,A,354891,93293,14261,56405,18412
+CALABRIA,CATANZARO,3,Elezione del Consiglio Superiore della Magistratura,A,325485,70389,10258,44964,11905
+CALABRIA,COSENZA,3,Elezione del Consiglio Superiore della Magistratura,A,643141,149696,21011,94351,24987
+CALABRIA,CROTONE,3,Elezione del Consiglio Superiore della Magistratura,A,145678,24147,3271,16065,3882
+CALABRIA,REGGIO CALABRIA,3,Elezione del Consiglio Superiore della Magistratura,A,489130,94009,12265,58701,18095
+CALABRIA,VIBO VALENTIA,3,Elezione del Consiglio Superiore della Magistratura,A,152597,29580,4856,18365,5024
+CAMPANIA,AVELLINO,3,Elezione del Consiglio Superiore della Magistratura,A,407542,93811,13153,62243,15742
+CAMPANIA,BENEVENTO,3,Elezione del Consiglio Superiore della Magistratura,A,266181,62453,9374,40520,9841
+CAMPANIA,CASERTA,3,Elezione del Consiglio Superiore della Magistratura,A,688432,147448,20094,94051,28212
+CAMPANIA,NAPOLI,3,Elezione del Consiglio Superiore della Magistratura,A,2458456,564034,56556,366754,120752
+CAMPANIA,SALERNO,3,Elezione del Consiglio Superiore della Magistratura,A,904971,252164,32791,167057,43322
+EMILIA-ROMAGNA,BOLOGNA,3,Elezione del Consiglio Superiore della Magistratura,A,789352,388015,61701,172729,143448
+EMILIA-ROMAGNA,FERRARA,3,Elezione del Consiglio Superiore della Magistratura,A,310698,146138,19869,68183,54071
+EMILIA-ROMAGNA,FORLI'-CESENA,3,Elezione del Consiglio Superiore della Magistratura,A,306813,127714,16890,74989,31648
+EMILIA-ROMAGNA,MODENA,3,Elezione del Consiglio Superiore della Magistratura,A,526985,259259,48114,115278,86620
+EMILIA-ROMAGNA,PARMA,3,Elezione del Consiglio Superiore della Magistratura,A,347385,137500,21257,73064,38851
+EMILIA-ROMAGNA,PIACENZA,3,Elezione del Consiglio Superiore della Magistratura,A,234015,85567,13420,49077,19831
+EMILIA-ROMAGNA,RAVENNA,3,Elezione del Consiglio Superiore della Magistratura,A,304520,132735,23677,61829,43463
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,3,Elezione del Consiglio Superiore della Magistratura,A,374852,188582,37225,83091,64017
+EMILIA-ROMAGNA,RIMINI,3,Elezione del Consiglio Superiore della Magistratura,A,232062,93334,9972,47471,33451
+FRIULI VENEZIA G.,GORIZIA,3,Elezione del Consiglio Superiore della Magistratura,A,122609,49002,7009,28064,11980
+FRIULI VENEZIA G.,PORDENONE,3,Elezione del Consiglio Superiore della Magistratura,A,258842,83781,9764,53757,17008
+FRIULI VENEZIA G.,TRIESTE,3,Elezione del Consiglio Superiore della Magistratura,A,223198,72091,8150,46223,15213
+FRIULI VENEZIA G.,UDINE,3,Elezione del Consiglio Superiore della Magistratura,A,478581,154049,18792,98768,30311
+LAZIO,FROSINONE,3,Elezione del Consiglio Superiore della Magistratura,A,433972,124106,22536,70471,28467
+LAZIO,LATINA,3,Elezione del Consiglio Superiore della Magistratura,A,430170,120167,13803,78038,23598
+LAZIO,RIETI,3,Elezione del Consiglio Superiore della Magistratura,A,126158,40952,6000,23680,9034
+LAZIO,ROMA,3,Elezione del Consiglio Superiore della Magistratura,A,3216808,1092502,100718,703857,241882
+LAZIO,VITERBO,3,Elezione del Consiglio Superiore della Magistratura,A,244341,78298,10955,50387,13952
+LIGURIA,GENOVA,3,Elezione del Consiglio Superiore della Magistratura,A,797898,277895,41025,153668,72975
+LIGURIA,IMPERIA,3,Elezione del Consiglio Superiore della Magistratura,A,188683,50902,6124,34517,8427
+LIGURIA,LA SPEZIA,3,Elezione del Consiglio Superiore della Magistratura,A,196576,70152,10394,38166,19152
+LIGURIA,SAVONA,3,Elezione del Consiglio Superiore della Magistratura,A,247877,88177,12095,51175,21336
+LOMBARDIA,BERGAMO,3,Elezione del Consiglio Superiore della Magistratura,A,797388,255916,35176,141934,69593
+LOMBARDIA,BRESCIA,3,Elezione del Consiglio Superiore della Magistratura,A,899160,260423,35840,146734,70389
+LOMBARDIA,COMO,3,Elezione del Consiglio Superiore della Magistratura,A,456873,134176,17273,80209,31001
+LOMBARDIA,CREMONA,3,Elezione del Consiglio Superiore della Magistratura,A,282510,95863,14366,52867,25326
+LOMBARDIA,LECCO,3,Elezione del Consiglio Superiore della Magistratura,A,255574,79935,12047,41550,22968
+LOMBARDIA,LODI,3,Elezione del Consiglio Superiore della Magistratura,A,163491,54763,8487,28445,15435
+LOMBARDIA,MANTOVA,3,Elezione del Consiglio Superiore della Magistratura,A,317724,123434,20494,63179,36442
+LOMBARDIA,MILANO,3,Elezione del Consiglio Superiore della Magistratura,A,3136953,1034823,122863,591239,281898
+LOMBARDIA,PAVIA,3,Elezione del Consiglio Superiore della Magistratura,A,428636,145724,24486,78207,36640
+LOMBARDIA,SONDRIO,3,Elezione del Consiglio Superiore della Magistratura,A,154310,33991,5012,20822,6829
+LOMBARDIA,VARESE,3,Elezione del Consiglio Superiore della Magistratura,A,688108,207956,26500,120333,52600
+MARCHE,ANCONA,3,Elezione del Consiglio Superiore della Magistratura,A,382975,149981,21742,81019,42676
+MARCHE,ASCOLI PICENO,3,Elezione del Consiglio Superiore della Magistratura,A,314577,111767,16143,68894,22389
+MARCHE,MACERATA,3,Elezione del Consiglio Superiore della Magistratura,A,256717,93594,16338,54604,19114
+MARCHE,PESARO E URBINO,3,Elezione del Consiglio Superiore della Magistratura,A,302150,118289,13732,52708,47937
+MOLISE,CAMPOBASSO,3,Elezione del Consiglio Superiore della Magistratura,A,226753,61044,7518,38787,10815
+MOLISE,ISERNIA,3,Elezione del Consiglio Superiore della Magistratura,A,88375,21548,3547,13460,3632
+PIEMONTE,ALESSANDRIA,3,Elezione del Consiglio Superiore della Magistratura,A,375877,132771,20458,73073,34296
+PIEMONTE,ASTI,3,Elezione del Consiglio Superiore della Magistratura,A,180119,56561,8408,32328,13323
+PIEMONTE,BIELLA,3,Elezione del Consiglio Superiore della Magistratura,A,164910,59982,9657,33511,13679
+PIEMONTE,CUNEO,3,Elezione del Consiglio Superiore della Magistratura,A,466277,149870,25496,86358,30640
+PIEMONTE,NOVARA,3,Elezione del Consiglio Superiore della Magistratura,A,291494,98812,13548,56639,24509
+PIEMONTE,TORINO,3,Elezione del Consiglio Superiore della Magistratura,A,1885687,709682,81200,399746,198301
+PIEMONTE,VERB.-CUS.OSSOLA,3,Elezione del Consiglio Superiore della Magistratura,A,144021,41089,5731,23878,9591
+PIEMONTE,VERCELLI,3,Elezione del Consiglio Superiore della Magistratura,A,155646,53594,8533,30066,12551
+PUGLIA,BARI,3,Elezione del Consiglio Superiore della Magistratura,A,1314340,359311,42232,234965,69273
+PUGLIA,BRINDISI,3,Elezione del Consiglio Superiore della Magistratura,A,342408,86447,13284,51960,17654
+PUGLIA,FOGGIA,3,Elezione del Consiglio Superiore della Magistratura,A,579207,146045,17795,93552,29506
+PUGLIA,LECCE,3,Elezione del Consiglio Superiore della Magistratura,A,704480,169931,27867,106888,29039
+PUGLIA,TARANTO,3,Elezione del Consiglio Superiore della Magistratura,A,488947,131146,19130,77749,28931
+SARDEGNA,CAGLIARI,3,Elezione del Consiglio Superiore della Magistratura,A,654684,180713,20326,117238,37600
+SARDEGNA,NUORO,3,Elezione del Consiglio Superiore della Magistratura,A,234116,53930,5785,36099,10413
+SARDEGNA,ORISTANO,3,Elezione del Consiglio Superiore della Magistratura,A,135514,34590,3715,24191,5535
+SARDEGNA,SASSARI,3,Elezione del Consiglio Superiore della Magistratura,A,396714,111217,11051,77917,19453
+SICILIA,AGRIGENTO,3,Elezione del Consiglio Superiore della Magistratura,A,452226,91210,13469,55657,15826
+SICILIA,CALTANISSETTA,3,Elezione del Consiglio Superiore della Magistratura,A,273838,59926,8524,36898,10837
+SICILIA,CATANIA,3,Elezione del Consiglio Superiore della Magistratura,A,898426,235066,27151,147406,44724
+SICILIA,ENNA,3,Elezione del Consiglio Superiore della Magistratura,A,184897,42778,6390,25746,7329
+SICILIA,MESSINA,3,Elezione del Consiglio Superiore della Magistratura,A,574692,151397,24719,89220,26717
+SICILIA,PALERMO,3,Elezione del Consiglio Superiore della Magistratura,A,1061142,270432,32298,160668,58439
+SICILIA,RAGUSA,3,Elezione del Consiglio Superiore della Magistratura,A,244996,71837,11113,41690,13677
+SICILIA,SIRACUSA,3,Elezione del Consiglio Superiore della Magistratura,A,343939,88092,10439,53870,19386
+SICILIA,TRAPANI,3,Elezione del Consiglio Superiore della Magistratura,A,375359,101474,16189,60134,18151
+TOSCANA,AREZZO,3,Elezione del Consiglio Superiore della Magistratura,A,271583,103911,17850,52698,30328
+TOSCANA,FIRENZE,3,Elezione del Consiglio Superiore della Magistratura,A,804627,354686,53895,168345,121470
+TOSCANA,GROSSETO,3,Elezione del Consiglio Superiore della Magistratura,A,186091,67578,11181,37830,16154
+TOSCANA,LIVORNO,3,Elezione del Consiglio Superiore della Magistratura,A,289386,118070,22654,54121,38124
+TOSCANA,LUCCA,3,Elezione del Consiglio Superiore della Magistratura,A,332327,109726,14664,66014,24390
+TOSCANA,MASSA-CARRARA,3,Elezione del Consiglio Superiore della Magistratura,A,177334,52572,7334,30717,12313
+TOSCANA,PISA,3,Elezione del Consiglio Superiore della Magistratura,A,327725,133098,23634,63860,41387
+TOSCANA,PISTOIA,3,Elezione del Consiglio Superiore della Magistratura,A,232218,89444,14808,46269,24993
+TOSCANA,PRATO,3,Elezione del Consiglio Superiore della Magistratura,A,187449,74187,9879,40175,21300
+TOSCANA,SIENA,3,Elezione del Consiglio Superiore della Magistratura,A,215672,98081,20276,39350,35826
+TRENTINO A.A.,BOLZANO,3,Elezione del Consiglio Superiore della Magistratura,A,376030,120514,17693,78132,22397
+TRENTINO A.A.,TRENTO,3,Elezione del Consiglio Superiore della Magistratura,A,397197,148999,20148,83797,40349
+UMBRIA,PERUGIA,3,Elezione del Consiglio Superiore della Magistratura,A,518739,187435,27314,105486,48036
+UMBRIA,TERNI,3,Elezione del Consiglio Superiore della Magistratura,A,191574,68184,9530,35825,19825
+VALLE D'AOSTA,AOSTA,3,Elezione del Consiglio Superiore della Magistratura,A,102499,33427,5088,21966,5306
+VENETO,BELLUNO,3,Elezione del Consiglio Superiore della Magistratura,A,197381,53950,6281,36811,9217
+VENETO,PADOVA,3,Elezione del Consiglio Superiore della Magistratura,A,715979,282776,30805,176754,65891
+VENETO,ROVIGO,3,Elezione del Consiglio Superiore della Magistratura,A,211290,82008,11619,45984,21980
+VENETO,TREVISO,3,Elezione del Consiglio Superiore della Magistratura,A,671279,222182,26634,144845,43542
+VENETO,VENEZIA,3,Elezione del Consiglio Superiore della Magistratura,A,706620,256648,31462,159009,60831
+VENETO,VERONA,3,Elezione del Consiglio Superiore della Magistratura,A,676739,226552,28466,143827,47242
+VENETO,VICENZA,3,Elezione del Consiglio Superiore della Magistratura,A,651878,221717,28708,142333,44298
+ABRUZZO,CHIETI,4,Ordinamento giudiziario,A,359700,114903,14873,68003,27670
+ABRUZZO,L'AQUILA,4,Ordinamento giudiziario,A,269692,84454,10990,53579,16831
+ABRUZZO,PESCARA,4,Ordinamento giudiziario,A,266384,85912,10005,53683,19106
+ABRUZZO,TERAMO,4,Ordinamento giudiziario,A,254055,81829,11601,50461,16697
+BASILICATA,MATERA,4,Ordinamento giudiziario,A,171117,49494,5540,31746,9693
+BASILICATA,POTENZA,4,Ordinamento giudiziario,A,354891,93641,13149,57473,18834
+CALABRIA,CATANZARO,4,Ordinamento giudiziario,A,325485,70456,9150,45510,12784
+CALABRIA,COSENZA,4,Ordinamento giudiziario,A,643141,149798,19507,95307,26073
+CALABRIA,CROTONE,4,Ordinamento giudiziario,A,145678,24167,3027,16164,4112
+CALABRIA,REGGIO CALABRIA,4,Ordinamento giudiziario,A,489130,94133,10893,60012,18619
+CALABRIA,VIBO VALENTIA,4,Ordinamento giudiziario,A,152597,29624,4550,18467,5307
+CAMPANIA,AVELLINO,4,Ordinamento giudiziario,A,407542,94078,11843,63121,16319
+CAMPANIA,BENEVENTO,4,Ordinamento giudiziario,A,266181,62541,8672,41149,10131
+CAMPANIA,CASERTA,4,Ordinamento giudiziario,A,688432,147553,18497,95158,29234
+CAMPANIA,NAPOLI,4,Ordinamento giudiziario,A,2458456,565070,49585,365942,132152
+CAMPANIA,SALERNO,4,Ordinamento giudiziario,A,904971,252376,30361,168250,45402
+EMILIA-ROMAGNA,BOLOGNA,4,Ordinamento giudiziario,A,789352,389970,46892,171120,163670
+EMILIA-ROMAGNA,FERRARA,4,Ordinamento giudiziario,A,310698,146437,16920,69396,56701
+EMILIA-ROMAGNA,FORLI'-CESENA,4,Ordinamento giudiziario,A,306813,128002,14303,65658,44360
+EMILIA-ROMAGNA,MODENA,4,Ordinamento giudiziario,A,526985,260072,35857,118019,101760
+EMILIA-ROMAGNA,PARMA,4,Ordinamento giudiziario,A,347385,137908,17455,74490,42116
+EMILIA-ROMAGNA,PIACENZA,4,Ordinamento giudiziario,A,234015,85704,11499,49634,21645
+EMILIA-ROMAGNA,RAVENNA,4,Ordinamento giudiziario,A,304520,133481,17786,60646,51819
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,4,Ordinamento giudiziario,A,374852,189493,25320,76271,84487
+EMILIA-ROMAGNA,RIMINI,4,Ordinamento giudiziario,A,232062,93497,8787,48777,33775
+FRIULI VENEZIA G.,GORIZIA,4,Ordinamento giudiziario,A,122609,49211,5746,28581,13141
+FRIULI VENEZIA G.,PORDENONE,4,Ordinamento giudiziario,A,258842,84019,8082,55959,17184
+FRIULI VENEZIA G.,TRIESTE,4,Ordinamento giudiziario,A,223198,72437,6585,47107,16640
+FRIULI VENEZIA G.,UDINE,4,Ordinamento giudiziario,A,478581,154499,15656,101585,32042
+LAZIO,FROSINONE,4,Ordinamento giudiziario,A,433972,124355,17569,72269,28970
+LAZIO,LATINA,4,Ordinamento giudiziario,A,430170,120375,12025,79405,24627
+LAZIO,RIETI,4,Ordinamento giudiziario,A,126158,41032,5314,24319,9345
+LAZIO,ROMA,4,Ordinamento giudiziario,A,3216808,1097246,79062,697802,281629
+LAZIO,VITERBO,4,Ordinamento giudiziario,A,244341,78467,9676,51171,14920
+LIGURIA,GENOVA,4,Ordinamento giudiziario,A,797898,279169,30494,146628,93622
+LIGURIA,IMPERIA,4,Ordinamento giudiziario,A,188683,51039,5150,34789,9490
+LIGURIA,LA SPEZIA,4,Ordinamento giudiziario,A,196576,70363,7875,37164,23189
+LIGURIA,SAVONA,4,Ordinamento giudiziario,A,247877,88414,10297,51616,23365
+LOMBARDIA,BERGAMO,4,Ordinamento giudiziario,A,797388,256793,29860,147594,71070
+LOMBARDIA,BRESCIA,4,Ordinamento giudiziario,A,899160,261230,29626,152918,72387
+LOMBARDIA,COMO,4,Ordinamento giudiziario,A,456873,134568,14340,83040,32188
+LOMBARDIA,CREMONA,4,Ordinamento giudiziario,A,282510,95577,13676,50017,28404
+LOMBARDIA,LECCO,4,Ordinamento giudiziario,A,255574,80232,10278,43609,23579
+LOMBARDIA,LODI,4,Ordinamento giudiziario,A,163491,54848,7215,28723,16711
+LOMBARDIA,MANTOVA,4,Ordinamento giudiziario,A,317724,123753,16280,62701,41901
+LOMBARDIA,MILANO,4,Ordinamento giudiziario,A,3136953,1039549,96886,604036,306867
+LOMBARDIA,PAVIA,4,Ordinamento giudiziario,A,428636,146049,21104,80143,39081
+LOMBARDIA,SONDRIO,4,Ordinamento giudiziario,A,154310,34069,4298,21520,7074
+LOMBARDIA,VARESE,4,Ordinamento giudiziario,A,688108,208640,21735,124917,54589
+MARCHE,ANCONA,4,Ordinamento giudiziario,A,382975,150441,18492,83134,44675
+MARCHE,ASCOLI PICENO,4,Ordinamento giudiziario,A,314577,111761,14172,69494,24169
+MARCHE,MACERATA,4,Ordinamento giudiziario,A,256717,93759,14195,55549,20813
+MARCHE,PESARO E URBINO,4,Ordinamento giudiziario,A,302150,118481,12124,55878,46794
+MOLISE,CAMPOBASSO,4,Ordinamento giudiziario,A,226753,61394,6943,39006,11587
+MOLISE,ISERNIA,4,Ordinamento giudiziario,A,88375,21582,3148,13737,3811
+PIEMONTE,ALESSANDRIA,4,Ordinamento giudiziario,A,375877,133051,17532,75428,35570
+PIEMONTE,ASTI,4,Ordinamento giudiziario,A,180119,56661,7425,33163,13798
+PIEMONTE,BIELLA,4,Ordinamento giudiziario,A,164910,60095,8763,34540,13968
+PIEMONTE,CUNEO,4,Ordinamento giudiziario,A,466277,150241,22335,89709,31676
+PIEMONTE,NOVARA,4,Ordinamento giudiziario,A,291494,99115,11555,58151,25771
+PIEMONTE,TORINO,4,Ordinamento giudiziario,A,1885687,712195,66476,407172,212387
+PIEMONTE,VERB.-CUS.OSSOLA,4,Ordinamento giudiziario,A,144021,41213,4805,24408,10415
+PIEMONTE,VERCELLI,4,Ordinamento giudiziario,A,155646,53749,7249,31051,13255
+PUGLIA,BARI,4,Ordinamento giudiziario,A,1314340,359767,36683,237847,73836
+PUGLIA,BRINDISI,4,Ordinamento giudiziario,A,342408,86337,12296,52553,18459
+PUGLIA,FOGGIA,4,Ordinamento giudiziario,A,579207,146088,16498,94277,30578
+PUGLIA,LECCE,4,Ordinamento giudiziario,A,704480,170165,25365,108520,30627
+PUGLIA,TARANTO,4,Ordinamento giudiziario,A,488947,131196,17276,78924,30159
+SARDEGNA,CAGLIARI,4,Ordinamento giudiziario,A,654684,181114,16455,118716,41167
+SARDEGNA,NUORO,4,Ordinamento giudiziario,A,234116,54008,4828,36266,11618
+SARDEGNA,ORISTANO,4,Ordinamento giudiziario,A,135514,34648,3130,24552,5978
+SARDEGNA,SASSARI,4,Ordinamento giudiziario,A,396714,111164,9246,75940,23657
+SICILIA,AGRIGENTO,4,Ordinamento giudiziario,A,452226,91267,13030,57202,15530
+SICILIA,CALTANISSETTA,4,Ordinamento giudiziario,A,273838,59966,7863,37701,11031
+SICILIA,CATANIA,4,Ordinamento giudiziario,A,898426,234995,24551,150492,45592
+SICILIA,ENNA,4,Ordinamento giudiziario,A,184897,42815,5985,26503,7211
+SICILIA,MESSINA,4,Ordinamento giudiziario,A,574692,151527,22224,91551,27366
+SICILIA,PALERMO,4,Ordinamento giudiziario,A,1061142,270808,28874,164257,60297
+SICILIA,RAGUSA,4,Ordinamento giudiziario,A,244996,71882,10326,42390,14078
+SICILIA,SIRACUSA,4,Ordinamento giudiziario,A,343939,88155,9302,54480,20270
+SICILIA,TRAPANI,4,Ordinamento giudiziario,A,375359,101566,14984,61696,18159
+TOSCANA,AREZZO,4,Ordinamento giudiziario,A,271583,104162,15258,53670,32477
+TOSCANA,FIRENZE,4,Ordinamento giudiziario,A,804627,356218,43067,167108,136616
+TOSCANA,GROSSETO,4,Ordinamento giudiziario,A,186091,67808,9577,38188,18006
+TOSCANA,LIVORNO,4,Ordinamento giudiziario,A,289386,118751,14317,52911,48909
+TOSCANA,LUCCA,4,Ordinamento giudiziario,A,332327,110123,12406,68028,25540
+TOSCANA,MASSA-CARRARA,4,Ordinamento giudiziario,A,177334,52740,6066,31309,13408
+TOSCANA,PISA,4,Ordinamento giudiziario,A,327725,133713,18894,65432,45799
+TOSCANA,PISTOIA,4,Ordinamento giudiziario,A,232218,89736,11818,47168,27733
+TOSCANA,PRATO,4,Ordinamento giudiziario,A,187449,74397,8156,40413,23570
+TOSCANA,SIENA,4,Ordinamento giudiziario,A,215672,98491,14524,37156,44569
+TRENTINO A.A.,BOLZANO,4,Ordinamento giudiziario,A,376030,120656,15305,81007,22203
+TRENTINO A.A.,TRENTO,4,Ordinamento giudiziario,A,397197,149675,16722,87408,41304
+UMBRIA,PERUGIA,4,Ordinamento giudiziario,A,518739,188690,22848,105867,53464
+UMBRIA,TERNI,4,Ordinamento giudiziario,A,191574,68346,8188,36677,20873
+VALLE D'AOSTA,AOSTA,4,Ordinamento giudiziario,A,102499,33516,4359,22001,6255
+VENETO,BELLUNO,4,Ordinamento giudiziario,A,197381,54156,5314,38244,9201
+VENETO,PADOVA,4,Ordinamento giudiziario,A,715979,283444,26385,182004,66961
+VENETO,ROVIGO,4,Ordinamento giudiziario,A,211290,82156,10508,47586,21886
+VENETO,TREVISO,4,Ordinamento giudiziario,A,671279,222734,22313,148989,45402
+VENETO,VENEZIA,4,Ordinamento giudiziario,A,706620,260405,22889,162214,65052
+VENETO,VERONA,4,Ordinamento giudiziario,A,676739,227332,24158,148252,48778
+VENETO,VICENZA,4,Ordinamento giudiziario,A,651878,222243,24124,146145,46621
+ABRUZZO,CHIETI,5,Incarichi extragiudiziari dei magistrati,A,359700,115012,13237,72885,24713
+ABRUZZO,L'AQUILA,5,Incarichi extragiudiziari dei magistrati,A,269692,84568,9874,57812,13980
+ABRUZZO,PESCARA,5,Incarichi extragiudiziari dei magistrati,A,266384,86008,9105,58728,15302
+ABRUZZO,TERAMO,5,Incarichi extragiudiziari dei magistrati,A,254055,81905,10476,53976,14505
+BASILICATA,MATERA,5,Incarichi extragiudiziari dei magistrati,A,171117,49522,4874,33832,8456
+BASILICATA,POTENZA,5,Incarichi extragiudiziari dei magistrati,A,354891,93601,12098,60985,16651
+CALABRIA,CATANZARO,5,Incarichi extragiudiziari dei magistrati,A,325485,70531,8294,48663,10653
+CALABRIA,COSENZA,5,Incarichi extragiudiziari dei magistrati,A,643141,149902,17864,100656,22742
+CALABRIA,CROTONE,5,Incarichi extragiudiziari dei magistrati,A,145678,24176,2808,16873,3694
+CALABRIA,REGGIO CALABRIA,5,Incarichi extragiudiziari dei magistrati,A,489130,94207,10090,63598,15995
+CALABRIA,VIBO VALENTIA,5,Incarichi extragiudiziari dei magistrati,A,152597,29640,4231,19550,4607
+CAMPANIA,AVELLINO,5,Incarichi extragiudiziari dei magistrati,A,407542,94241,10830,66630,14151
+CAMPANIA,BENEVENTO,5,Incarichi extragiudiziari dei magistrati,A,266181,62654,7932,43374,8553
+CAMPANIA,CASERTA,5,Incarichi extragiudiziari dei magistrati,A,688432,147628,17138,101080,24967
+CAMPANIA,NAPOLI,5,Incarichi extragiudiziari dei magistrati,A,2458456,565678,45058,398952,105485
+CAMPANIA,SALERNO,5,Incarichi extragiudiziari dei magistrati,A,904971,252672,27293,177878,39248
+EMILIA-ROMAGNA,BOLOGNA,5,Incarichi extragiudiziari dei magistrati,A,789352,390026,48366,203306,130492
+EMILIA-ROMAGNA,FERRARA,5,Incarichi extragiudiziari dei magistrati,A,310698,146530,16359,76791,50118
+EMILIA-ROMAGNA,FORLI'-CESENA,5,Incarichi extragiudiziari dei magistrati,A,306813,128187,13504,82247,29064
+EMILIA-ROMAGNA,MODENA,5,Incarichi extragiudiziari dei magistrati,A,526985,260058,38572,136392,80779
+EMILIA-ROMAGNA,PARMA,5,Incarichi extragiudiziari dei magistrati,A,347385,138105,16263,84023,34349
+EMILIA-ROMAGNA,PIACENZA,5,Incarichi extragiudiziari dei magistrati,A,234015,85825,10990,54473,17677
+EMILIA-ROMAGNA,RAVENNA,5,Incarichi extragiudiziari dei magistrati,A,304520,133360,19090,71177,39977
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,5,Incarichi extragiudiziari dei magistrati,A,374852,189255,30472,96293,58975
+EMILIA-ROMAGNA,RIMINI,5,Incarichi extragiudiziari dei magistrati,A,232062,93606,8026,53089,30537
+FRIULI VENEZIA G.,GORIZIA,5,Incarichi extragiudiziari dei magistrati,A,122609,49347,5324,32199,10276
+FRIULI VENEZIA G.,PORDENONE,5,Incarichi extragiudiziari dei magistrati,A,258842,84198,7009,60194,14504
+FRIULI VENEZIA G.,TRIESTE,5,Incarichi extragiudiziari dei magistrati,A,223198,72592,5764,51984,12995
+FRIULI VENEZIA G.,UDINE,5,Incarichi extragiudiziari dei magistrati,A,478581,155121,13483,111017,25783
+LAZIO,FROSINONE,5,Incarichi extragiudiziari dei magistrati,A,433972,124435,16564,77278,25435
+LAZIO,LATINA,5,Incarichi extragiudiziari dei magistrati,A,430170,120541,10936,85244,20375
+LAZIO,RIETI,5,Incarichi extragiudiziari dei magistrati,A,126158,41118,5027,26322,8109
+LAZIO,ROMA,5,Incarichi extragiudiziari dei magistrati,A,3216808,1099598,69643,791990,201968
+LAZIO,VITERBO,5,Incarichi extragiudiziari dei magistrati,A,244341,78560,8804,54983,12275
+LIGURIA,GENOVA,5,Incarichi extragiudiziari dei magistrati,A,797898,279434,31378,173624,66531
+LIGURIA,IMPERIA,5,Incarichi extragiudiziari dei magistrati,A,188683,51076,4723,37577,7264
+LIGURIA,LA SPEZIA,5,Incarichi extragiudiziari dei magistrati,A,196576,70443,8032,43130,17287
+LIGURIA,SAVONA,5,Incarichi extragiudiziari dei magistrati,A,247877,88572,9338,56952,19356
+LOMBARDIA,BERGAMO,5,Incarichi extragiudiziari dei magistrati,A,797388,257062,27108,161385,60845
+LOMBARDIA,BRESCIA,5,Incarichi extragiudiziari dei magistrati,A,899160,261387,27491,166959,61253
+LOMBARDIA,COMO,5,Incarichi extragiudiziari dei magistrati,A,456873,134789,12909,90062,27245
+LOMBARDIA,CREMONA,5,Incarichi extragiudiziari dei magistrati,A,282510,95696,12652,55147,24497
+LOMBARDIA,LECCO,5,Incarichi extragiudiziari dei magistrati,A,255574,80315,9287,47737,20531
+LOMBARDIA,LODI,5,Incarichi extragiudiziari dei magistrati,A,163491,54909,6792,31880,14083
+LOMBARDIA,MANTOVA,5,Incarichi extragiudiziari dei magistrati,A,317724,123921,16330,71772,33205
+LOMBARDIA,MILANO,5,Incarichi extragiudiziari dei magistrati,A,3136953,1041088,87834,676544,247108
+LOMBARDIA,PAVIA,5,Incarichi extragiudiziari dei magistrati,A,428636,146230,19878,87526,33410
+LOMBARDIA,SONDRIO,5,Incarichi extragiudiziari dei magistrati,A,154310,34124,3693,23324,6017
+LOMBARDIA,VARESE,5,Incarichi extragiudiziari dei magistrati,A,688108,208931,19535,136329,46195
+MARCHE,ANCONA,5,Incarichi extragiudiziari dei magistrati,A,382975,150678,16662,93159,37138
+MARCHE,ASCOLI PICENO,5,Incarichi extragiudiziari dei magistrati,A,314577,111999,12870,75407,20006
+MARCHE,MACERATA,5,Incarichi extragiudiziari dei magistrati,A,256717,93910,13013,60762,17067
+MARCHE,PESARO E URBINO,5,Incarichi extragiudiziari dei magistrati,A,302150,117599,11000,60847,43470
+MOLISE,CAMPOBASSO,5,Incarichi extragiudiziari dei magistrati,A,226753,61455,6379,41491,10039
+MOLISE,ISERNIA,5,Incarichi extragiudiziari dei magistrati,A,88375,21588,2885,14685,3201
+PIEMONTE,ALESSANDRIA,5,Incarichi extragiudiziari dei magistrati,A,375877,133304,16076,83357,29606
+PIEMONTE,ASTI,5,Incarichi extragiudiziari dei magistrati,A,180119,56774,6557,36120,11952
+PIEMONTE,BIELLA,5,Incarichi extragiudiziari dei magistrati,A,164910,60235,7641,36929,13087
+PIEMONTE,CUNEO,5,Incarichi extragiudiziari dei magistrati,A,466277,150465,19673,98052,26793
+PIEMONTE,NOVARA,5,Incarichi extragiudiziari dei magistrati,A,291494,99209,10377,64144,21349
+PIEMONTE,TORINO,5,Incarichi extragiudiziari dei magistrati,A,1885687,713524,59397,460588,169586
+PIEMONTE,VERB.-CUS.OSSOLA,5,Incarichi extragiudiziari dei magistrati,A,144021,41229,4399,26845,8501
+PIEMONTE,VERCELLI,5,Incarichi extragiudiziari dei magistrati,A,155646,53767,6594,33937,11194
+PUGLIA,BARI,5,Incarichi extragiudiziari dei magistrati,A,1314340,359928,33400,257022,58997
+PUGLIA,BRINDISI,5,Incarichi extragiudiziari dei magistrati,A,342408,86456,11206,56103,16084
+PUGLIA,FOGGIA,5,Incarichi extragiudiziari dei magistrati,A,579207,146202,15348,100348,25987
+PUGLIA,LECCE,5,Incarichi extragiudiziari dei magistrati,A,704480,170313,23674,115909,25519
+PUGLIA,TARANTO,5,Incarichi extragiudiziari dei magistrati,A,488947,131208,16221,84779,25763
+SARDEGNA,CAGLIARI,5,Incarichi extragiudiziari dei magistrati,A,654684,181274,14430,130867,31713
+SARDEGNA,NUORO,5,Incarichi extragiudiziari dei magistrati,A,234116,54010,4311,39603,8816
+SARDEGNA,ORISTANO,5,Incarichi extragiudiziari dei magistrati,A,135514,34654,2775,26202,4764
+SARDEGNA,SASSARI,5,Incarichi extragiudiziari dei magistrati,A,396714,111425,8215,84002,16974
+SICILIA,AGRIGENTO,5,Incarichi extragiudiziari dei magistrati,A,452226,91295,12187,59624,14309
+SICILIA,CALTANISSETTA,5,Incarichi extragiudiziari dei magistrati,A,273838,59977,7414,39271,9968
+SICILIA,CATANIA,5,Incarichi extragiudiziari dei magistrati,A,898426,235196,22354,159300,39799
+SICILIA,ENNA,5,Incarichi extragiudiziari dei magistrati,A,184897,42832,5517,27699,6561
+SICILIA,MESSINA,5,Incarichi extragiudiziari dei magistrati,A,574692,151628,20917,96704,24180
+SICILIA,PALERMO,5,Incarichi extragiudiziari dei magistrati,A,1061142,270994,26339,176066,51849
+SICILIA,RAGUSA,5,Incarichi extragiudiziari dei magistrati,A,244996,71911,9480,44773,12698
+SICILIA,SIRACUSA,5,Incarichi extragiudiziari dei magistrati,A,343939,88151,8665,58223,17384
+SICILIA,TRAPANI,5,Incarichi extragiudiziari dei magistrati,A,375359,101598,13947,64694,16579
+TOSCANA,AREZZO,5,Incarichi extragiudiziari dei magistrati,A,271583,104289,14244,59683,27795
+TOSCANA,FIRENZE,5,Incarichi extragiudiziari dei magistrati,A,804627,356869,41256,198263,108542
+TOSCANA,GROSSETO,5,Incarichi extragiudiziari dei magistrati,A,186091,67915,8887,42386,14655
+TOSCANA,LIVORNO,5,Incarichi extragiudiziari dei magistrati,A,289386,118841,17844,64354,34070
+TOSCANA,LUCCA,5,Incarichi extragiudiziari dei magistrati,A,332327,110321,11198,74367,20905
+TOSCANA,MASSA-CARRARA,5,Incarichi extragiudiziari dei magistrati,A,177334,52819,5618,34637,10669
+TOSCANA,PISA,5,Incarichi extragiudiziari dei magistrati,A,327725,133886,18517,75554,36310
+TOSCANA,PISTOIA,5,Incarichi extragiudiziari dei magistrati,A,232218,89846,11860,52351,22770
+TOSCANA,PRATO,5,Incarichi extragiudiziari dei magistrati,A,187449,74503,7781,45022,19643
+TOSCANA,SIENA,5,Incarichi extragiudiziari dei magistrati,A,215672,98539,16471,45912,33873
+TRENTINO A.A.,BOLZANO,5,Incarichi extragiudiziari dei magistrati,A,376030,120830,14952,83816,20197
+TRENTINO A.A.,TRENTO,5,Incarichi extragiudiziari dei magistrati,A,397197,150048,14210,97775,34227
+UMBRIA,PERUGIA,5,Incarichi extragiudiziari dei magistrati,A,518739,188191,21736,117090,43621
+UMBRIA,TERNI,5,Incarichi extragiudiziari dei magistrati,A,191574,68369,7488,40972,17560
+VALLE D'AOSTA,AOSTA,5,Incarichi extragiudiziari dei magistrati,A,102499,33612,3777,24431,4528
+VENETO,BELLUNO,5,Incarichi extragiudiziari dei magistrati,A,197381,54308,4502,41042,7506
+VENETO,PADOVA,5,Incarichi extragiudiziari dei magistrati,A,715979,284061,23232,197778,56069
+VENETO,ROVIGO,5,Incarichi extragiudiziari dei magistrati,A,211290,82247,9644,50773,19724
+VENETO,TREVISO,5,Incarichi extragiudiziari dei magistrati,A,671279,223254,18753,161678,37073
+VENETO,VENEZIA,5,Incarichi extragiudiziari dei magistrati,A,706620,257947,21004,177975,52280
+VENETO,VERONA,5,Incarichi extragiudiziari dei magistrati,A,676739,227747,21113,162704,38356
+VENETO,VICENZA,5,Incarichi extragiudiziari dei magistrati,A,651878,222914,20733,160195,36964
+ABRUZZO,CHIETI,6,Licenziamenti,A,359700,116346,6885,36282,70050
+ABRUZZO,L'AQUILA,6,Licenziamenti,A,269692,85905,5264,27662,51001
+ABRUZZO,PESCARA,6,Licenziamenti,A,266384,86751,4808,28033,51712
+ABRUZZO,TERAMO,6,Licenziamenti,A,254055,82461,5982,28403,45720
+BASILICATA,MATERA,6,Licenziamenti,A,171117,49962,2763,16406,28892
+BASILICATA,POTENZA,6,Licenziamenti,A,354891,94183,7407,30614,53076
+CALABRIA,CATANZARO,6,Licenziamenti,A,325485,70917,6060,24689,37559
+CALABRIA,COSENZA,6,Licenziamenti,A,643141,150457,12721,52132,77757
+CALABRIA,CROTONE,6,Licenziamenti,A,145678,24221,2024,9923,11542
+CALABRIA,REGGIO CALABRIA,6,Licenziamenti,A,489130,94484,7447,30214,52801
+CALABRIA,VIBO VALENTIA,6,Licenziamenti,A,152597,29782,3248,10287,15086
+CAMPANIA,AVELLINO,6,Licenziamenti,A,407542,94530,7142,33065,52143
+CAMPANIA,BENEVENTO,6,Licenziamenti,A,266181,62311,5918,24176,30012
+CAMPANIA,CASERTA,6,Licenziamenti,A,688432,147923,11586,48000,84571
+CAMPANIA,NAPOLI,6,Licenziamenti,A,2458456,568112,25938,173976,355639
+CAMPANIA,SALERNO,6,Licenziamenti,A,904971,252953,20107,94116,131553
+EMILIA-ROMAGNA,BOLOGNA,6,Licenziamenti,A,789352,403014,15348,96191,286478
+EMILIA-ROMAGNA,FERRARA,6,Licenziamenti,A,310698,148352,7730,39672,98395
+EMILIA-ROMAGNA,FORLI'-CESENA,6,Licenziamenti,A,306813,130630,5808,36265,86296
+EMILIA-ROMAGNA,MODENA,6,Licenziamenti,A,526985,266058,12770,68091,182081
+EMILIA-ROMAGNA,PARMA,6,Licenziamenti,A,347385,141005,6721,41635,90280
+EMILIA-ROMAGNA,PIACENZA,6,Licenziamenti,A,234015,86878,5468,28369,51010
+EMILIA-ROMAGNA,RAVENNA,6,Licenziamenti,A,304520,137861,6953,34218,94599
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,6,Licenziamenti,A,374852,194916,7702,41463,143834
+EMILIA-ROMAGNA,RIMINI,6,Licenziamenti,A,232062,94816,4303,30371,58637
+FRIULI VENEZIA G.,GORIZIA,6,Licenziamenti,A,122609,50530,2276,14246,32957
+FRIULI VENEZIA G.,PORDENONE,6,Licenziamenti,A,258842,85940,3365,33593,47312
+FRIULI VENEZIA G.,TRIESTE,6,Licenziamenti,A,223198,74311,2885,25515,44674
+FRIULI VENEZIA G.,UDINE,6,Licenziamenti,A,478581,158526,6924,64581,83361
+LAZIO,FROSINONE,6,Licenziamenti,A,433972,125320,9089,38036,74163
+LAZIO,LATINA,6,Licenziamenti,A,430170,121342,6850,43188,68092
+LAZIO,RIETI,6,Licenziamenti,A,126158,41655,2845,13196,24187
+LAZIO,ROMA,6,Licenziamenti,A,3216808,1121400,34244,348682,709516
+LAZIO,VITERBO,6,Licenziamenti,A,244341,79508,5383,30714,41368
+LIGURIA,GENOVA,6,Licenziamenti,A,797898,287748,10267,75511,197714
+LIGURIA,IMPERIA,6,Licenziamenti,A,188683,51658,2871,22109,25473
+LIGURIA,LA SPEZIA,6,Licenziamenti,A,196576,71906,2990,18709,48948
+LIGURIA,SAVONA,6,Licenziamenti,A,247877,90415,4094,28026,56306
+LOMBARDIA,BERGAMO,6,Licenziamenti,A,797388,261840,13328,78803,164464
+LOMBARDIA,BRESCIA,6,Licenziamenti,A,899160,268429,12421,83644,167772
+LOMBARDIA,COMO,6,Licenziamenti,A,456873,137215,6749,46746,80568
+LOMBARDIA,CREMONA,6,Licenziamenti,A,282510,97833,6107,27132,62354
+LOMBARDIA,LECCO,6,Licenziamenti,A,255574,82745,3674,22751,54454
+LOMBARDIA,LODI,6,Licenziamenti,A,163491,56013,2883,14770,37049
+LOMBARDIA,MANTOVA,6,Licenziamenti,A,317724,125822,6849,35157,81913
+LOMBARDIA,MILANO,6,Licenziamenti,A,3136953,1071886,32746,315445,706883
+LOMBARDIA,PAVIA,6,Licenziamenti,A,428636,148558,9182,44894,90960
+LOMBARDIA,SONDRIO,6,Licenziamenti,A,154310,34511,1971,12972,18802
+LOMBARDIA,VARESE,6,Licenziamenti,A,688108,213246,8787,68221,132057
+MARCHE,ANCONA,6,Licenziamenti,A,382975,153388,8106,42293,100318
+MARCHE,ASCOLI PICENO,6,Licenziamenti,A,314577,112844,7648,40965,61430
+MARCHE,MACERATA,6,Licenziamenti,A,256717,95203,6529,31080,55492
+MARCHE,PESARO E URBINO,6,Licenziamenti,A,302150,118627,6386,33375,77266
+MOLISE,CAMPOBASSO,6,Licenziamenti,A,226753,61836,4037,21226,33903
+MOLISE,ISERNIA,6,Licenziamenti,A,88375,21657,1834,7834,11230
+PIEMONTE,ALESSANDRIA,6,Licenziamenti,A,375877,135454,6629,37379,88955
+PIEMONTE,ASTI,6,Licenziamenti,A,180119,57520,3467,18478,34144
+PIEMONTE,BIELLA,6,Licenziamenti,A,164910,61728,3007,18876,38338
+PIEMONTE,CUNEO,6,Licenziamenti,A,466277,152511,10380,49570,88552
+PIEMONTE,NOVARA,6,Licenziamenti,A,291494,100840,4989,31406,62279
+PIEMONTE,TORINO,6,Licenziamenti,A,1885687,729661,21598,189206,505658
+PIEMONTE,VERB.-CUS.OSSOLA,6,Licenziamenti,A,144021,42044,2018,13704,25357
+PIEMONTE,VERCELLI,6,Licenziamenti,A,155646,54615,3179,16728,33364
+PUGLIA,BARI,6,Licenziamenti,A,1314340,361870,18462,118040,217067
+PUGLIA,BRINDISI,6,Licenziamenti,A,342408,86926,6764,29368,48203
+PUGLIA,FOGGIA,6,Licenziamenti,A,579207,146624,9843,49857,83120
+PUGLIA,LECCE,6,Licenziamenti,A,704480,171176,15736,62690,88166
+PUGLIA,TARANTO,6,Licenziamenti,A,488947,132470,7566,35522,86063
+SARDEGNA,CAGLIARI,6,Licenziamenti,A,654684,183210,6787,56355,116835
+SARDEGNA,NUORO,6,Licenziamenti,A,234116,54494,2161,18840,32559
+SARDEGNA,ORISTANO,6,Licenziamenti,A,135514,34865,1691,13594,18861
+SARDEGNA,SASSARI,6,Licenziamenti,A,396714,112267,4300,38611,67837
+SICILIA,AGRIGENTO,6,Licenziamenti,A,452226,91256,9684,32106,45405
+SICILIA,CALTANISSETTA,6,Licenziamenti,A,273838,59998,5663,20602,30730
+SICILIA,CATANIA,6,Licenziamenti,A,898426,235445,16150,79316,128080
+SICILIA,ENNA,6,Licenziamenti,A,184897,42854,4371,14596,21191
+SICILIA,MESSINA,6,Licenziamenti,A,574692,151926,16290,50573,76242
+SICILIA,PALERMO,6,Licenziamenti,A,1061142,271379,20265,87501,149446
+SICILIA,RAGUSA,6,Licenziamenti,A,244996,72075,7092,25865,34649
+SICILIA,SIRACUSA,6,Licenziamenti,A,343939,88552,4862,25408,55243
+SICILIA,TRAPANI,6,Licenziamenti,A,375359,101742,11244,36147,48633
+TOSCANA,AREZZO,6,Licenziamenti,A,271583,106372,6531,31020,67039
+TOSCANA,FIRENZE,6,Licenziamenti,A,804627,368386,16275,94796,252096
+TOSCANA,GROSSETO,6,Licenziamenti,A,186091,69858,3864,21502,43102
+TOSCANA,LIVORNO,6,Licenziamenti,A,289386,122751,5331,28980,86682
+TOSCANA,LUCCA,6,Licenziamenti,A,332327,112886,5343,36826,68009
+TOSCANA,MASSA-CARRARA,6,Licenziamenti,A,177334,53844,2494,16549,33485
+TOSCANA,PISA,6,Licenziamenti,A,327725,138578,6685,33542,96210
+TOSCANA,PISTOIA,6,Licenziamenti,A,232218,91935,5078,28161,56742
+TOSCANA,PRATO,6,Licenziamenti,A,187449,76088,3201,23518,47805
+TOSCANA,SIENA,6,Licenziamenti,A,215672,101220,6512,23212,69913
+TRENTINO A.A.,BOLZANO,6,Licenziamenti,A,376030,121638,14298,35067,70669
+TRENTINO A.A.,TRENTO,6,Licenziamenti,A,397197,153058,6880,45645,98003
+UMBRIA,PERUGIA,6,Licenziamenti,A,518739,191050,10167,61137,115640
+UMBRIA,TERNI,6,Licenziamenti,A,191574,69580,3676,19177,44996
+VALLE D'AOSTA,AOSTA,6,Licenziamenti,A,102499,34107,2133,12693,18678
+VENETO,BELLUNO,6,Licenziamenti,A,197381,55250,2582,21128,30654
+VENETO,PADOVA,6,Licenziamenti,A,715979,287118,13668,100890,166877
+VENETO,ROVIGO,6,Licenziamenti,A,211290,83046,5339,25610,50455
+VENETO,TREVISO,6,Licenziamenti,A,671279,226602,10330,80683,131583
+VENETO,VENEZIA,6,Licenziamenti,A,706620,262558,9810,82728,165500
+VENETO,VERONA,6,Licenziamenti,A,676739,230795,12489,83237,130923
+VENETO,VICENZA,6,Licenziamenti,A,651878,226423,11467,79275,132298
+ABRUZZO,CHIETI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,359700,115553,11686,62751,36264
+ABRUZZO,L'AQUILA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,269692,84798,8916,50347,22325
+ABRUZZO,PESCARA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,266384,86132,8683,51093,23479
+ABRUZZO,TERAMO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,254055,81991,9776,47401,22036
+BASILICATA,MATERA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,171117,49640,4324,30555,12462
+BASILICATA,POTENZA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,354891,93973,10889,54231,24628
+CALABRIA,CATANZARO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,325485,70602,8366,42926,16332
+CALABRIA,COSENZA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,643141,149930,16568,89668,34730
+CALABRIA,CROTONE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,145678,24177,2653,15310,5374
+CALABRIA,REGGIO CALABRIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,489130,96105,9811,55826,24184
+CALABRIA,VIBO VALENTIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,152597,29642,4058,17506,6791
+CAMPANIA,AVELLINO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,407542,94215,10586,59220,21812
+CAMPANIA,BENEVENTO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,266181,62647,7663,39325,12928
+CAMPANIA,CASERTA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,688432,147632,16036,90082,36931
+CAMPANIA,NAPOLI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,2458456,565475,43211,348895,157270
+CAMPANIA,SALERNO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,904971,252638,26664,159704,58059
+EMILIA-ROMAGNA,BOLOGNA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,789352,394298,38560,166387,182616
+EMILIA-ROMAGNA,FERRARA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,310698,147365,12822,63503,68221
+EMILIA-ROMAGNA,FORLI'-CESENA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,306813,129465,9970,60235,56463
+EMILIA-ROMAGNA,MODENA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,526985,262234,30593,111863,116129
+EMILIA-ROMAGNA,PARMA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,347385,139178,12672,70343,53018
+EMILIA-ROMAGNA,PIACENZA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,234015,86310,8542,46361,29075
+EMILIA-ROMAGNA,RAVENNA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,304520,134643,15759,59785,56369
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,374852,191321,23297,75673,89523
+EMILIA-ROMAGNA,RIMINI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,232062,93957,6959,46715,38400
+FRIULI VENEZIA G.,GORIZIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,122609,49820,4412,26354,17707
+FRIULI VENEZIA G.,PORDENONE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,258842,85170,5335,49259,28474
+FRIULI VENEZIA G.,TRIESTE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,223198,73320,4807,45158,21762
+FRIULI VENEZIA G.,UDINE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,478581,156945,8481,91414,53501
+LAZIO,FROSINONE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,433972,124575,14840,67436,37579
+LAZIO,LATINA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,430170,120634,10215,74916,31669
+LAZIO,RIETI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,126158,41188,4387,22951,11894
+LAZIO,ROMA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,3216808,1102906,68152,670634,325935
+LAZIO,VITERBO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,244341,78770,8155,49700,18524
+LIGURIA,GENOVA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,797898,281910,25354,149043,100595
+LIGURIA,IMPERIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,188683,51281,4164,34134,11592
+LIGURIA,LA SPEZIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,196576,70768,6999,36384,25528
+LIGURIA,SAVONA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,247877,89166,7826,49361,29289
+LOMBARDIA,BERGAMO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,797388,260257,19528,126613,107678
+LOMBARDIA,BRESCIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,899160,265735,20110,131883,108580
+LOMBARDIA,COMO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,456873,136364,9690,75559,47213
+LOMBARDIA,CREMONA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,282510,96990,9813,45497,38903
+LOMBARDIA,LECCO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,255574,81885,5754,37244,36424
+LOMBARDIA,LODI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,163491,55491,5103,26163,22427
+LOMBARDIA,MANTOVA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,317724,124886,12393,58734,51625
+LOMBARDIA,MILANO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,3136953,1054853,64934,569152,397324
+LOMBARDIA,PAVIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,428636,147554,13941,73899,55404
+LOMBARDIA,SONDRIO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,154310,34390,2863,19699,10920
+LOMBARDIA,VARESE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,688108,211466,14569,113375,77611
+MARCHE,ANCONA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,382975,151944,13363,75924,59476
+MARCHE,ASCOLI PICENO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,314577,112235,11654,66896,30226
+MARCHE,MACERATA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,256717,94438,10945,52054,28839
+MARCHE,PESARO E URBINO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,302150,117921,9759,54565,51421
+MOLISE,CAMPOBASSO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,226753,61494,6034,36781,15194
+MOLISE,ISERNIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,88375,21587,2780,12803,5030
+PIEMONTE,ALESSANDRIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,375877,134479,11232,66926,53080
+PIEMONTE,ASTI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,180119,57180,5112,30698,19583
+PIEMONTE,BIELLA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,164910,61170,5098,30108,24084
+PIEMONTE,CUNEO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,466277,151340,16404,84280,45206
+PIEMONTE,NOVARA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,291494,100011,8207,52636,35988
+PIEMONTE,TORINO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,1885687,719439,46635,376378,276206
+PIEMONTE,VERB.-CUS.OSSOLA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,144021,41774,3455,21936,15178
+PIEMONTE,VERCELLI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,155646,54203,5123,28407,18928
+PUGLIA,BARI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,1314340,360177,30557,226936,92488
+PUGLIA,BRINDISI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,342408,86597,10042,50663,22905
+PUGLIA,FOGGIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,579207,146258,14342,87626,39783
+PUGLIA,LECCE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,704480,170449,22433,104150,38510
+PUGLIA,TARANTO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,488947,131426,14333,75333,37347
+SARDEGNA,CAGLIARI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,654684,181673,13004,111559,52989
+SARDEGNA,NUORO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,234116,54158,3915,34208,14773
+SARDEGNA,ORISTANO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,135514,34712,2493,23120,8215
+SARDEGNA,SASSARI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,396714,111915,7334,73854,28180
+SICILIA,AGRIGENTO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,452226,91264,11768,53855,20256
+SICILIA,CALTANISSETTA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,273838,59980,7157,35773,13642
+SICILIA,CATANIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,898426,235211,21387,144180,55920
+SICILIA,ENNA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,184897,42816,5343,24987,9449
+SICILIA,MESSINA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,574692,151594,20542,86296,34666
+SICILIA,PALERMO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,1061142,270635,26331,155471,72385
+SICILIA,RAGUSA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,244996,71935,9026,40861,17110
+SICILIA,SIRACUSA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,343939,88896,8037,51059,25336
+SICILIA,TRAPANI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,375359,101589,13649,59337,22146
+TOSCANA,AREZZO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,271583,105138,11241,50481,41265
+TOSCANA,FIRENZE,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,804627,360637,32647,159074,161551
+TOSCANA,GROSSETO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,186091,68935,6613,35078,25583
+TOSCANA,LIVORNO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,289386,120777,9770,47811,61418
+TOSCANA,LUCCA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,332327,111748,8439,60881,39217
+TOSCANA,MASSA-CARRARA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,177334,53186,4888,28758,17843
+TOSCANA,PISA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,327725,136454,12755,58495,62471
+TOSCANA,PISTOIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,232218,90839,8715,43928,35814
+TOSCANA,PRATO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,187449,75100,6200,38441,28507
+TOSCANA,SIENA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,215672,100115,9916,34573,53780
+TRENTINO A.A.,BOLZANO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,376030,121256,17402,52025,49936
+TRENTINO A.A.,TRENTO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,397197,151594,12744,75051,60359
+UMBRIA,PERUGIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,518739,188789,19231,102155,62278
+UMBRIA,TERNI,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,191574,68628,6746,35051,24586
+VALLE D'AOSTA,AOSTA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,102499,33930,2923,19977,10290
+VENETO,BELLUNO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,197381,54810,3736,35178,14724
+VENETO,PADOVA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,715979,285736,19274,170509,89539
+VENETO,ROVIGO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,211290,82777,7325,42509,31127
+VENETO,TREVISO,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,671279,225424,14641,135927,69945
+VENETO,VENEZIA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,706620,259986,16395,148685,89034
+VENETO,VERONA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,676739,229555,16854,135686,72150
+VENETO,VICENZA,7,Trattenute associative e sindacali tramite gli enti previdenziali,A,651878,224788,16774,132245,71520

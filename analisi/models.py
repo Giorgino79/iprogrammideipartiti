@@ -195,3 +195,34 @@ class Affluenza(models.Model):
 
     class Meta:
         unique_together = [('elezione', 'territorio')]
+
+
+class Quesito(models.Model):
+    ABROGATIVO, COSTITUZIONALE = 'A', 'C'
+    TIPI = [(ABROGATIVO, 'Referendum abrogativo'), (COSTITUZIONALE, 'Referendum costituzionale')]
+
+    elezione = models.ForeignKey(Elezione, on_delete=models.CASCADE, related_name='quesiti')
+    numero = models.PositiveSmallIntegerField()
+    titolo = models.CharField(max_length=500)
+    tipo = models.CharField(max_length=1, choices=TIPI)
+
+    class Meta:
+        ordering = ['elezione', 'numero']
+        unique_together = [('elezione', 'numero')]
+        verbose_name_plural = 'quesiti'
+
+    def __str__(self):
+        return f'{self.elezione.anno} - quesito {self.numero}'
+
+
+class RisultatoQuesito(models.Model):
+    quesito = models.ForeignKey(Quesito, on_delete=models.CASCADE, related_name='risultati')
+    territorio = models.ForeignKey(Territorio, on_delete=models.CASCADE, related_name='risultati_quesiti')
+    elettori = models.PositiveIntegerField()
+    votanti = models.PositiveIntegerField()
+    bianche = models.PositiveIntegerField(default=0)
+    si = models.PositiveIntegerField()
+    no = models.PositiveIntegerField()
+
+    class Meta:
+        unique_together = [('quesito', 'territorio')]

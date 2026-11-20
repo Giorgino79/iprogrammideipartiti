@@ -1,0 +1,107 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Per l'approvazione della legge di riforma costituzionale,C,313839,215862,772,76062,137628
+ABRUZZO,L'AQUILA,1,Per l'approvazione della legge di riforma costituzionale,C,238553,162944,360,56650,104981
+ABRUZZO,PESCARA,1,Per l'approvazione della legge di riforma costituzionale,C,256018,176565,491,61575,113334
+ABRUZZO,TERAMO,1,Per l'approvazione della legge di riforma costituzionale,C,243639,167559,494,60714,105245
+BASILICATA,MATERA,1,Per l'approvazione della legge di riforma costituzionale,C,159972,99543,235,31360,67113
+BASILICATA,POTENZA,1,Per l'approvazione della legge di riforma costituzionale,C,307028,194003,665,67564,123968
+CALABRIA,CATANZARO,1,Per l'approvazione della legge di riforma costituzionale,C,288862,163822,465,54882,107488
+CALABRIA,COSENZA,1,Per l'approvazione della legge di riforma costituzionale,C,573558,320545,856,106074,211365
+CALABRIA,CROTONE,1,Per l'approvazione della legge di riforma costituzionale,C,133133,63657,132,20343,42842
+CALABRIA,REGGIO CALABRIA,1,Per l'approvazione della legge di riforma costituzionale,C,430335,228413,496,70278,156096
+CALABRIA,VIBO VALENTIA,1,Per l'approvazione della legge di riforma costituzionale,C,127853,69338,241,24637,43935
+CAMPANIA,AVELLINO,1,Per l'approvazione della legge di riforma costituzionale,C,345619,217132,710,83169,131758
+CAMPANIA,BENEVENTO,1,Per l'approvazione della legge di riforma costituzionale,C,229569,144815,406,47295,96140
+CAMPANIA,CASERTA,1,Per l'approvazione della legge di riforma costituzionale,C,713441,423054,895,118782,300850
+CAMPANIA,NAPOLI,1,Per l'approvazione della legge di riforma costituzionale,C,2402977,1358562,1675,399545,949264
+CAMPANIA,SALERNO,1,Per l'approvazione della legge di riforma costituzionale,C,875299,545507,1414,190901,349756
+EMILIA-ROMAGNA,BOLOGNA,1,Per l'approvazione della legge di riforma costituzionale,C,758588,585001,1744,303427,276704
+EMILIA-ROMAGNA,FERRARA,1,Per l'approvazione della legge di riforma costituzionale,C,279413,210065,561,96793,111521
+EMILIA-ROMAGNA,FORLI'-CESENA,1,Per l'approvazione della legge di riforma costituzionale,C,298785,229102,538,117946,109408
+EMILIA-ROMAGNA,MODENA,1,Per l'approvazione della legge di riforma costituzionale,C,514584,395796,1327,208215,184204
+EMILIA-ROMAGNA,PARMA,1,Per l'approvazione della legge di riforma costituzionale,C,329285,241969,583,113754,126390
+EMILIA-ROMAGNA,PIACENZA,1,Per l'approvazione della legge di riforma costituzionale,C,212414,154748,401,65335,88039
+EMILIA-ROMAGNA,RAVENNA,1,Per l'approvazione della legge di riforma costituzionale,C,294016,224251,583,117497,104945
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,Per l'approvazione della legge di riforma costituzionale,C,387202,296895,922,152132,142078
+EMILIA-ROMAGNA,RIMINI,1,Per l'approvazione della legge di riforma costituzionale,C,252623,188403,418,87385,99703
+FRIULI-VENEZIA GIULIA,GORIZIA,1,Per l'approvazione della legge di riforma costituzionale,C,109266,79099,225,30945,47452
+FRIULI-VENEZIA GIULIA,PORDENONE,1,Per l'approvazione della legge di riforma costituzionale,C,235950,175462,408,69667,104424
+FRIULI-VENEZIA GIULIA,TRIESTE,1,Per l'approvazione della legge di riforma costituzionale,C,185217,126293,284,45929,79471
+FRIULI-VENEZIA GIULIA,UDINE,1,Per l'approvazione della legge di riforma costituzionale,C,422061,309863,763,120816,186407
+LAZIO,FROSINONE,1,Per l'approvazione della legge di riforma costituzionale,C,398389,267736,662,84643,180592
+LAZIO,LATINA,1,Per l'approvazione della legge di riforma costituzionale,C,445206,299092,455,93047,203977
+LAZIO,RIETI,1,Per l'approvazione della legge di riforma costituzionale,C,124296,84527,194,31322,52458
+LAZIO,ROMA,1,Per l'approvazione della legge di riforma costituzionale,C,3186252,2215349,3020,837405,1363136
+LAZIO,VITERBO,1,Per l'approvazione della legge di riforma costituzionale,C,248002,177969,347,62351,114234
+LIGURIA,GENOVA,1,Per l'approvazione della legge di riforma costituzionale,C,676649,472012,1174,190565,277566
+LIGURIA,IMPERIA,1,Per l'approvazione della legge di riforma costituzionale,C,167019,109246,230,39481,68763
+LIGURIA,LA SPEZIA,1,Per l'approvazione della legge di riforma costituzionale,C,175323,125241,302,50961,73303
+LIGURIA,SAVONA,1,Per l'approvazione della legge di riforma costituzionale,C,222478,159257,443,61664,96145
+LOMBARDIA,BERGAMO,1,Per l'approvazione della legge di riforma costituzionale,C,820655,633979,1511,279319,349842
+LOMBARDIA,BRESCIA,1,Per l'approvazione della legge di riforma costituzionale,C,922668,705119,1667,292531,407541
+LOMBARDIA,COMO,1,Per l'approvazione della legge di riforma costituzionale,C,464824,340611,749,141538,196194
+LOMBARDIA,CREMONA,1,Per l'approvazione della legge di riforma costituzionale,C,272344,202466,612,86892,113620
+LOMBARDIA,LECCO,1,Per l'approvazione della legge di riforma costituzionale,C,261872,198226,493,91000,105566
+LOMBARDIA,LODI,1,Per l'approvazione della legge di riforma costituzionale,C,171098,126165,299,53759,71386
+LOMBARDIA,MANTOVA,1,Per l'approvazione della legge di riforma costituzionale,C,306010,225583,653,102998,120777
+LOMBARDIA,MILANO,1,Per l'approvazione della legge di riforma costituzionale,C,2345563,1716786,3242,808013,897456
+LOMBARDIA,MONZA E DELLA BRIANZA,1,Per l'approvazione della legge di riforma costituzionale,C,663376,500446,962,223699,273269
+LOMBARDIA,PAVIA,1,Per l'approvazione della legge di riforma costituzionale,C,420244,298512,759,123563,172283
+LOMBARDIA,SONDRIO,1,Per l'approvazione della legge di riforma costituzionale,C,144977,102993,284,40545,61571
+LOMBARDIA,VARESE,1,Per l'approvazione della legge di riforma costituzionale,C,686744,501624,1034,209079,288705
+MARCHE,ANCONA,1,Per l'approvazione della legge di riforma costituzionale,C,365277,269196,806,123819,143155
+MARCHE,ASCOLI PICENO,1,Per l'approvazione della legge di riforma costituzionale,C,167254,118903,311,48496,69437
+MARCHE,FERMO,1,Per l'approvazione della legge di riforma costituzionale,C,134421,96915,370,39746,56159
+MARCHE,MACERATA,1,Per l'approvazione della legge di riforma costituzionale,C,243981,172854,570,75396,95605
+MARCHE,PESARO E URBINO,1,Per l'approvazione della legge di riforma costituzionale,C,278248,208365,552,98311,108409
+MOLISE,CAMPOBASSO,1,Per l'approvazione della legge di riforma costituzionale,C,184872,119473,340,47215,71154
+MOLISE,ISERNIA,1,Per l'approvazione della legge di riforma costituzionale,C,71728,44565,192,16480,27574
+PIEMONTE,ALESSANDRIA,1,Per l'approvazione della legge di riforma costituzionale,C,333647,234639,672,94858,137496
+PIEMONTE,ASTI,1,Per l'approvazione della legge di riforma costituzionale,C,165202,114381,354,47938,65203
+PIEMONTE,BIELLA,1,Per l'approvazione della legge di riforma costituzionale,C,145992,103840,324,43902,58719
+PIEMONTE,CUNEO,1,Per l'approvazione della legge di riforma costituzionale,C,447037,327462,1126,148845,174903
+PIEMONTE,NOVARA,1,Per l'approvazione della legge di riforma costituzionale,C,282990,203780,495,87651,114373
+PIEMONTE,TORINO,1,Per l'approvazione della legge di riforma costituzionale,C,1754027,1276654,2725,554039,711582
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,Per l'approvazione della legge di riforma costituzionale,C,128875,88848,207,37138,50891
+PIEMONTE,VERCELLI,1,Per l'approvazione della legge di riforma costituzionale,C,138608,97060,294,40378,55634
+PUGLIA,BARI,1,Per l'approvazione della legge di riforma costituzionale,C,1018941,650065,1123,206266,438764
+PUGLIA,BARLETTA-ANDRIA-TRANI,1,Per l'approvazione della legge di riforma costituzionale,C,311930,192742,339,62790,128307
+PUGLIA,BRINDISI,1,Per l'approvazione della legge di riforma costituzionale,C,324362,194997,431,58974,134485
+PUGLIA,FOGGIA,1,Per l'approvazione della legge di riforma costituzionale,C,494169,289924,521,99477,188164
+PUGLIA,LECCE,1,Per l'approvazione della legge di riforma costituzionale,C,655939,406494,1182,141107,261729
+PUGLIA,TARANTO,1,Per l'approvazione della legge di riforma costituzionale,C,475371,290429,595,90740,197124
+SARDEGNA,CAGLIARI,1,Per l'approvazione della legge di riforma costituzionale,C,659314,421038,628,109766,308815
+SARDEGNA,NUORO,1,Per l'approvazione della legge di riforma costituzionale,C,176886,105138,163,30052,74459
+SARDEGNA,ORISTANO,1,Per l'approvazione della legge di riforma costituzionale,C,136930,84758,149,21919,62328
+SARDEGNA,SASSARI,1,Per l'approvazione della legge di riforma costituzionale,C,402605,248224,395,75543,171189
+SICILIA,AGRIGENTO,1,Per l'approvazione della legge di riforma costituzionale,C,354596,187267,418,55058,130351
+SICILIA,CALTANISSETTA,1,Per l'approvazione della legge di riforma costituzionale,C,216007,115958,205,33188,81805
+SICILIA,CATANIA,1,Per l'approvazione della legge di riforma costituzionale,C,884612,516771,759,130355,382031
+SICILIA,ENNA,1,Per l'approvazione della legge di riforma costituzionale,C,137827,77636,200,25053,51673
+SICILIA,MESSINA,1,Per l'approvazione della legge di riforma costituzionale,C,514030,301601,891,90821,207484
+SICILIA,PALERMO,1,Per l'approvazione della legge di riforma costituzionale,C,1011728,560856,914,152928,402597
+SICILIA,RAGUSA,1,Per l'approvazione della legge di riforma costituzionale,C,242837,146037,309,45896,98720
+SICILIA,SIRACUSA,1,Per l'approvazione della legge di riforma costituzionale,C,322752,183045,264,51072,130651
+SICILIA,TRAPANI,1,Per l'approvazione della legge di riforma costituzionale,C,347482,195083,498,58342,134783
+TOSCANA,AREZZO,1,Per l'approvazione della legge di riforma costituzionale,C,263101,196722,656,105361,89482
+TOSCANA,FIRENZE,1,Per l'approvazione della legge di riforma costituzionale,C,748871,582564,1692,333153,244133
+TOSCANA,GROSSETO,1,Per l'approvazione della legge di riforma costituzionale,C,174063,123319,272,57394,64974
+TOSCANA,LIVORNO,1,Per l'approvazione della legge di riforma costituzionale,C,266435,193494,514,94593,97358
+TOSCANA,LUCCA,1,Per l'approvazione della legge di riforma costituzionale,C,309609,218870,529,100919,115891
+TOSCANA,MASSA-CARRARA,1,Per l'approvazione della legge di riforma costituzionale,C,158433,109155,249,44890,63195
+TOSCANA,PISA,1,Per l'approvazione della legge di riforma costituzionale,C,323735,245352,712,121609,121490
+TOSCANA,PISTOIA,1,Per l'approvazione della legge di riforma costituzionale,C,225615,166126,478,85756,78710
+TOSCANA,PRATO,1,Per l'approvazione della legge di riforma costituzionale,C,180243,133794,313,73926,58753
+TOSCANA,SIENA,1,Per l'approvazione della legge di riforma costituzionale,C,204024,155657,520,88168,66022
+TRENTINO-ALTO ADIGE,BOLZANO,1,Per l'approvazione della legge di riforma costituzionale,C,386092,260273,1794,163851,93409
+TRENTINO-ALTO ADIGE,TRENTO,1,Per l'approvazione della legge di riforma costituzionale,C,406412,312213,904,141471,168064
+UMBRIA,PERUGIA,1,Per l'approvazione della legge di riforma costituzionale,C,498352,367984,947,181713,183221
+UMBRIA,TERNI,1,Per l'approvazione della legge di riforma costituzionale,C,177258,128422,320,58633,68687
+VALLE D'AOSTA,AOSTA,1,Per l'approvazione della legge di riforma costituzionale,C,99735,71717,361,30568,40116
+VENETO,BELLUNO,1,Per l'approvazione della legge di riforma costituzionale,C,165995,118652,324,45832,71761
+VENETO,PADOVA,1,Per l'approvazione della legge di riforma costituzionale,C,711463,561369,1300,211750,345391
+VENETO,ROVIGO,1,Per l'approvazione della legge di riforma costituzionale,C,192509,142590,373,56084,85298
+VENETO,TREVISO,1,Per l'approvazione della legge di riforma costituzionale,C,662159,509011,1203,188276,316984
+VENETO,VENEZIA,1,Per l'approvazione della legge di riforma costituzionale,C,658608,489809,1058,186127,300083
+VENETO,VERONA,1,Per l'approvazione della legge di riforma costituzionale,C,684292,524037,970,203569,316956
+VENETO,VICENZA,1,Per l'approvazione della legge di riforma costituzionale,C,650374,510581,1153,186923,319993

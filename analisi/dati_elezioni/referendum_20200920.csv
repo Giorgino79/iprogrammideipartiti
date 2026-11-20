@@ -1,0 +1,108 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,310350,160200,898,119357,39091
+ABRUZZO,L'AQUILA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,233319,137264,1559,96675,38136
+ABRUZZO,PESCARA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,254544,118111,426,86307,30782
+ABRUZZO,TERAMO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,241092,112149,551,82161,28876
+BASILICATA,MATERA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,156847,85807,915,62927,21270
+BASILICATA,POTENZA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,298172,140918,1270,106097,32586
+CALABRIA,CATANZARO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,282789,119436,1238,92464,25052
+CALABRIA,COSENZA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,561641,235869,2179,187984,44332
+CALABRIA,CROTONE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,130339,70710,1177,56675,12494
+CALABRIA,REGGIO CALABRIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,419258,206134,3676,142363,58251
+CALABRIA,VIBO VALENTIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,124762,54499,1091,41958,11009
+CAMPANIA,AVELLINO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,339058,226361,5785,164358,54583
+CAMPANIA,BENEVENTO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,223966,141031,3190,102378,34393
+CAMPANIA,CASERTA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,717502,444788,10823,342043,88903
+CAMPANIA,NAPOLI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,2396622,1393475,25809,1068385,291666
+CAMPANIA,SALERNO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,867678,567146,13039,410147,139745
+EMILIA-ROMAGNA,BOLOGNA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,765762,438679,1393,285345,150437
+EMILIA-ROMAGNA,FERRARA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,272713,151603,574,106387,44032
+EMILIA-ROMAGNA,FORLI'-CESENA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,297655,163337,345,115395,47043
+EMILIA-ROMAGNA,MODENA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,518398,294814,934,211127,81834
+EMILIA-ROMAGNA,PARMA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,328805,168008,471,113336,53578
+EMILIA-ROMAGNA,PIACENZA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,209231,105630,253,75817,29148
+EMILIA-ROMAGNA,RAVENNA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,292866,172208,586,118949,52034
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,388336,217363,599,155501,60506
+EMILIA-ROMAGNA,RIMINI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,254942,131518,233,91728,39104
+FRIULI-VENEZIA GIULIA,GORIZIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,107366,54891,148,33494,20995
+FRIULI-VENEZIA GIULIA,PORDENONE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,236218,125695,359,77941,46799
+FRIULI-VENEZIA GIULIA,TRIESTE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,184176,80455,160,43148,36847
+FRIULI-VENEZIA GIULIA,UDINE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,418727,214271,600,126459,86102
+LAZIO,FROSINONE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,389778,187813,1313,139358,45949
+LAZIO,LATINA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,442988,204427,1127,146485,55810
+LAZIO,RIETI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,121808,59058,295,39970,18384
+LAZIO,ROMA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,3178716,1428887,2637,899769,521024
+LAZIO,VITERBO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,243632,119261,361,81722,36526
+LIGURIA,GENOVA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,658232,390446,3197,239815,145218
+LIGURIA,IMPERIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,162781,90608,783,59533,29654
+LIGURIA,LA SPEZIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,171701,101744,815,66307,34046
+LIGURIA,SAVONA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,218339,133727,1150,84699,46886
+LOMBARDIA,BERGAMO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,826727,453842,1374,316769,133854
+LOMBARDIA,BRESCIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,931342,485022,1317,330572,151468
+LOMBARDIA,COMO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,467802,233943,659,157055,75085
+LOMBARDIA,CREMONA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,268561,142595,441,100178,41329
+LOMBARDIA,LECCO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,260555,144387,636,96914,46102
+LOMBARDIA,LODI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,171092,85579,203,62373,22591
+LOMBARDIA,MANTOVA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,303674,165599,798,116231,47932
+LOMBARDIA,MILANO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,2364129,1175610,2478,768064,401122
+LOMBARDIA,MONZA E DELLA BRIANZA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,669189,345529,591,238261,105349
+LOMBARDIA,PAVIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,413292,209737,818,142753,65093
+LOMBARDIA,SONDRIO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,144670,65287,294,44432,20227
+LOMBARDIA,VARESE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,688110,349458,955,236012,110988
+MARCHE,ANCONA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,362101,241062,2077,162164,75665
+MARCHE,ASCOLI PICENO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,164744,103821,1037,70383,31831
+MARCHE,FERMO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,135711,90854,1238,60030,28943
+MARCHE,MACERATA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,239776,161627,1785,106483,52349
+MARCHE,PESARO E URBINO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,276931,185525,1411,134419,48781
+MOLISE,CAMPOBASSO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,179752,84673,522,67516,16230
+MOLISE,ISERNIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,68865,33482,374,25662,7226
+PIEMONTE,ALESSANDRIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,323493,159949,656,108489,49828
+PIEMONTE,ASTI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,161894,77944,227,54049,23190
+PIEMONTE,BIELLA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,142326,72297,216,48731,22898
+PIEMONTE,CUNEO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,444360,243628,1056,171359,69645
+PIEMONTE,NOVARA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,280104,141401,435,97730,42532
+PIEMONTE,TORINO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,1738030,903840,2064,602577,294650
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,127296,61645,237,42337,18729
+PIEMONTE,VERCELLI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,134634,67429,226,47066,19711
+PUGLIA,BARI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,1014011,629001,8259,457534,160008
+PUGLIA,BARLETTA-ANDRIA-TRANI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,312202,199820,3464,152777,42522
+PUGLIA,BRINDISI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,319352,192290,3915,139150,47752
+PUGLIA,FOGGIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,486423,287719,5046,225130,55807
+PUGLIA,LECCE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,648580,426664,10077,300796,112830
+PUGLIA,TARANTO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,467444,275355,4154,201777,67695
+SARDEGNA,CAGLIARI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,356847,131231,170,80818,49902
+SARDEGNA,NUORO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,171935,59871,140,40324,19201
+SARDEGNA,ORISTANO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,133279,45533,93,31426,13869
+SARDEGNA,SASSARI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,398926,146356,442,99006,46421
+SARDEGNA,SUD SARDEGNA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,296157,101670,213,70626,30450
+SICILIA,AGRIGENTO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,345743,121505,185,97444,23318
+SICILIA,CALTANISSETTA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,209218,74805,137,59180,15188
+SICILIA,CATANIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,874536,317833,548,239068,76637
+SICILIA,ENNA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,133253,55378,131,42101,12824
+SICILIA,MESSINA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,500517,177841,647,125962,50067
+SICILIA,PALERMO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,994803,329846,565,243967,83738
+SICILIA,RAGUSA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,241449,90678,199,67636,22354
+SICILIA,SIRACUSA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,316970,116406,161,90309,25557
+SICILIA,TRAPANI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,341330,116220,292,89684,25714
+TOSCANA,AREZZO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,264024,174608,1538,118132,54078
+TOSCANA,FIRENZE,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,746454,515668,4265,319170,189629
+TOSCANA,GROSSETO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,171266,107923,885,70392,36076
+TOSCANA,LIVORNO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,262392,162316,1187,108804,51655
+TOSCANA,LUCCA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,311639,195329,1644,128443,64118
+TOSCANA,MASSA-CARRARA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,155000,93732,855,62542,29747
+TOSCANA,PISA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,323099,220295,1890,145825,71479
+TOSCANA,PISTOIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,225291,146692,1223,96461,48114
+TOSCANA,PRATO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,177770,118389,887,79863,37045
+TOSCANA,SIENA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,201618,135285,1277,87320,46008
+TRENTINO-ALTO ADIGE,BOLZANO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,392784,274869,13304,205468,54584
+TRENTINO-ALTO ADIGE,TRENTO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,413267,297103,4327,185022,105805
+UMBRIA,PERUGIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,493858,243550,598,167051,74861
+UMBRIA,TERNI,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,173396,81769,228,54938,26201
+VALLE D'AOSTA,AOSTA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,99010,72709,1190,48165,22708
+VENETO,BELLUNO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,163138,100971,936,55748,43541
+VENETO,PADOVA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,715141,500022,3863,308065,185288
+VENETO,ROVIGO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,187006,120283,1021,79651,38972
+VENETO,TREVISO,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,668147,455742,3992,269930,178853
+VENETO,VENEZIA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,652762,437436,3228,281706,150068
+VENETO,VERONA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,691773,453134,3720,276709,170428
+VENETO,VICENZA,1,Referendum Costituzionale - riduzione del numero dei parlamentari,C,656598,455062,3868,281409,167163

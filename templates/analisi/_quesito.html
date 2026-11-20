@@ -1,0 +1,15 @@
+{% load humanize %}
+<article class="quesito">
+  <header>
+    <h3>{% if q.numero %}Quesito {{ q.numero }}: {% endif %}{{ q.titolo }}</h3>
+    <span class="etichetta">{% if q.tipo == 'C' %}costituzionale{% else %}abrogativo{% endif %}</span>
+  </header>
+  <p class="costo">Elettori {{ q.elettori|intcomma }} · Votanti {{ q.votanti|intcomma }} · Affluenza <b>{{ q.affluenza|floatformat:2 }}%</b>
+    {% if q.tipo == 'A' %}· {% if q.affluenza > 50 %}sopra{% else %}sotto{% endif %} il 50%{% endif %}
+    {% if q.bianche %}· Bianche {{ q.bianche|intcomma }}{% endif %}</p>
+  <div class="si-no" aria-hidden="true"><span class="si" style="width:{{ q.si_pct|stringformat:'.2f' }}%"></span></div>
+  <div class="valori-si-no">
+    <span><b>Sì</b> {{ q.si_pct|floatformat:2 }}% <small>({{ q.si|intcomma }})</small>{% if q.diff_si is not None and con_diff %} <small>({% if q.diff_si > 0 %}+{% endif %}{{ q.diff_si|floatformat:2 }} vs Italia)</small>{% endif %}</span>
+    <span><b>No</b> {{ q.no_pct|floatformat:2 }}% <small>({{ q.no|intcomma }})</small></span>
+  </div>
+</article>

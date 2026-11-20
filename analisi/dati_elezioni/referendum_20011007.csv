@@ -1,0 +1,104 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,366388,111655,2538,65154,41078
+ABRUZZO,L'AQUILA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,270799,84555,1557,47041,33527
+ABRUZZO,PESCARA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,274451,87155,1543,51599,32140
+ABRUZZO,TERAMO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,258324,79204,1651,46441,28544
+BASILICATA,MATERA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,174019,48590,978,30568,15058
+BASILICATA,POTENZA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,361278,93942,2479,58381,29825
+CALABRIA,CATANZARO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,330382,67214,1717,39968,23470
+CALABRIA,COSENZA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,649293,141937,3904,85850,46265
+CALABRIA,CROTONE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,148727,23958,513,15604,7187
+CALABRIA,REGGIO CALABRIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,494048,91898,2386,52837,33097
+CALABRIA,VIBO VALENTIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,155192,31114,1111,18600,10217
+CAMPANIA,AVELLINO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,417524,92787,1937,56232,30843
+CAMPANIA,BENEVENTO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,269129,61229,1642,34088,23711
+CAMPANIA,CASERTA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,701234,158476,3872,86482,63817
+CAMPANIA,NAPOLI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,2476686,617758,6011,395925,199210
+CAMPANIA,SALERNO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,918221,252998,5909,143343,97281
+EMILIA ROMAGNA,BOLOGNA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,789616,421015,3011,310555,99863
+EMILIA ROMAGNA,FERRARA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,309493,150522,1485,104245,43246
+EMILIA ROMAGNA,FORLI'-CESENA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,308229,136874,959,97577,36937
+EMILIA ROMAGNA,MODENA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,529993,269272,2576,201565,63301
+EMILIA ROMAGNA,PARMA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,348815,141086,1257,94680,41994
+EMILIA ROMAGNA,PIACENZA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,234178,89662,1119,54811,32216
+EMILIA ROMAGNA,RAVENNA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,304833,153106,1253,115396,35117
+EMILIA ROMAGNA,REGGIO NELL'EMILIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,378709,201687,1625,157974,40759
+EMILIA ROMAGNA,RIMINI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,234773,91520,741,63874,26238
+FRIULI V.GIULIA,GORIZIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,123584,51263,481,35103,14981
+FRIULI V.GIULIA,PORDENONE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,261640,86044,827,50420,32500
+FRIULI V.GIULIA,TRIESTE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,222310,78290,652,48321,28360
+FRIULI V.GIULIA,UDINE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,480367,156987,719,94650,57566
+LAZIO,FROSINONE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,440090,124555,3131,65463,52219
+LAZIO,LATINA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,436721,124159,1908,64288,55559
+LAZIO,RIETI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,127139,44199,718,23888,18193
+LAZIO,ROMA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,3262993,1176890,8687,723029,426030
+LAZIO,VITERBO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,246685,84481,1247,45594,35702
+LIGURIA,GENOVA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,791322,291432,2594,202520,82576
+LIGURIA,IMPERIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,189780,53495,640,29646,21587
+LIGURIA,LA SPEZIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,195907,71050,692,47988,21435
+LIGURIA,SAVONA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,255117,97885,1288,59311,32767
+LOMBARDIA,BERGAMO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,806179,325982,3650,171955,145626
+LOMBARDIA,BRESCIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,907884,343079,3349,188607,145668
+LOMBARDIA,COMO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,460577,155476,1561,75351,68192
+LOMBARDIA,CREMONA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,283324,117010,1629,70149,43366
+LOMBARDIA,LECCO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,257937,97521,958,56899,38375
+LOMBARDIA,LODI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,164419,67360,831,39789,25679
+LOMBARDIA,MANTOVA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,318461,133303,1569,87644,42727
+LOMBARDIA,MILANO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,3135692,1149668,8183,701814,415403
+LOMBARDIA,PAVIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,430377,162558,2504,93146,64125
+LOMBARDIA,SONDRIO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,155819,40060,505,22720,16257
+LOMBARDIA,VARESE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,693243,246940,2440,131681,109499
+MARCHE,ANCONA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,384929,155723,2179,107873,43445
+MARCHE,ASCOLI PICENO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,316735,114221,1935,66504,39647
+MARCHE,MACERATA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,259138,92101,1736,55914,32677
+MARCHE,PESARO E URBINO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,305249,116331,1427,78390,34741
+MOLISE,CAMPOBASSO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,229760,64973,1635,38100,23364
+MOLISE,ISERNIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,89294,21973,675,10995,9144
+PIEMONTE,ALESSANDRIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,374941,141228,2008,84309,52556
+PIEMONTE,ASTI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,179930,58138,1022,34189,21275
+PIEMONTE,BIELLA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,164596,62569,920,36574,23854
+PIEMONTE,CUNEO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,468708,164593,3204,97304,60622
+PIEMONTE,NOVARA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,293041,102984,1367,59800,40129
+PIEMONTE,TORINO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,1886053,750269,7089,496590,234690
+PIEMONTE,VERBANO C.O.,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,144580,43379,518,25600,16272
+PIEMONTE,VERCELLI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,155588,56465,977,32824,21565
+PUGLIA,BARI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,1332999,371115,6466,218028,135792
+PUGLIA,BRINDISI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,345011,86404,2152,50678,31073
+PUGLIA,FOGGIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,583616,155781,2933,91392,56375
+PUGLIA,LECCE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,713129,171664,4162,107224,56223
+PUGLIA,TARANTO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,492724,138590,2916,81125,50384
+SARDEGNA,CAGLIARI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,660975,165532,2234,107236,52869
+SARDEGNA,NUORO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,235812,50573,628,37510,11480
+SARDEGNA,ORISTANO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,136852,32193,503,20856,10059
+SARDEGNA,SASSARI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,401028,101923,1399,72049,26645
+SICILIA,AGRIGENTO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,456125,89396,3502,50819,30007
+SICILIA,CALTANISSETTA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,278282,59829,2028,33267,21987
+SICILIA,CATANIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,911130,239822,6786,128273,94045
+SICILIA,ENNA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,188854,43118,1736,24763,13897
+SICILIA,MESSINA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,579616,149009,6744,73705,60270
+SICILIA,PALERMO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,1075871,269543,8075,145256,102789
+SICILIA,RAGUSA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,248076,69599,2402,39143,24399
+SICILIA,SIRACUSA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,352551,83571,1797,49125,29466
+SICILIA,TRAPANI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,377720,99492,4339,53101,36533
+TOSCANA,AREZZO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,272831,108801,1250,74031,32504
+TOSCANA,FIRENZE,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,801690,393627,4121,285293,98750
+TOSCANA,GROSSETO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,185986,73276,684,48160,23785
+TOSCANA,LIVORNO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,289822,127550,885,94624,30996
+TOSCANA,LUCCA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,334965,116925,8546,72355,40290
+TOSCANA,MASSA-CARRARA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,178771,56948,638,37038,17550
+TOSCANA,PISA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,328687,147116,1585,102981,40883
+TOSCANA,PISTOIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,233163,95914,1173,64646,28731
+TOSCANA,PRATO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,188873,77246,647,54662,21029
+TOSCANA,SIENA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,215966,106944,1063,80742,24177
+TRENTINO A.A.,BOLZANO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,379724,197666,2146,165699,27930
+TRENTINO A.A.,TRENTO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,400103,166961,2094,114563,48006
+UMBRIA,PERUGIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,522747,198546,2343,126953,66489
+UMBRIA,TERNI,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,191750,70248,782,45293,22817
+VALLE D'AOSTA,AOSTA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,102731,33563,875,14824,17168
+VENETO,BELLUNO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,198975,61874,657,38211,22335
+VENETO,PADOVA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,721617,313832,3307,181128,125107
+VENETO,ROVIGO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,211635,88637,1291,53976,31918
+VENETO,TREVISO,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,679690,263630,2451,139240,117599
+VENETO,VENEZIA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,707452,290057,2641,182669,98686
+VENETO,VERONA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,681662,278865,2619,144944,127816
+VENETO,VICENZA,1,REFERENDUM COSTITUZIONALE. Modifica al titolo V della parte seconda della Costituzione,C,658568,274192,2732,144260,124354

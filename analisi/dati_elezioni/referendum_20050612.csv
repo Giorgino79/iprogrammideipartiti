@@ -1,0 +1,441 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,322286,71382,3108,58528,8621
+ABRUZZO,L'AQUILA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,249138,61155,2052,52163,6127
+ABRUZZO,PESCARA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,251682,60877,2184,50941,6745
+ABRUZZO,TERAMO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,240988,52026,2350,42699,6179
+BASILICATA,MATERA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,163406,25675,764,21968,2485
+BASILICATA,POTENZA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,316039,50993,2327,40094,5611
+CALABRIA,CATANZARO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,293256,40903,1725,34237,4244
+CALABRIA,COSENZA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,590686,83038,3622,68989,8823
+CALABRIA,CROTONE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,133098,14294,523,12197,1389
+CALABRIA,REGGIO DI CALABRIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,430538,49679,1860,40544,5203
+CALABRIA,VIBO VALENTIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,132721,14140,731,11551,1553
+CAMPANIA,AVELLINO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,348790,57264,2393,47751,6319
+CAMPANIA,BENEVENTO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,232869,32903,1570,26697,4001
+CAMPANIA,CASERTA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,677709,84762,3392,68008,10014
+CAMPANIA,NAPOLI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,2414539,393858,8547,341605,38645
+CAMPANIA,SALERNO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,867648,143760,6020,118708,16812
+EMILIA-ROMAGNA,BOLOGNA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,765883,365391,7303,331222,24274
+EMILIA-ROMAGNA,FERRARA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,299206,130039,2882,116026,10270
+EMILIA-ROMAGNA,FORLÌ -CESENA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,301260,112647,2187,99860,9670
+EMILIA-ROMAGNA,MODENA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,518432,221533,5152,196779,18021
+EMILIA-ROMAGNA,PARMA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,333533,119694,2601,105056,10999
+EMILIA-ROMAGNA,PIACENZA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,216151,62493,1978,52685,7051
+EMILIA-ROMAGNA,RAVENNA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,299502,134603,2620,122217,8957
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,378896,166994,3692,149550,12849
+EMILIA-ROMAGNA,RIMINI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,229874,79194,1701,69863,6999
+FRIULI VENEZIA.G.,GORIZIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,116300,43873,1027,37914,4504
+FRIULI VENEZIA.G.,PORDENONE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,236286,65189,1589,53299,9529
+FRIULI VENEZIA.G.,TRIESTE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,200351,67438,1210,59837,5868
+FRIULI VENEZIA.G.,UDINE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,435285,121373,3114,100304,16572
+LAZIO,FROSINONE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,403768,82861,3730,66810,10624
+LAZIO,LATINA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,412713,91855,2253,77944,10332
+LAZIO,RIETI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,124540,35434,1139,28974,3899
+LAZIO,ROMA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,3199407,1111082,16599,990680,93647
+LAZIO,VITERBO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,248639,63200,1628,55278,5741
+LIGURIA,GENOVA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,743115,261493,5249,234282,19704
+LIGURIA,IMPERIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,175920,44315,1078,38690,4136
+LIGURIA,LA SPEZIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,185811,70409,1321,63972,4624
+LIGURIA,SAVONA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,235790,81087,2090,71114,7044
+LOMBARDIA,BERGAMO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,794459,166371,4732,134234,25819
+LOMBARDIA,BRESCIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,897558,188995,5186,157692,24237
+LOMBARDIA,COMO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,445976,88950,2268,71517,13953
+LOMBARDIA,CREMONA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,277805,68157,2183,56625,8562
+LOMBARDIA,LECCO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,257069,53160,1407,43751,7403
+LOMBARDIA,LODI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,166763,41829,1047,34858,5267
+LOMBARDIA,MANTOVA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,311073,98227,2669,85329,9516
+LOMBARDIA,MILANO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,2428785,814130,13749,714752,79573
+LOMBARDIA,MONZA E DELLA BRIANZA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,609276,168189,3248,142736,20810
+LOMBARDIA,PAVIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,420185,120595,3582,101866,13440
+LOMBARDIA,SONDRIO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,145688,23360,721,19422,2804
+LOMBARDIA,VARESE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,674393,157306,3989,129174,22349
+MARCHE,ANCONA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,372271,118522,3887,101103,12331
+MARCHE,ASCOLI PICENO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,165356,38226,1428,31533,4062
+MARCHE,FERMO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,136560,32984,1557,26966,3988
+MARCHE,MACERATA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,246990,53972,2309,44458,6411
+MARCHE,PESARO E URBINO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,291317,83832,2437,71798,8688
+MOLISE,CAMPOBASSO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,190392,34569,1660,27818,4321
+MOLISE,ISERNIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,74825,13123,722,10564,1580
+PIEMONTE,ALESSANDRIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,357305,109690,3270,93711,11444
+PIEMONTE,ASTI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,173158,42299,1610,34360,5730
+PIEMONTE,BIELLA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,156008,45201,1501,37554,5491
+PIEMONTE,CUNEO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,354245,78075,4213,60816,12123
+PIEMONTE,NOVARA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,285840,75369,2103,62315,9610
+PIEMONTE,TORINO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,1815343,615044,12695,528287,67179
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,131726,34951,905,29639,4002
+PIEMONTE,VERCELLI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,148295,41891,1298,34902,5093
+PUGLIA,BARI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,1001795,179198,4391,151884,20698
+PUGLIA,BARLETTA- ANDRIA-TRANI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,301389,40835,1260,33494,5464
+PUGLIA,BRINDISI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,325433,47492,1676,39780,5407
+PUGLIA,FOGGIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,504493,62305,2166,51028,7995
+PUGLIA,LECCE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,655186,96666,3308,83160,9248
+PUGLIA,TARANTO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,485281,75316,2307,63455,8621
+SARDEGNA,CAGLIARI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,457791,136607,4215,118206,13065
+SARDEGNA,CARBONIA-IGLESIAS,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,111808,25923,798,22391,2489
+SARDEGNA,MEDIO CAMPIDANO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,87387,24726,1034,20966,2503
+SARDEGNA,NUORO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,134840,36563,1367,31649,3214
+SARDEGNA,OGLIASTRA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,48534,11966,384,10495,966
+SARDEGNA,OLBIA-TEMPIO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,117709,25346,1211,21291,2562
+SARDEGNA,ORISTANO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,141370,34895,1787,28501,4107
+SARDEGNA,SASSARI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,279401,78802,3110,67109,7797
+SICILIA,AGRIGENTO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,364041,46884,1824,38230,5713
+SICILIA,CALTANISSETTA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,220760,27931,1116,22363,3859
+SICILIA,CATANIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,865409,148563,4056,121940,19947
+SICILIA,ENNA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,142538,23073,891,18624,2921
+SICILIA,MESSINA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,531063,81846,3985,63745,12003
+SICILIA,PALERMO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,1003298,164680,4751,132820,23858
+SICILIA,RAGUSA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,237764,36693,1452,28712,5549
+SICILIA,SIRACUSA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,321654,55932,1355,47117,6520
+SICILIA,TRAPANI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,349499,49964,2372,38548,7685
+TOSCANA,AREZZO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,267711,89628,2539,78918,7424
+TOSCANA,FIRENZE,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,771023,356072,7031,324099,21756
+TOSCANA,GROSSETO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,181549,64216,1307,57851,4565
+TOSCANA,LIVORNO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,279558,129079,2070,119089,7265
+TOSCANA,LUCCA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,312780,96671,2338,82771,9375
+TOSCANA,MASSA-CARRARA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,167678,58083,1182,52340,4050
+TOSCANA,PISA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,321021,134632,2784,121210,9543
+TOSCANA,PISTOIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,227626,81716,1987,72401,6389
+TOSCANA,PRATO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,186734,68056,1256,60826,5342
+TOSCANA,SIENA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,212173,93292,2256,84849,5624
+TRENTINO A.A.,BOLZANO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,364628,60616,1936,46404,11749
+TRENTINO A.A.,TRENTO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,387634,95455,2588,79727,12263
+UMBRIA,PERUGIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,505157,144766,4141,124290,14615
+UMBRIA,TERNI,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,186111,60620,1464,53407,5057
+VALLE D'AOSTA,AOSTA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,100401,26583,899,22740,2650
+VENETO,BELLUNO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,173631,41734,1231,34633,5459
+VENETO,PADOVA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,703992,187727,5241,153627,26940
+VENETO,ROVIGO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,204174,55566,1530,47128,6435
+VENETO,TREVISO,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,646434,162755,4571,133158,23428
+VENETO,VENEZIA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,675387,210795,4312,181301,23407
+VENETO,VERONA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,670993,144636,3877,120407,19115
+VENETO,VICENZA,1,PROCREAZIONE MEDICALMENTE ASSISTITA. Limite alla ricerca clinica e sperimentale sugli embrioni. Abrogazione parziale.,A,631340,140788,4082,113577,22132
+ABRUZZO,CHIETI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,322286,71360,3289,58647,8225
+ABRUZZO,L'AQUILA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,249138,61122,2159,52417,5722
+ABRUZZO,PESCARA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,251682,60870,2326,51266,6363
+ABRUZZO,TERAMO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,240988,52104,2445,42726,5921
+BASILICATA,MATERA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,163406,25673,810,22026,2386
+BASILICATA,POTENZA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,316039,50980,2503,40864,5510
+CALABRIA,CATANZARO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,293256,40948,1826,34441,3956
+CALABRIA,COSENZA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,590686,83902,3847,69214,8389
+CALABRIA,CROTONE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,133098,14293,558,12306,1258
+CALABRIA,REGGIO DI CALABRIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,430538,50347,1944,40935,4953
+CALABRIA,VIBO VALENTIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,132721,14332,810,11603,1456
+CAMPANIA,AVELLINO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,348790,57238,2538,47822,6069
+CAMPANIA,BENEVENTO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,232869,32897,1702,26733,3775
+CAMPANIA,CASERTA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,677709,84747,3564,70302,9575
+CAMPANIA,NAPOLI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,2414539,393919,9058,344934,34866
+CAMPANIA,SALERNO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,867648,143551,6397,119026,16266
+EMILIA-ROMAGNA,BOLOGNA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,765883,365379,7601,333214,21988
+EMILIA-ROMAGNA,FERRARA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,299206,130120,3117,116369,9704
+EMILIA-ROMAGNA,FORLÌ -CESENA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,301260,112635,2413,100028,9197
+EMILIA-ROMAGNA,MODENA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,518432,221421,5445,197475,16728
+EMILIA-ROMAGNA,PARMA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,333533,119654,2842,105179,10603
+EMILIA-ROMAGNA,PIACENZA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,216151,62477,2175,52508,6924
+EMILIA-ROMAGNA,RAVENNA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,299502,134696,2851,122425,8563
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,378896,166973,3987,150048,11822
+EMILIA-ROMAGNA,RIMINI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,229874,79182,1765,70245,6564
+FRIULI VENEZIA.G.,GORIZIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,116300,43861,1120,38008,4328
+FRIULI VENEZIA.G.,PORDENONE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,236286,65173,1712,53684,9007
+FRIULI VENEZIA.G.,TRIESTE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,200351,67425,1332,59851,5683
+FRIULI VENEZIA.G.,UDINE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,435285,121333,3331,100902,15721
+LAZIO,FROSINONE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,403768,82957,3933,67177,10109
+LAZIO,LATINA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,412713,91755,2362,78642,9704
+LAZIO,RIETI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,124540,35386,1244,28990,3722
+LAZIO,ROMA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,3199407,1111008,17319,1001531,82309
+LAZIO,VITERBO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,248639,64294,1796,55257,5554
+LIGURIA,GENOVA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,743115,261331,5505,235483,18284
+LIGURIA,IMPERIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,175920,44296,1149,38880,3779
+LIGURIA,LA SPEZIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,185811,70425,1421,64258,4263
+LIGURIA,SAVONA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,235790,81062,2222,71512,6522
+LOMBARDIA,BERGAMO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,794459,166344,5064,135478,24234
+LOMBARDIA,BRESCIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,897558,188706,5508,158597,23158
+LOMBARDIA,COMO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,445976,88886,2547,71719,13655
+LOMBARDIA,CREMONA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,277805,68154,2308,56673,8348
+LOMBARDIA,LECCO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,257069,53139,1564,43938,7112
+LOMBARDIA,LODI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,166763,41823,1171,34972,5199
+LOMBARDIA,MANTOVA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,311073,98311,2953,85394,9180
+LOMBARDIA,MILANO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,2428785,813973,14686,719738,73697
+LOMBARDIA,MONZA E DELLA BRIANZA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,609276,168327,3600,143636,19568
+LOMBARDIA,PAVIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,420185,120428,3930,101487,13334
+LOMBARDIA,SONDRIO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,145688,23358,743,19552,2757
+LOMBARDIA,VARESE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,674393,157309,4234,129926,21353
+MARCHE,ANCONA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,372271,118481,4130,101361,11804
+MARCHE,ASCOLI PICENO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,165356,38226,1506,31909,4003
+MARCHE,FERMO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,136560,32973,1687,26791,3988
+MARCHE,MACERATA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,246990,53950,2451,44490,6191
+MARCHE,PESARO E URBINO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,291317,83820,2609,72160,8158
+MOLISE,CAMPOBASSO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,190392,34565,1752,27840,4274
+MOLISE,ISERNIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,74825,13122,789,10591,1516
+PIEMONTE,ALESSANDRIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,357305,109673,3584,93533,11321
+PIEMONTE,ASTI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,173158,42295,1746,34341,5547
+PIEMONTE,BIELLA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,156008,45192,1621,37502,5434
+PIEMONTE,CUNEO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,354245,78743,4603,60842,11776
+PIEMONTE,NOVARA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,285840,74916,2215,62570,9721
+PIEMONTE,TORINO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,1815343,615139,13541,532112,62565
+PIEMONTE,VERBANO-CUSIO-OSSOLA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,131726,34946,1005,29717,3835
+PIEMONTE,VERCELLI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,148295,41878,1442,34866,4942
+PUGLIA,BARI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,1001795,179159,4789,152319,19749
+PUGLIA,BARLETTA- ANDRIA-TRANI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,301389,40834,1398,33615,5213
+PUGLIA,BRINDISI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,325433,47486,1801,39898,5154
+PUGLIA,FOGGIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,504493,62299,2346,51227,7599
+PUGLIA,LECCE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,655186,96643,3625,83416,8684
+PUGLIA,TARANTO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,485281,75306,2452,63593,8200
+SARDEGNA,CAGLIARI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,457791,136614,4207,119811,11548
+SARDEGNA,CARBONIA-IGLESIAS,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,111808,25921,846,22634,2214
+SARDEGNA,MEDIO CAMPIDANO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,87387,24724,1084,21044,2368
+SARDEGNA,NUORO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,134840,36567,1459,31855,2955
+SARDEGNA,OGLIASTRA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,48534,11950,411,10584,861
+SARDEGNA,OLBIA-TEMPIO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,117709,25331,1281,21529,2295
+SARDEGNA,ORISTANO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,141370,34891,1864,28825,3747
+SARDEGNA,SASSARI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,279401,78810,3221,67803,6935
+SICILIA,AGRIGENTO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,364041,46887,1995,38442,5374
+SICILIA,CALTANISSETTA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,220760,27929,1154,22465,3720
+SICILIA,CATANIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,865409,148464,4295,123587,17879
+SICILIA,ENNA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,142538,23069,945,18831,2668
+SICILIA,MESSINA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,531063,81826,4199,64508,11051
+SICILIA,PALERMO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,1003298,164970,5050,134696,21780
+SICILIA,RAGUSA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,237764,36688,1558,28907,5262
+SICILIA,SIRACUSA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,321654,55936,1429,47319,6266
+SICILIA,TRAPANI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,349499,49980,2561,38698,7322
+TOSCANA,AREZZO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,267711,89612,2838,78919,6926
+TOSCANA,FIRENZE,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,771023,356044,7490,325748,19754
+TOSCANA,GROSSETO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,181549,64208,1464,58008,4212
+TOSCANA,LIVORNO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,279558,129076,2242,119525,6525
+TOSCANA,LUCCA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,312780,96663,2423,83447,8559
+TOSCANA,MASSA-CARRARA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,167678,58070,1243,52590,3718
+TOSCANA,PISA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,321021,134636,3039,121680,8775
+TOSCANA,PISTOIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,227626,81627,2173,72793,5846
+TOSCANA,PRATO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,186734,68057,1340,61112,4564
+TOSCANA,SIENA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,212173,93288,2505,84864,5361
+TRENTINO A.A.,BOLZANO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,364628,60620,1897,50493,7738
+TRENTINO A.A.,TRENTO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,387634,95431,2747,80455,11322
+UMBRIA,PERUGIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,505157,144645,4405,125077,13636
+UMBRIA,TERNI,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,186111,60598,1597,53475,4844
+VALLE D'AOSTA,AOSTA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,100401,26579,983,22728,2585
+VENETO,BELLUNO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,173631,41722,1335,34842,5125
+VENETO,PADOVA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,703992,187944,5633,154896,25302
+VENETO,ROVIGO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,204174,55561,1663,46942,6468
+VENETO,TREVISO,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,646434,162728,4882,134017,22316
+VENETO,VENEZIA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,675387,210718,4682,182589,21703
+VENETO,VERONA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,670993,144576,4201,120526,18632
+VENETO,VICENZA,2,PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sui limiti all'accesso. Abrogazione parziale,A,631340,140948,4454,114376,21114
+ABRUZZO,CHIETI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,322286,71363,3406,57894,8827
+ABRUZZO,L'AQUILA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,249138,61144,2292,51710,6303
+ABRUZZO,PESCARA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,251682,60861,2415,50421,7089
+ABRUZZO,TERAMO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,240988,52006,2546,42270,6415
+BASILICATA,MATERA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,163406,25672,879,21782,2563
+BASILICATA,POTENZA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,316039,50982,2623,39826,5559
+CALABRIA,CATANZARO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,293256,40949,1935,33826,4440
+CALABRIA,COSENZA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,590686,83012,4119,68419,8930
+CALABRIA,CROTONE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,133098,14294,566,12143,1403
+CALABRIA,REGGIO DI CALABRIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,430538,49682,2027,40285,5510
+CALABRIA,VIBO VALENTIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,132721,14134,851,11442,1560
+CAMPANIA,AVELLINO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,348790,57244,2687,47023,6679
+CAMPANIA,BENEVENTO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,232869,32887,1768,26228,4226
+CAMPANIA,CASERTA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,677709,84737,3788,66510,10176
+CAMPANIA,NAPOLI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,2414539,393988,9660,340037,39080
+CAMPANIA,SALERNO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,867648,143754,6566,117569,17326
+EMILIA-ROMAGNA,BOLOGNA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,765883,365181,8082,330424,24213
+EMILIA-ROMAGNA,FERRARA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,299206,130113,3308,115142,10837
+EMILIA-ROMAGNA,FORLÌ -CESENA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,301260,112615,2559,98866,10143
+EMILIA-ROMAGNA,MODENA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,518432,221498,5865,195107,18312
+EMILIA-ROMAGNA,PARMA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,333533,119532,3140,103602,11867
+EMILIA-ROMAGNA,PIACENZA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,216151,62468,2290,51805,7541
+EMILIA-ROMAGNA,RAVENNA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,299502,134666,3085,121250,9407
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,378896,166957,4186,148818,12990
+EMILIA-ROMAGNA,RIMINI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,229874,79165,1913,69195,7417
+FRIULI VENEZIA.G.,GORIZIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,116300,43851,1170,37648,4605
+FRIULI VENEZIA.G.,PORDENONE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,236286,65144,1882,52770,9777
+FRIULI VENEZIA.G.,TRIESTE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,200351,67414,1332,59292,6062
+FRIULI VENEZIA.G.,UDINE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,435285,121320,3593,99320,16887
+LAZIO,FROSINONE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,403768,82915,4162,66151,10938
+LAZIO,LATINA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,412713,91573,2512,77429,10513
+LAZIO,RIETI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,124540,35383,1273,28695,4083
+LAZIO,ROMA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,3199407,1110825,18612,989919,92045
+LAZIO,VITERBO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,248639,63324,1937,54681,5992
+LIGURIA,GENOVA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,743115,261325,5983,232943,20190
+LIGURIA,IMPERIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,175920,44288,1232,38353,4160
+LIGURIA,LA SPEZIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,185811,70383,1536,63612,4766
+LIGURIA,SAVONA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,235790,81044,2357,70601,7263
+LOMBARDIA,BERGAMO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,794459,166318,5369,132365,26993
+LOMBARDIA,BRESCIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,897558,188997,5746,156179,25266
+LOMBARDIA,COMO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,445976,88896,2655,70126,14794
+LOMBARDIA,CREMONA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,277805,68035,2488,55473,9248
+LOMBARDIA,LECCO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,257069,53116,1693,42983,7875
+LOMBARDIA,LODI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,166763,41805,1245,34424,5637
+LOMBARDIA,MANTOVA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,311073,98295,3123,84202,10159
+LOMBARDIA,MILANO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,2428785,813700,15884,708445,83292
+LOMBARDIA,MONZA E DELLA BRIANZA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,609276,168126,3835,140624,22097
+LOMBARDIA,PAVIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,420185,120555,4175,99902,14776
+LOMBARDIA,SONDRIO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,145688,23351,816,19212,3032
+LOMBARDIA,VARESE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,674393,157245,4571,127028,23952
+MARCHE,ANCONA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,372271,118455,4300,100170,12723
+MARCHE,ASCOLI PICENO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,165356,38219,1586,31264,4357
+MARCHE,FERMO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,136560,32971,1751,26466,4246
+MARCHE,MACERATA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,246990,53933,2624,43632,6797
+MARCHE,PESARO E URBINO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,291317,83796,2815,71009,9068
+MOLISE,CAMPOBASSO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,190392,34558,1819,27523,4541
+MOLISE,ISERNIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,74825,13116,787,10414,1676
+PIEMONTE,ALESSANDRIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,357305,110014,3731,92101,12764
+PIEMONTE,ASTI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,173158,42290,1842,33791,5970
+PIEMONTE,BIELLA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,156008,45181,1712,36934,5868
+PIEMONTE,CUNEO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,354245,77933,4833,59390,12989
+PIEMONTE,NOVARA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,285840,74953,2388,60993,10725
+PIEMONTE,TORINO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,1815343,614883,14695,524124,69044
+PIEMONTE,VERBANO-CUSIO-OSSOLA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,131726,34941,1089,29126,4305
+PIEMONTE,VERCELLI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,148295,41866,1498,34237,5508
+PUGLIA,BARI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,1001795,179147,5199,149725,22007
+PUGLIA,BARLETTA- ANDRIA-TRANI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,301389,40826,1475,32917,5674
+PUGLIA,BRINDISI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,325433,47484,1871,39480,5528
+PUGLIA,FOGGIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,504493,62282,2513,50635,7993
+PUGLIA,LECCE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,655186,96635,3790,82332,9541
+PUGLIA,TARANTO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,485281,75279,2566,62736,8980
+SARDEGNA,CAGLIARI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,457791,136592,4423,118636,12305
+SARDEGNA,CARBONIA-IGLESIAS,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,111808,25920,857,22422,2363
+SARDEGNA,MEDIO CAMPIDANO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,87387,24717,1127,20950,2411
+SARDEGNA,NUORO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,134840,36546,1494,31665,3075
+SARDEGNA,OGLIASTRA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,48534,11972,421,10526,894
+SARDEGNA,OLBIA-TEMPIO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,117709,25324,1309,21304,2461
+SARDEGNA,ORISTANO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,141370,34883,1924,28476,3975
+SARDEGNA,SASSARI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,279401,78801,3343,67239,7420
+SICILIA,AGRIGENTO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,364041,46890,2084,37891,5801
+SICILIA,CALTANISSETTA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,220760,27924,1211,22176,3926
+SICILIA,CATANIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,865409,148538,4371,121777,19416
+SICILIA,ENNA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,142538,23468,964,18600,2874
+SICILIA,MESSINA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,531063,81823,4331,63262,12070
+SICILIA,PALERMO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,1003298,164947,5416,132280,23888
+SICILIA,RAGUSA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,237764,36691,1592,28494,5613
+SICILIA,SIRACUSA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,321654,55931,1498,46714,6796
+SICILIA,TRAPANI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,349499,49951,2676,37951,7923
+TOSCANA,AREZZO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,267711,89589,2921,78092,7982
+TOSCANA,FIRENZE,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,771023,355983,8088,322251,22456
+TOSCANA,GROSSETO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,181549,64193,1512,57461,4718
+TOSCANA,LIVORNO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,279558,129260,2394,118555,7352
+TOSCANA,LUCCA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,312780,96634,2668,82152,9621
+TOSCANA,MASSA-CARRARA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,167678,58062,1332,51974,4189
+TOSCANA,PISA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,321021,134623,3257,120327,9842
+TOSCANA,PISTOIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,227626,81585,2292,71907,6573
+TOSCANA,PRATO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,186734,68035,1462,60252,5663
+TOSCANA,SIENA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,212173,93244,2658,84166,5852
+TRENTINO A.A.,BOLZANO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,364628,60619,2145,48791,9177
+TRENTINO A.A.,TRENTO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,387634,95409,3058,79163,12314
+UMBRIA,PERUGIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,505157,144614,4628,123269,15054
+UMBRIA,TERNI,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,186111,60586,1697,52856,5332
+VALLE D'AOSTA,AOSTA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,100401,26569,1059,22380,2839
+VENETO,BELLUNO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,173631,41705,1441,34274,5566
+VENETO,PADOVA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,703992,187650,6196,151597,28018
+VENETO,ROVIGO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,204174,55553,1783,46339,6951
+VENETO,TREVISO,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,646434,163459,5268,131046,24710
+VENETO,VENEZIA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,675387,210673,5022,179961,23863
+VENETO,VERONA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,670993,144530,4543,117502,21202
+VENETO,VICENZA,3,"PROCREAZIONE MEDICALMENTE ASSISTITA. Norme sulle finalita', sui diritti dei soggetti coinvolti e sui limiti all'accesso. Abrogazione parziale",A,631340,141623,4830,111578,23231
+ABRUZZO,CHIETI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,322286,71332,3415,51077,15519
+ABRUZZO,L'AQUILA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,249138,61097,2379,45659,12147
+ABRUZZO,PESCARA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,251682,60837,2493,44226,13150
+ABRUZZO,TERAMO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,240988,51995,2576,37612,10959
+BASILICATA,MATERA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,163406,25652,925,18918,5330
+BASILICATA,POTENZA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,316039,50972,2525,35925,9634
+CALABRIA,CATANZARO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,293256,40973,1944,29866,8340
+CALABRIA,COSENZA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,590686,82979,4140,60510,16605
+CALABRIA,CROTONE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,133098,14288,600,10885,2609
+CALABRIA,REGGIO DI CALABRIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,430538,49607,2072,34873,10772
+CALABRIA,VIBO VALENTIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,132721,14111,896,9941,3021
+CAMPANIA,AVELLINO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,348790,57204,2758,41204,12289
+CAMPANIA,BENEVENTO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,232869,32876,1755,23028,7371
+CAMPANIA,CASERTA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,677709,84723,3832,60075,19326
+CAMPANIA,NAPOLI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,2414539,394023,9830,297602,80876
+CAMPANIA,SALERNO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,867648,143680,6622,103965,30711
+EMILIA-ROMAGNA,BOLOGNA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,765883,365081,8632,299394,54338
+EMILIA-ROMAGNA,FERRARA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,299206,130052,3382,104915,20723
+EMILIA-ROMAGNA,FORLÌ -CESENA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,301260,112560,2653,88853,20005
+EMILIA-ROMAGNA,MODENA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,518432,221374,6033,177686,35955
+EMILIA-ROMAGNA,PARMA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,333533,119560,3327,91033,24192
+EMILIA-ROMAGNA,PIACENZA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,216151,62432,2303,45579,13770
+EMILIA-ROMAGNA,RAVENNA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,299502,134589,3346,110379,19876
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,378896,166953,4440,134874,26422
+EMILIA-ROMAGNA,RIMINI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,229874,79121,1982,61466,15022
+FRIULI VENEZIA.G.,GORIZIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,116300,43819,1239,33034,9084
+FRIULI VENEZIA.G.,PORDENONE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,236286,65102,1859,44696,17693
+FRIULI VENEZIA.G.,TRIESTE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,200351,67340,1592,51074,14109
+FRIULI VENEZIA.G.,UDINE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,435285,121209,3726,84468,31554
+LAZIO,FROSINONE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,403768,82872,3952,59668,17403
+LAZIO,LATINA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,412713,91598,2527,69193,18716
+LAZIO,RIETI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,124540,35390,1266,25355,9449
+LAZIO,ROMA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,3199407,1110100,19366,874559,205087
+LAZIO,VITERBO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,248639,63273,1968,48820,11745
+LIGURIA,GENOVA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,743115,261084,6462,206114,46176
+LIGURIA,IMPERIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,175920,44233,1254,33981,8451
+LIGURIA,LA SPEZIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,185811,70328,1689,56789,11319
+LIGURIA,SAVONA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,235790,80999,2440,62818,14836
+LOMBARDIA,BERGAMO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,794459,166156,5477,115461,43514
+LOMBARDIA,BRESCIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,897558,188992,5878,138284,42728
+LOMBARDIA,COMO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,445976,88850,2657,59771,25064
+LOMBARDIA,CREMONA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,277805,68080,2481,49235,15634
+LOMBARDIA,LECCO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,257069,53133,1738,36510,14423
+LOMBARDIA,LODI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,166763,41780,1281,30138,9832
+LOMBARDIA,MANTOVA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,311073,98230,3245,74458,19667
+LOMBARDIA,MILANO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,2428785,812921,17025,609782,179358
+LOMBARDIA,MONZA E DELLA BRIANZA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,609276,168115,3883,120520,41957
+LOMBARDIA,PAVIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,420185,120465,4307,87096,27382
+LOMBARDIA,SONDRIO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,145688,23319,837,16445,5596
+LOMBARDIA,VARESE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,674393,157121,4529,109164,41505
+MARCHE,ANCONA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,372271,118330,4432,87582,25111
+MARCHE,ASCOLI PICENO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,165356,38210,1600,27616,8155
+MARCHE,FERMO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,136560,32962,1841,23018,7593
+MARCHE,MACERATA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,246990,53918,2621,37923,12535
+MARCHE,PESARO E URBINO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,291317,83748,2838,63105,16919
+MOLISE,CAMPOBASSO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,190392,34540,1787,24102,7921
+MOLISE,ISERNIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,74825,13110,800,9188,2890
+PIEMONTE,ALESSANDRIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,357305,109586,3823,81660,22831
+PIEMONTE,ASTI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,173158,42271,1816,29216,10528
+PIEMONTE,BIELLA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,156008,45151,1722,32134,10590
+PIEMONTE,CUNEO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,354245,77993,4659,51153,21298
+PIEMONTE,NOVARA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,285840,74853,2411,52914,18690
+PIEMONTE,TORINO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,1815343,614524,14601,454828,137698
+PIEMONTE,VERBANO-CUSIO-OSSOLA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,131726,34917,1114,26477,6888
+PIEMONTE,VERCELLI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,148295,41839,1566,29983,9648
+PUGLIA,BARI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,1001795,179052,5491,123223,47968
+PUGLIA,BARLETTA- ANDRIA-TRANI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,301389,40817,1453,27561,11169
+PUGLIA,BRINDISI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,325433,47462,1978,34186,10600
+PUGLIA,FOGGIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,504493,62269,2563,42905,15637
+PUGLIA,LECCE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,655186,96587,4035,70565,20968
+PUGLIA,TARANTO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,485281,75273,2620,55160,16438
+SARDEGNA,CAGLIARI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,457791,136501,4430,106267,24552
+SARDEGNA,CARBONIA-IGLESIAS,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,111808,25908,852,20458,4246
+SARDEGNA,MEDIO CAMPIDANO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,87387,24698,1072,19260,4149
+SARDEGNA,NUORO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,134840,36540,1496,28818,5885
+SARDEGNA,OGLIASTRA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,48534,11939,433,9681,1709
+SARDEGNA,OLBIA-TEMPIO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,117709,25312,1317,19464,4290
+SARDEGNA,ORISTANO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,141370,34875,1862,25767,6730
+SARDEGNA,SASSARI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,279401,78755,3270,61185,13310
+SICILIA,AGRIGENTO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,364041,46884,2088,32992,10688
+SICILIA,CALTANISSETTA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,220760,27905,1218,19234,6827
+SICILIA,CATANIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,865409,148461,4533,104555,36416
+SICILIA,ENNA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,142538,23058,986,16091,5295
+SICILIA,MESSINA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,531063,81780,4271,54786,20553
+SICILIA,PALERMO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,1003298,164828,5305,113509,42452
+SICILIA,RAGUSA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,237764,36650,1605,25061,8978
+SICILIA,SIRACUSA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,321654,55906,1486,40761,12673
+SICILIA,TRAPANI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,349499,49944,2573,33296,12661
+TOSCANA,AREZZO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,267711,89490,3096,70264,15312
+TOSCANA,FIRENZE,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,771023,355980,8821,290921,52981
+TOSCANA,GROSSETO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,181549,64160,1613,52383,9627
+TOSCANA,LIVORNO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,279558,128978,2661,107500,17952
+TOSCANA,LUCCA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,312780,97158,2773,71580,19858
+TOSCANA,MASSA-CARRARA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,167678,58031,1452,46811,9125
+TOSCANA,PISA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,321021,134541,3626,107222,22018
+TOSCANA,PISTOIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,227626,81505,2459,64492,13694
+TOSCANA,PRATO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,186734,67951,1514,54348,11461
+TOSCANA,SIENA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,212173,93159,2958,76720,12821
+TRENTINO A.A.,BOLZANO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,364628,60580,2160,42641,15243
+TRENTINO A.A.,TRENTO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,387634,95333,2942,67358,24042
+UMBRIA,PERUGIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,505157,144591,4840,108897,29198
+UMBRIA,TERNI,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,186111,60548,1754,47257,10793
+VALLE D'AOSTA,AOSTA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,100401,26553,1090,19217,5941
+VENETO,BELLUNO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,173631,41659,1395,28930,10894
+VENETO,PADOVA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,703992,187507,6129,128438,50971
+VENETO,ROVIGO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,204174,55512,1833,40947,12216
+VENETO,TREVISO,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,646434,162400,5254,109922,45718
+VENETO,VENEZIA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,675387,210542,5129,158314,45178
+VENETO,VERONA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,670993,144410,4537,99402,39128
+VENETO,VICENZA,4,PROCREAZIONE MEDICALMENTE ASSISTITA. Divieto di fecondazione eterologa. Abrogazione parziale,A,631340,140787,4663,94734,40012

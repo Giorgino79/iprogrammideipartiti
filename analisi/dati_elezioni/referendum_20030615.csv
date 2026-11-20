@@ -1,0 +1,207 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,323183,89386,2308,75512,10319
+ABRUZZO,L'AQUILA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,248621,63972,1575,53257,7907
+ABRUZZO,PESCARA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,251475,66630,1472,56016,8220
+ABRUZZO,TERAMO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,240905,60911,1569,51208,7320
+BASILICATA,MATERA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,163755,37795,781,31947,4252
+BASILICATA,POTENZA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,321862,82244,2358,68476,9528
+CALABRIA,CATANZARO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,295771,59115,1463,50875,5837
+CALABRIA,COSENZA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,593206,125489,3524,106665,13028
+CALABRIA,CROTONE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,134171,19263,440,16580,1991
+CALABRIA,REGGIO DI CALABRIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,446941,76066,1941,64830,7959
+CALABRIA,VIBO VALENTIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,134145,25675,945,21245,2891
+CAMPANIA,AVELLINO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,350709,80271,1956,68430,9036
+CAMPANIA,BENEVENTO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,235579,54126,1505,45306,6410
+CAMPANIA,CASERTA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,671730,132734,2955,113288,14542
+CAMPANIA,NAPOLI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,2413380,549538,6508,487579,45003
+CAMPANIA,SALERNO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,869432,202388,5370,167964,24870
+EMILIA R.,BOLOGNA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,770478,258188,5736,220745,29478
+EMILIA R.,FERRARA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,300210,106317,2392,88022,12968
+EMILIA R.,FORLÌ -CESENA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,297800,84288,1717,71364,10299
+EMILIA R.,MODENA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,518016,159554,4271,132149,21510
+EMILIA R.,PARMA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,334275,89431,2024,74304,12172
+EMILIA R.,PIACENZA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,223628,54350,1440,43972,8458
+EMILIA R.,RAVENNA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,296851,91250,2080,76979,10303
+EMILIA R.,REGGIO NELL'EMILIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,376632,136025,3381,115881,15705
+EMILIA R.,RIMINI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,229416,60536,1259,51690,7082
+FRIULI V.G.,GORIZIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,117198,39411,854,33106,5054
+FRIULI V.G.,PORDENONE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,237040,60429,1426,47362,10975
+FRIULI V.G.,TRIESTE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,205645,49169,1581,40094,7438
+FRIULI V.G.,UDINE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,433798,108502,2430,85124,18731
+LAZIO,FROSINONE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,403969,116578,2646,99428,12536
+LAZIO,LATINA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,427106,93343,1845,78106,12200
+LAZIO,RIETI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,124945,37774,908,30736,4585
+LAZIO,ROMA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,3186649,949166,12563,803310,105249
+LAZIO,VITERBO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,244760,63289,1510,53315,7495
+LIGURIA,GENOVA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,757138,210804,3454,185357,19989
+LIGURIA,IMPERIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,178626,32076,837,26235,4452
+LIGURIA,LA SPEZIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,188183,57243,1064,50558,5156
+LIGURIA,SAVONA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,238445,61048,1477,51467,7455
+LOMBARDIA,BERGAMO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,783462,179223,4687,143400,29103
+LOMBARDIA,BRESCIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,882489,198934,4078,167704,26058
+LOMBARDIA,COMO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,445535,97496,2612,74989,18548
+LOMBARDIA,CREMONA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,278407,73552,2015,60517,10005
+LOMBARDIA,LECCO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,255995,58243,1343,47461,8730
+LOMBARDIA,LODI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,165151,49151,1004,41367,6193
+LOMBARDIA,MANTOVA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,312536,87071,2224,71985,11727
+LOMBARDIA,MILANO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,3076902,816272,12589,693811,102236
+LOMBARDIA,PAVIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,419393,114804,3691,92204,16961
+LOMBARDIA,SONDRIO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,146123,23969,880,18594,4128
+LOMBARDIA,VARESE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,676418,168586,3516,136626,26224
+MARCHE,ANCONA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,372935,114168,2957,97271,12631
+MARCHE,ASCOLI PICENO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,300723,80852,2013,65791,10027
+MARCHE,MACERATA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,248302,59667,1870,48402,8483
+MARCHE,PESARO E URBINO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,290501,76107,1977,63481,9649
+MOLISE,CAMPOBASSO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,192693,52277,1579,43801,6051
+MOLISE,ISERNIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,75127,17434,633,14271,2317
+PIEMONTE,ALESSANDRIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,363405,103035,2692,83276,14792
+PIEMONTE,ASTI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,162904,45034,1400,35492,7448
+PIEMONTE,BIELLA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,158252,42304,1248,33381,6943
+PIEMONTE,CUNEO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,454917,106954,3974,81218,19722
+PIEMONTE,NOVARA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,286095,73572,1780,59812,11003
+PIEMONTE,TORINO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,1834343,580264,9768,489296,74466
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,133066,29912,824,23451,4696
+PIEMONTE,VERCELLI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,150333,42161,1426,33297,6672
+PUGLIA,BARI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,1267875,302452,5212,257731,35745
+PUGLIA,BRINDISI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,325960,72528,1530,63083,6899
+PUGLIA,FOGGIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,538755,127137,2300,108244,13556
+PUGLIA,LECCE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,656736,117992,3080,99103,12869
+PUGLIA,TARANTO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,480120,113196,2046,99062,10642
+SARDEGNA,CAGLIARI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,637392,160298,1867,142523,14851
+SARDEGNA,NUORO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,219081,46952,576,41734,4297
+SARDEGNA,ORISTANO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,129588,26173,415,22047,3435
+SARDEGNA,SASSARI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,387120,81730,1097,71621,8451
+SICILIA,AGRIGENTO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,371748,77426,2027,66145,7668
+SICILIA,CALTANISSETTA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,224839,58474,1376,49535,6309
+SICILIA,CATANIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,860589,202056,4695,167269,25861
+SICILIA,ENNA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,146946,42882,957,36842,4089
+SICILIA,MESSINA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,534937,122114,4428,99299,15332
+SICILIA,PALERMO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,1005701,232016,5296,193950,27285
+SICILIA,RAGUSA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,237310,53151,1539,43650,6636
+SICILIA,SIRACUSA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,321588,84595,1428,73348,8624
+SICILIA,TRAPANI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,351040,83775,2989,66872,11576
+TOSCANA,AREZZO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,267188,83842,1719,72605,7728
+TOSCANA,FIRENZE,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,777094,272635,5513,238469,25072
+TOSCANA,GROSSETO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,180209,49984,1031,42684,5493
+TOSCANA,LIVORNO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,281123,103253,1652,92272,8600
+TOSCANA,LUCCA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,312107,96737,2049,81907,11567
+TOSCANA,MASSA-CARRARA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,168833,58295,970,51899,4936
+TOSCANA,PISA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,324584,111623,2294,98251,10187
+TOSCANA,PISTOIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,226626,70778,1545,60243,7359
+TOSCANA,PRATO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,187632,56257,929,49348,5460
+TOSCANA,SIENA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,213218,70217,1574,61276,6650
+TRENTINO A. A.,BOLZANO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,364939,44952,2816,31247,10315
+TRENTINO A. A.,TRENTO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,377613,96258,3127,72745,15226
+UMBRIA,PERUGIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,506019,142041,2784,122564,15156
+UMBRIA,TERNI,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,187517,54473,1079,47169,5578
+VALLE D'AOSTA,AOSTA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,100346,23982,948,18868,3857
+VENETO,BELLUNO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,172655,39539,1388,30621,7107
+VENETO,PADOVA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,703416,188365,4121,155400,27025
+VENETO,ROVIGO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,205996,57602,1331,48929,6830
+VENETO,TREVISO,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,638193,150136,4108,118509,25590
+VENETO,VENEZIA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,683992,191141,3417,162431,23465
+VENETO,VERONA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,665277,132480,2819,108122,19818
+VENETO,VICENZA,1,Reintegrazione dei lavoratori illegittimamente licenziati,A,621551,148782,5,119350,23313
+ABRUZZO,CHIETI,2,Servitu' coattiva di elettrodotto,A,323183,89507,2360,74456,11374
+ABRUZZO,L'AQUILA,2,Servitu' coattiva di elettrodotto,A,248621,64058,1657,53401,7763
+ABRUZZO,PESCARA,2,Servitu' coattiva di elettrodotto,A,251475,66724,1591,56275,7883
+ABRUZZO,TERAMO,2,Servitu' coattiva di elettrodotto,A,240905,60956,1756,50318,8019
+BASILICATA,MATERA,2,Servitu' coattiva di elettrodotto,A,163755,37840,809,31715,4455
+BASILICATA,POTENZA,2,Servitu' coattiva di elettrodotto,A,321862,82429,2093,69357,9144
+CALABRIA,CATANZARO,2,Servitu' coattiva di elettrodotto,A,295771,59235,1532,50510,6305
+CALABRIA,COSENZA,2,Servitu' coattiva di elettrodotto,A,593206,125775,2995,108206,12042
+CALABRIA,CROTONE,2,Servitu' coattiva di elettrodotto,A,134171,19271,432,16609,1979
+CALABRIA,REGGIO DI CALABRIA,2,Servitu' coattiva di elettrodotto,A,446941,76287,1992,64204,8386
+CALABRIA,VIBO VALENTIA,2,Servitu' coattiva di elettrodotto,A,134145,25714,823,21650,2714
+CAMPANIA,AVELLINO,2,Servitu' coattiva di elettrodotto,A,350709,80474,1925,67472,9959
+CAMPANIA,BENEVENTO,2,Servitu' coattiva di elettrodotto,A,235579,54206,1415,45241,6811
+CAMPANIA,CASERTA,2,Servitu' coattiva di elettrodotto,A,671730,132795,3339,110358,17091
+CAMPANIA,NAPOLI,2,Servitu' coattiva di elettrodotto,A,2413380,550782,8690,464438,65788
+CAMPANIA,SALERNO,2,Servitu' coattiva di elettrodotto,A,869432,202363,5258,166638,26924
+EMILIA R.,BOLOGNA,2,Servitu' coattiva di elettrodotto,A,770478,259355,6562,216383,33537
+EMILIA R.,FERRARA,2,Servitu' coattiva di elettrodotto,A,300210,106638,2567,87060,14063
+EMILIA R.,FORLÌ -CESENA,2,Servitu' coattiva di elettrodotto,A,297800,84588,1547,71981,10135
+EMILIA R.,MODENA,2,Servitu' coattiva di elettrodotto,A,518016,159935,4677,130695,23316
+EMILIA R.,PARMA,2,Servitu' coattiva di elettrodotto,A,334275,89686,2357,73051,13351
+EMILIA R.,PIACENZA,2,Servitu' coattiva di elettrodotto,A,223628,54470,1751,42380,9646
+EMILIA R.,RAVENNA,2,Servitu' coattiva di elettrodotto,A,296851,91579,2246,76361,10889
+EMILIA R.,REGGIO NELL'EMILIA,2,Servitu' coattiva di elettrodotto,A,376632,136391,3829,112957,18513
+EMILIA R.,RIMINI,2,Servitu' coattiva di elettrodotto,A,229416,60819,973,53365,5996
+FRIULI V.G.,GORIZIA,2,Servitu' coattiva di elettrodotto,A,117198,39603,764,33822,4628
+FRIULI V.G.,PORDENONE,2,Servitu' coattiva di elettrodotto,A,237040,60844,1102,50036,9109
+FRIULI V.G.,TRIESTE,2,Servitu' coattiva di elettrodotto,A,205645,49349,1345,42110,5968
+FRIULI V.G.,UDINE,2,Servitu' coattiva di elettrodotto,A,433798,109050,2059,88638,16273
+LAZIO,FROSINONE,2,Servitu' coattiva di elettrodotto,A,403969,116686,2827,97767,14372
+LAZIO,LATINA,2,Servitu' coattiva di elettrodotto,A,427106,93427,1826,78024,12432
+LAZIO,RIETI,2,Servitu' coattiva di elettrodotto,A,124945,37736,938,30331,5003
+LAZIO,ROMA,2,Servitu' coattiva di elettrodotto,A,3186649,936194,15122,786644,119800
+LAZIO,VITERBO,2,Servitu' coattiva di elettrodotto,A,244760,63346,1635,52291,8425
+LIGURIA,GENOVA,2,Servitu' coattiva di elettrodotto,A,757138,211245,4414,181327,23783
+LIGURIA,IMPERIA,2,Servitu' coattiva di elettrodotto,A,178626,32254,561,27760,3549
+LIGURIA,LA SPEZIA,2,Servitu' coattiva di elettrodotto,A,188183,57411,1088,50564,5191
+LIGURIA,SAVONA,2,Servitu' coattiva di elettrodotto,A,238445,61269,1457,52100,7007
+LOMBARDIA,BERGAMO,2,Servitu' coattiva di elettrodotto,A,783462,179918,4814,142566,30546
+LOMBARDIA,BRESCIA,2,Servitu' coattiva di elettrodotto,A,882489,199328,5321,160190,32230
+LOMBARDIA,COMO,2,Servitu' coattiva di elettrodotto,A,445535,97942,2403,77042,17211
+LOMBARDIA,CREMONA,2,Servitu' coattiva di elettrodotto,A,278407,73574,2658,56431,13351
+LOMBARDIA,LECCO,2,Servitu' coattiva di elettrodotto,A,255995,58480,1436,47618,8739
+LOMBARDIA,LODI,2,Servitu' coattiva di elettrodotto,A,165151,49192,1474,38110,8885
+LOMBARDIA,MANTOVA,2,Servitu' coattiva di elettrodotto,A,312536,87333,2556,70388,13208
+LOMBARDIA,MILANO,2,Servitu' coattiva di elettrodotto,A,3076902,818021,15985,676200,117661
+LOMBARDIA,PAVIA,2,Servitu' coattiva di elettrodotto,A,419393,114899,3591,88725,19635
+LOMBARDIA,SONDRIO,2,Servitu' coattiva di elettrodotto,A,146123,24232,590,20239,3087
+LOMBARDIA,VARESE,2,Servitu' coattiva di elettrodotto,A,676418,169121,3458,136699,26755
+MARCHE,ANCONA,2,Servitu' coattiva di elettrodotto,A,372935,114381,3360,95301,14308
+MARCHE,ASCOLI PICENO,2,Servitu' coattiva di elettrodotto,A,300723,81017,2149,65090,10715
+MARCHE,MACERATA,2,Servitu' coattiva di elettrodotto,A,248302,59800,2132,47267,9457
+MARCHE,PESARO E URBINO,2,Servitu' coattiva di elettrodotto,A,290501,76276,1752,64261,9420
+MOLISE,CAMPOBASSO,2,Servitu' coattiva di elettrodotto,A,192693,52354,1681,43027,6748
+MOLISE,ISERNIA,2,Servitu' coattiva di elettrodotto,A,75127,17473,598,14255,2393
+PIEMONTE,ALESSANDRIA,2,Servitu' coattiva di elettrodotto,A,363405,103544,2693,83216,15085
+PIEMONTE,ASTI,2,Servitu' coattiva di elettrodotto,A,162904,45342,1245,35953,7364
+PIEMONTE,BIELLA,2,Servitu' coattiva di elettrodotto,A,158252,42493,1180,34042,6565
+PIEMONTE,CUNEO,2,Servitu' coattiva di elettrodotto,A,454917,107302,3766,82394,19108
+PIEMONTE,NOVARA,2,Servitu' coattiva di elettrodotto,A,286095,73768,1834,58943,12162
+PIEMONTE,TORINO,2,Servitu' coattiva di elettrodotto,A,1834343,581488,10625,481412,82536
+PIEMONTE,VERBANO-CUSIO-OSSOLA,2,Servitu' coattiva di elettrodotto,A,133066,30179,609,24161,4364
+PIEMONTE,VERCELLI,2,Servitu' coattiva di elettrodotto,A,150333,42240,1537,32271,7635
+PUGLIA,BARI,2,Servitu' coattiva di elettrodotto,A,1267875,303160,5928,250725,42178
+PUGLIA,BRINDISI,2,Servitu' coattiva di elettrodotto,A,325960,72585,1744,61692,8223
+PUGLIA,FOGGIA,2,Servitu' coattiva di elettrodotto,A,538755,126692,2665,104883,16487
+PUGLIA,LECCE,2,Servitu' coattiva di elettrodotto,A,656736,118024,2948,98830,13456
+PUGLIA,TARANTO,2,Servitu' coattiva di elettrodotto,A,480120,113159,2562,94595,14521
+SARDEGNA,CAGLIARI,2,Servitu' coattiva di elettrodotto,A,637392,160437,2443,139540,17138
+SARDEGNA,NUORO,2,Servitu' coattiva di elettrodotto,A,219081,47013,633,41556,4440
+SARDEGNA,ORISTANO,2,Servitu' coattiva di elettrodotto,A,129588,26208,447,22141,3326
+SARDEGNA,SASSARI,2,Servitu' coattiva di elettrodotto,A,387120,81843,1149,71130,8909
+SICILIA,AGRIGENTO,2,Servitu' coattiva di elettrodotto,A,371748,77484,2071,65841,7937
+SICILIA,CALTANISSETTA,2,Servitu' coattiva di elettrodotto,A,224839,58448,1510,48481,7183
+SICILIA,CATANIA,2,Servitu' coattiva di elettrodotto,A,860589,202060,4809,167133,25990
+SICILIA,ENNA,2,Servitu' coattiva di elettrodotto,A,146946,42913,1019,36116,4755
+SICILIA,MESSINA,2,Servitu' coattiva di elettrodotto,A,534937,122130,4102,100629,14440
+SICILIA,PALERMO,2,Servitu' coattiva di elettrodotto,A,1005701,232178,5606,189229,31681
+SICILIA,RAGUSA,2,Servitu' coattiva di elettrodotto,A,237310,53160,1578,43421,6734
+SICILIA,SIRACUSA,2,Servitu' coattiva di elettrodotto,A,321588,84668,1447,73491,8478
+SICILIA,TRAPANI,2,Servitu' coattiva di elettrodotto,A,351040,83741,2790,68182,10558
+TOSCANA,AREZZO,2,Servitu' coattiva di elettrodotto,A,267188,82874,2607,68410,10975
+TOSCANA,FIRENZE,2,Servitu' coattiva di elettrodotto,A,777094,273776,7733,226619,34425
+TOSCANA,GROSSETO,2,Servitu' coattiva di elettrodotto,A,180209,50042,1298,41374,6635
+TOSCANA,LIVORNO,2,Servitu' coattiva di elettrodotto,A,281123,103330,2058,89821,10741
+TOSCANA,LUCCA,2,Servitu' coattiva di elettrodotto,A,312107,97070,2006,82666,11195
+TOSCANA,MASSA-CARRARA,2,Servitu' coattiva di elettrodotto,A,168833,58469,1080,51562,5229
+TOSCANA,PISA,2,Servitu' coattiva di elettrodotto,A,324584,111705,2985,95027,12814
+TOSCANA,PISTOIA,2,Servitu' coattiva di elettrodotto,A,226626,70897,1881,58916,8494
+TOSCANA,PRATO,2,Servitu' coattiva di elettrodotto,A,187632,56362,1376,47344,6991
+TOSCANA,SIENA,2,Servitu' coattiva di elettrodotto,A,213218,70289,2825,56097,10320
+TRENTINO A. A.,BOLZANO,2,Servitu' coattiva di elettrodotto,A,364939,45121,1854,35265,7470
+TRENTINO A. A.,TRENTO,2,Servitu' coattiva di elettrodotto,A,377613,96588,2616,75018,13825
+UMBRIA,PERUGIA,2,Servitu' coattiva di elettrodotto,A,506019,142275,3326,119165,18049
+UMBRIA,TERNI,2,Servitu' coattiva di elettrodotto,A,187517,54556,1304,45482,7088
+VALLE D'AOSTA,AOSTA,2,Servitu' coattiva di elettrodotto,A,100346,24184,655,20596,2651
+VENETO,BELLUNO,2,Servitu' coattiva di elettrodotto,A,172655,39866,652,34390,4697
+VENETO,PADOVA,2,Servitu' coattiva di elettrodotto,A,703416,189666,3058,161886,22657
+VENETO,ROVIGO,2,Servitu' coattiva di elettrodotto,A,205996,57711,1275,48753,7140
+VENETO,TREVISO,2,Servitu' coattiva di elettrodotto,A,638193,150757,2675,126245,20801
+VENETO,VENEZIA,2,Servitu' coattiva di elettrodotto,A,683992,191940,2861,164944,22412
+VENETO,VERONA,2,Servitu' coattiva di elettrodotto,A,665277,132927,2905,107247,20912
+VENETO,VICENZA,2,Servitu' coattiva di elettrodotto,A,621551,150105,3073,123450,21035

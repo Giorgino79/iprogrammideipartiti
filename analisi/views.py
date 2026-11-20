@@ -2,7 +2,8 @@ from django.db.models import Count, Sum
 from django.http import Http404
 from django.shortcuts import get_object_or_404, render
 
-from .models import Affluenza, Commento, Elezione, Partito, Programma, RisultatoLista, Tema, Territorio
+from .models import (Affluenza, Commento, Elezione, Partito, Programma, Quesito, RisultatoLista, RisultatoQuesito,
+                     Tema, Territorio)
 
 
 def home(request):
@@ -83,8 +84,43 @@ def _tabella(righe):
     return [dict(lista=n, partito=p, voti=v, percento=round(100 * v / totale, 2)) for n, p, v in righe], totale
 
 
+def _righe_quesiti(qs):
+    righe = {}
+    for r in qs.values('quesito__numero', 'quesito__titolo', 'quesito__tipo').annotate(
+            e=Sum('elettori'), v=Sum('votanti'), b=Sum('bianche'), si=Sum('si'), no=Sum('no')).order_by('quesito__numero'):
+        validi = (r['si'] or 0) + (r['no'] or 0)
+        righe[r['quesito__numero']] = dict(
+            numero=r['quesito__numero'], titolo=r['quesito__titolo'], tipo=r['quesito__tipo'],
+            elettori=r['e'], votanti=r['v'], bianche=r['b'], si=r['si'], no=r['no'],
+            affluenza=round(100 * r['v'] / r['e'], 2) if r['e'] else None,
+            si_pct=round(100 * r['si'] / validi, 2) if validi else None,
+            no_pct=round(100 * r['no'] / validi, 2) if validi else None)
+    return righe
+
+
+def _referendum(request, elezione):
+    base = RisultatoQuesito.objects.filter(quesito__elezione=elezione)
+    nazionale = _righe_quesiti(base)
+    territori = Territorio.objects.filter(risultati_quesiti__quesito__elezione=elezione).distinct()
+    try:
+        scelto = territori.filter(pk=int(request.GET.get('provincia', ''))).first()
+    except ValueError:
+        scelto = None
+    locale = _righe_quesiti(base.filter(territorio=scelto)) if scelto else None
+    if locale:
+        for n, r in locale.items():
+            ita = nazionale.get(n, {})
+            r['diff_si'] = round(r['si_pct'] - ita['si_pct'], 2) if r['si_pct'] is not None and ita.get('si_pct') is not None else None
+    return render(request, 'analisi/risultato_referendum.html', {
+        'elezione': elezione, 'nazionale': list(nazionale.values()), 'territori': territori, 'scelto': scelto,
+        'locale': list(locale.values()) if locale else None,
+    })
+
+
 def risultati_elezione(request, pk):
     elezione = get_object_or_404(Elezione, pk=pk)
+    if elezione.tipo == Elezione.REFERENDUM:
+        return _referendum(request, elezione)
     base = RisultatoLista.objects.filter(elezione=elezione)
 
     def righe(qs):

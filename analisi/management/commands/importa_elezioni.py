@@ -5,7 +5,8 @@ from pathlib import Path
 from django.core.management.base import BaseCommand
 from django.db import transaction
 
-from analisi.models import Affluenza, Elezione, Lista, Partito, RisultatoLista, Territorio
+from analisi.models import (Affluenza, Elezione, Lista, Partito, Quesito, RisultatoLista, RisultatoQuesito,
+                            Territorio)
 
 DATI = Path(__file__).resolve().parents[2] / 'dati_elezioni'
 FONTE = 'Ministero dell\'Interno, Eligendo - Archivio storico (open data)'
@@ -14,6 +15,15 @@ NOTA_EUROPEE = ('Risultati in Italia, sommati per provincia dai dati per comune 
                 'Non comprendono gli elettori all\'estero, quindi l\'affluenza può differire dai dati nazionali '
                 'ufficiali. Le percentuali sono sui voti di lista validi. Il Ministero precisa che i dati per '
                 'comune in parte sono ufficiosi e possono differire dai riepiloghi ufficiali.')
+
+NOTA_REFERENDUM = ('Risultati in Italia, sommati per provincia dai dati del Ministero dell\'Interno; non comprendono gli '
+                   'elettori all\'estero. Per i referendum abrogativi la consultazione è valida se partecipa più della '
+                   'metà degli aventi diritto (compresi quelli all\'estero); per i costituzionali non c\'è quorum. '
+                   'Le percentuali di sì e no sono sui voti validi. Il Ministero precisa che i dati per comune in parte '
+                   'sono ufficiosi e possono differire dai riepiloghi ufficiali. Per il 2022 i titoli dei quesiti sono '
+                   'sintetici.')
+MESI = ['', 'gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre',
+        'novembre', 'dicembre']
 
 # file -> (tipo, data)
 ELEZIONI = {
@@ -79,4 +89,26 @@ class Command(BaseCommand):
                               bianche=int(r['bianche']) if r['bianche'] != '' else None)
                     for r in csv.DictReader(f)])
             self.stdout.write(f'{elezione}: {len(liste)} liste, {len(risultati)} risultati')
+        for percorso in sorted(DATI.glob('referendum_*.csv')):
+            d = percorso.stem.split('_')[1]
+            data = date(int(d[:4]), int(d[4:6]), int(d[6:]))
+            elezione, _ = Elezione.objects.get_or_create(
+                tipo=Elezione.REFERENDUM, data=data, ambito='',
+                defaults=dict(nome=f'Referendum del {data.day} {MESI[data.month]} {data.year}', fonte=FONTE,
+                              fonte_url=FONTE_URL, nota=NOTA_REFERENDUM))
+            elezione.quesiti.all().delete()  # cancella anche i risultati collegati
+            territori, quesiti, risultati = {}, {}, []
+            with open(percorso, encoding='utf-8', newline='') as f:
+                for r in csv.DictReader(f):
+                    k = (r['regione'], r['provincia'])
+                    if k not in territori:
+                        territori[k], _ = Territorio.objects.get_or_create(regione=k[0], provincia=k[1])
+                    num = int(r['num'])
+                    if num not in quesiti:
+                        quesiti[num] = Quesito.objects.create(elezione=elezione, numero=num, titolo=r['quesito'], tipo=r['tipo'])
+                    risultati.append(RisultatoQuesito(
+                        quesito=quesiti[num], territorio=territori[k], elettori=int(r['elettori']),
+                        votanti=int(r['votanti']), bianche=int(r['bianche']), si=int(r['si']), no=int(r['no'])))
+            RisultatoQuesito.objects.bulk_create(risultati)
+            self.stdout.write(f'{elezione}: {len(quesiti)} quesiti, {len(risultati)} risultati')
         self.stdout.write(self.style.SUCCESS('Elezioni importate.'))

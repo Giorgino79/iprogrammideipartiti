@@ -1,0 +1,536 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,305598,73107,5689,36668,29091
+ABRUZZO,L'AQUILA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,230544,70646,5293,35757,28196
+ABRUZZO,PESCARA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,253271,44792,1929,23092,19067
+ABRUZZO,TERAMO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,238919,40540,2012,22403,15466
+BASILICATA,MATERA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,154811,25542,2286,12045,10580
+BASILICATA,POTENZA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,293079,49558,4385,24125,19980
+CALABRIA,CATANZARO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,279742,76696,9243,34074,31739
+CALABRIA,COSENZA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,554658,98291,12722,43989,39012
+CALABRIA,CROTONE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,129179,14274,1677,7725,4693
+CALABRIA,REGGIO CALABRIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,413283,86911,7611,51398,26327
+CALABRIA,VIBO VALENTIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,123007,24326,3125,12288,8444
+CAMPANIA,AVELLINO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,334732,68610,8387,30529,28374
+CAMPANIA,BENEVENTO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,220829,36305,3746,17443,14449
+CAMPANIA,CASERTA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,716099,123212,15566,56885,48825
+CAMPANIA,NAPOLI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,2387537,352775,44176,141279,160777
+CAMPANIA,SALERNO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,861150,183984,22135,84652,73757
+EMILIA-ROMAGNA,BOLOGNA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,766820,138463,2426,63906,70656
+EMILIA-ROMAGNA,FERRARA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,269208,54572,1152,29515,23371
+EMILIA-ROMAGNA,FORLI'-CESENA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,296717,53513,1179,28839,22863
+EMILIA-ROMAGNA,MODENA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,518858,103523,2381,49974,50172
+EMILIA-ROMAGNA,PARMA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,328646,101340,4964,45413,49611
+EMILIA-ROMAGNA,PIACENZA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,209170,66206,3479,33323,28393
+EMILIA-ROMAGNA,RAVENNA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,292424,51502,882,27394,22686
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,389111,67638,1275,32319,33359
+EMILIA-ROMAGNA,RIMINI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,257266,59577,2607,31994,24204
+FRIULI-VENEZIA GIULIA,GORIZIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,105999,41391,2593,18882,19133
+FRIULI-VENEZIA GIULIA,PORDENONE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,235732,65915,2614,36588,25548
+FRIULI-VENEZIA GIULIA,TRIESTE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,181484,32947,611,16760,15236
+FRIULI-VENEZIA GIULIA,UDINE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,414965,104150,3703,56593,42105
+LAZIO,FROSINONE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,384449,76378,4998,41052,28710
+LAZIO,LATINA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,440972,82160,4908,43303,32610
+LAZIO,RIETI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,120461,38530,2958,19119,15477
+LAZIO,ROMA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,3167038,529484,14985,256942,249827
+LAZIO,VITERBO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,242160,70450,4327,37162,27624
+LIGURIA,GENOVA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,651040,214210,11897,86895,110981
+LIGURIA,IMPERIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,161108,29289,1147,16121,11544
+LIGURIA,LA SPEZIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,169789,48914,2861,22475,22802
+LIGURIA,SAVONA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,215409,45197,1619,23575,19169
+LOMBARDIA,BERGAMO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,832392,188362,4602,112291,69350
+LOMBARDIA,BRESCIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,934220,193094,5034,118630,67661
+LOMBARDIA,COMO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,468188,113515,3977,62287,45584
+LOMBARDIA,CREMONA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,267621,62305,1802,36935,22748
+LOMBARDIA,LECCO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,260858,48735,1037,28779,18340
+LOMBARDIA,LODI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,170524,45169,1772,24695,18007
+LOMBARDIA,MANTOVA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,301515,67994,2519,39329,25459
+LOMBARDIA,MILANO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,2358194,488617,11228,255967,215946
+LOMBARDIA,MONZA E DELLA BRIANZA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,671922,174028,5338,93592,72862
+LOMBARDIA,PAVIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,409435,92259,2970,53922,34007
+LOMBARDIA,SONDRIO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,143913,25095,999,16034,7640
+LOMBARDIA,VARESE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,685625,139401,2895,81604,53352
+MARCHE,ANCONA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,360195,75803,3414,35301,35840
+MARCHE,ASCOLI PICENO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,163061,24875,510,13926,10152
+MARCHE,FERMO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,131202,32272,2379,16450,12831
+MARCHE,MACERATA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,237543,63339,4772,30201,27082
+MARCHE,PESARO E URBINO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,274394,45411,1107,24689,18996
+MOLISE,CAMPOBASSO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,176896,25237,1360,12320,11147
+MOLISE,ISERNIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,67664,8954,350,4705,3760
+PIEMONTE,ALESSANDRIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,318654,89567,4050,46865,36946
+PIEMONTE,ASTI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,160041,50839,3290,24065,22200
+PIEMONTE,BIELLA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,140618,25567,467,14724,9979
+PIEMONTE,CUNEO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,442373,115997,6372,56623,50066
+PIEMONTE,NOVARA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,279168,57197,1635,32187,22580
+PIEMONTE,TORINO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,1724612,324955,8378,153902,156555
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,126851,24606,1006,14303,8834
+PIEMONTE,VERCELLI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,132096,32467,1420,17228,13109
+PUGLIA,BARI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,1008253,232052,29240,91698,106485
+PUGLIA,BARLETTA-ANDRIA-TRANI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,310817,89566,14937,33627,39613
+PUGLIA,BRINDISI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,316611,31246,1125,16765,12909
+PUGLIA,FOGGIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,479472,58409,3897,27876,25766
+PUGLIA,LECCE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,643843,119843,17998,52526,47236
+PUGLIA,TARANTO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,462568,157260,20749,67219,65537
+SARDEGNA,CAGLIARI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,356046,50335,2319,26449,20978
+SARDEGNA,NUORO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,168901,20641,1564,10906,7842
+SARDEGNA,ORISTANO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,131053,29646,3058,14709,11304
+SARDEGNA,SASSARI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,396470,49168,3623,26267,18595
+SARDEGNA,SUD SARDEGNA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,292227,45129,4572,22453,17074
+SICILIA,AGRIGENTO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,341218,68340,9740,31968,24979
+SICILIA,CALTANISSETTA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,214525,35916,4968,17285,13016
+SICILIA,CATANIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,871401,166657,16625,75711,70356
+SICILIA,ENNA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,130876,20553,1604,10091,8141
+SICILIA,MESSINA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,494451,180269,28091,74777,71866
+SICILIA,PALERMO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,985757,303548,33595,123722,137587
+SICILIA,RAGUSA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,240821,46379,5813,20256,18993
+SICILIA,SIRACUSA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,318195,52163,5522,23642,21924
+SICILIA,TRAPANI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,338249,43762,3984,21623,17123
+TOSCANA,AREZZO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,258778,43977,1194,24338,17868
+TOSCANA,FIRENZE,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,743558,121143,2015,56071,61606
+TOSCANA,GROSSETO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,170631,30988,1032,17501,11980
+TOSCANA,LIVORNO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,260474,40838,1056,20336,18982
+TOSCANA,LUCCA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,307667,83433,4853,40399,36368
+TOSCANA,MASSA-CARRARA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,153085,43688,2912,22190,17766
+TOSCANA,PISA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,321928,53905,1096,27055,25114
+TOSCANA,PISTOIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,224118,70479,5244,32786,30728
+TOSCANA,PRATO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,175766,30507,407,15550,14161
+TOSCANA,SIENA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,200011,32060,1007,16416,14207
+TRENTINO-ALTO ADIGE,BOLZANO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,394081,43493,782,14375,27961
+TRENTINO-ALTO ADIGE,TRENTO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,416599,62246,917,34809,25874
+UMBRIA,PERUGIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,490782,83432,2718,45598,33862
+UMBRIA,TERNI,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,171410,30307,941,16988,11905
+VALLE D'AOSTA,AOSTA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,98361,16260,387,8631,6965
+VENETO,BELLUNO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,162077,46497,3031,24267,18248
+VENETO,PADOVA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,715152,218532,9470,116035,89809
+VENETO,ROVIGO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,184152,44895,2265,26342,15539
+VENETO,TREVISO,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,670354,166532,5329,97585,61280
+VENETO,VENEZIA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,649620,153397,5172,84812,60853
+VENETO,VERONA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,692360,218354,11059,114752,89581
+VENETO,VICENZA,1,Abrogazione delle norme sull'incandidabilità e decadenza dalle cariche dopo una condanna (decreto Severino),A,656511,153672,4970,88259,58471
+ABRUZZO,CHIETI,2,Limitazione delle misure cautelari: abrogazione parziale,A,305598,73078,6141,37546,27728
+ABRUZZO,L'AQUILA,2,Limitazione delle misure cautelari: abrogazione parziale,A,230544,70621,5746,36803,26596
+ABRUZZO,PESCARA,2,Limitazione delle misure cautelari: abrogazione parziale,A,253271,44792,2146,24006,17917
+ABRUZZO,TERAMO,2,Limitazione delle misure cautelari: abrogazione parziale,A,238919,40536,2292,23294,14317
+BASILICATA,MATERA,2,Limitazione delle misure cautelari: abrogazione parziale,A,154811,25542,2288,12482,10102
+BASILICATA,POTENZA,2,Limitazione delle misure cautelari: abrogazione parziale,A,293079,49538,4598,25621,18221
+CALABRIA,CATANZARO,2,Limitazione delle misure cautelari: abrogazione parziale,A,279742,76701,9734,35704,29580
+CALABRIA,COSENZA,2,Limitazione delle misure cautelari: abrogazione parziale,A,554658,98304,13195,45986,36565
+CALABRIA,CROTONE,2,Limitazione delle misure cautelari: abrogazione parziale,A,129179,14273,1696,8184,4207
+CALABRIA,REGGIO CALABRIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,413283,86849,7920,54284,23014
+CALABRIA,VIBO VALENTIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,123007,24326,3273,12795,7786
+CAMPANIA,AVELLINO,2,Limitazione delle misure cautelari: abrogazione parziale,A,334732,68604,9191,31796,26504
+CAMPANIA,BENEVENTO,2,Limitazione delle misure cautelari: abrogazione parziale,A,220829,36309,4055,18183,13419
+CAMPANIA,CASERTA,2,Limitazione delle misure cautelari: abrogazione parziale,A,716099,123197,16441,59294,45485
+CAMPANIA,NAPOLI,2,Limitazione delle misure cautelari: abrogazione parziale,A,2387537,352748,46465,148172,151416
+CAMPANIA,SALERNO,2,Limitazione delle misure cautelari: abrogazione parziale,A,861150,184010,23037,88329,69190
+EMILIA-ROMAGNA,BOLOGNA,2,Limitazione delle misure cautelari: abrogazione parziale,A,766820,138419,3091,66989,66770
+EMILIA-ROMAGNA,FERRARA,2,Limitazione delle misure cautelari: abrogazione parziale,A,269208,54560,1320,30749,21902
+EMILIA-ROMAGNA,FORLI'-CESENA,2,Limitazione delle misure cautelari: abrogazione parziale,A,296717,53458,1287,29902,21590
+EMILIA-ROMAGNA,MODENA,2,Limitazione delle misure cautelari: abrogazione parziale,A,518858,103493,2902,52043,47504
+EMILIA-ROMAGNA,PARMA,2,Limitazione delle misure cautelari: abrogazione parziale,A,328646,101203,5702,46956,47102
+EMILIA-ROMAGNA,PIACENZA,2,Limitazione delle misure cautelari: abrogazione parziale,A,209170,66190,4097,34267,26746
+EMILIA-ROMAGNA,RAVENNA,2,Limitazione delle misure cautelari: abrogazione parziale,A,292424,51497,1001,28284,21649
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,389111,67612,1618,33419,31822
+EMILIA-ROMAGNA,RIMINI,2,Limitazione delle misure cautelari: abrogazione parziale,A,257266,59544,2951,32737,23014
+FRIULI-VENEZIA GIULIA,GORIZIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,105999,41347,3023,19051,18457
+FRIULI-VENEZIA GIULIA,PORDENONE,2,Limitazione delle misure cautelari: abrogazione parziale,A,235732,65871,2986,37426,24266
+FRIULI-VENEZIA GIULIA,TRIESTE,2,Limitazione delle misure cautelari: abrogazione parziale,A,181484,32937,719,17082,14765
+FRIULI-VENEZIA GIULIA,UDINE,2,Limitazione delle misure cautelari: abrogazione parziale,A,414965,104083,4358,57060,40782
+LAZIO,FROSINONE,2,Limitazione delle misure cautelari: abrogazione parziale,A,384449,74387,5277,40688,26804
+LAZIO,LATINA,2,Limitazione delle misure cautelari: abrogazione parziale,A,440972,82150,5280,45003,30457
+LAZIO,RIETI,2,Limitazione delle misure cautelari: abrogazione parziale,A,120461,38495,3154,19653,14624
+LAZIO,ROMA,2,Limitazione delle misure cautelari: abrogazione parziale,A,3167038,529415,17463,270457,233269
+LAZIO,VITERBO,2,Limitazione delle misure cautelari: abrogazione parziale,A,242160,70441,4746,38009,26239
+LIGURIA,GENOVA,2,Limitazione delle misure cautelari: abrogazione parziale,A,651040,213773,14081,89066,105806
+LIGURIA,IMPERIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,161108,29281,1272,16567,10943
+LIGURIA,LA SPEZIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,169789,48858,3279,23099,21658
+LIGURIA,SAVONA,2,Limitazione delle misure cautelari: abrogazione parziale,A,215409,45175,1810,24346,18116
+LOMBARDIA,BERGAMO,2,Limitazione delle misure cautelari: abrogazione parziale,A,832392,188326,5462,115031,65615
+LOMBARDIA,BRESCIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,934220,193039,5852,121570,63792
+LOMBARDIA,COMO,2,Limitazione delle misure cautelari: abrogazione parziale,A,468188,113393,4379,64325,42925
+LOMBARDIA,CREMONA,2,Limitazione delle misure cautelari: abrogazione parziale,A,267621,62289,2107,37561,21807
+LOMBARDIA,LECCO,2,Limitazione delle misure cautelari: abrogazione parziale,A,260858,48732,1276,29487,17358
+LOMBARDIA,LODI,2,Limitazione delle misure cautelari: abrogazione parziale,A,170524,45130,2024,25349,17024
+LOMBARDIA,MANTOVA,2,Limitazione delle misure cautelari: abrogazione parziale,A,301515,67964,2876,40104,24247
+LOMBARDIA,MILANO,2,Limitazione delle misure cautelari: abrogazione parziale,A,2358194,488168,13217,265326,203778
+LOMBARDIA,MONZA E DELLA BRIANZA,2,Limitazione delle misure cautelari: abrogazione parziale,A,671922,173918,6455,96088,69010
+LOMBARDIA,PAVIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,409435,92251,3315,54702,32812
+LOMBARDIA,SONDRIO,2,Limitazione delle misure cautelari: abrogazione parziale,A,143913,25095,1156,16340,7157
+LOMBARDIA,VARESE,2,Limitazione delle misure cautelari: abrogazione parziale,A,685625,139368,3270,83920,50545
+MARCHE,ANCONA,2,Limitazione delle misure cautelari: abrogazione parziale,A,360195,75716,3992,36620,33822
+MARCHE,ASCOLI PICENO,2,Limitazione delle misure cautelari: abrogazione parziale,A,163061,24870,578,14469,9513
+MARCHE,FERMO,2,Limitazione delle misure cautelari: abrogazione parziale,A,131202,32265,2656,16890,12110
+MARCHE,MACERATA,2,Limitazione delle misure cautelari: abrogazione parziale,A,237543,63305,5398,30956,25608
+MARCHE,PESARO E URBINO,2,Limitazione delle misure cautelari: abrogazione parziale,A,274394,45394,1368,25712,17653
+MOLISE,CAMPOBASSO,2,Limitazione delle misure cautelari: abrogazione parziale,A,176896,25222,1489,12786,10505
+MOLISE,ISERNIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,67664,8953,385,5027,3398
+PIEMONTE,ALESSANDRIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,318654,89498,4581,47855,35250
+PIEMONTE,ASTI,2,Limitazione delle misure cautelari: abrogazione parziale,A,160041,50808,3783,24375,21318
+PIEMONTE,BIELLA,2,Limitazione delle misure cautelari: abrogazione parziale,A,140618,25570,527,15189,9402
+PIEMONTE,CUNEO,2,Limitazione delle misure cautelari: abrogazione parziale,A,442373,115876,7331,57996,47382
+PIEMONTE,NOVARA,2,Limitazione delle misure cautelari: abrogazione parziale,A,279168,57176,1924,33016,21370
+PIEMONTE,TORINO,2,Limitazione delle misure cautelari: abrogazione parziale,A,1724612,324388,9719,159220,149097
+PIEMONTE,VERBANO-CUSIO-OSSOLA,2,Limitazione delle misure cautelari: abrogazione parziale,A,126851,24592,1094,14604,8395
+PIEMONTE,VERCELLI,2,Limitazione delle misure cautelari: abrogazione parziale,A,132096,32438,1634,17533,12523
+PUGLIA,BARI,2,Limitazione delle misure cautelari: abrogazione parziale,A,1008253,231951,31371,94428,101367
+PUGLIA,BARLETTA-ANDRIA-TRANI,2,Limitazione delle misure cautelari: abrogazione parziale,A,310817,89563,15771,34048,38314
+PUGLIA,BRINDISI,2,Limitazione delle misure cautelari: abrogazione parziale,A,316611,31252,1244,17672,11882
+PUGLIA,FOGGIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,479472,58390,4137,28832,24519
+PUGLIA,LECCE,2,Limitazione delle misure cautelari: abrogazione parziale,A,643843,119815,19261,54089,44515
+PUGLIA,TARANTO,2,Limitazione delle misure cautelari: abrogazione parziale,A,462568,157216,22016,68370,63023
+SARDEGNA,CAGLIARI,2,Limitazione delle misure cautelari: abrogazione parziale,A,356046,50336,2681,27832,19159
+SARDEGNA,NUORO,2,Limitazione delle misure cautelari: abrogazione parziale,A,168901,20630,1726,11393,7194
+SARDEGNA,ORISTANO,2,Limitazione delle misure cautelari: abrogazione parziale,A,131053,29621,3366,15112,10522
+SARDEGNA,SASSARI,2,Limitazione delle misure cautelari: abrogazione parziale,A,396470,49157,3982,27202,17288
+SARDEGNA,SUD SARDEGNA,2,Limitazione delle misure cautelari: abrogazione parziale,A,292227,45120,4892,23024,16120
+SICILIA,AGRIGENTO,2,Limitazione delle misure cautelari: abrogazione parziale,A,341218,68328,10318,33057,23273
+SICILIA,CALTANISSETTA,2,Limitazione delle misure cautelari: abrogazione parziale,A,214525,35908,5116,17854,12273
+SICILIA,CATANIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,871401,166634,17588,77967,67103
+SICILIA,ENNA,2,Limitazione delle misure cautelari: abrogazione parziale,A,130876,20551,1851,10413,7661
+SICILIA,MESSINA,2,Limitazione delle misure cautelari: abrogazione parziale,A,494451,180156,29471,76543,68500
+SICILIA,PALERMO,2,Limitazione delle misure cautelari: abrogazione parziale,A,985757,303518,36100,126430,132177
+SICILIA,RAGUSA,2,Limitazione delle misure cautelari: abrogazione parziale,A,240821,46355,6233,20364,18374
+SICILIA,SIRACUSA,2,Limitazione delle misure cautelari: abrogazione parziale,A,318195,52154,5846,24439,20803
+SICILIA,TRAPANI,2,Limitazione delle misure cautelari: abrogazione parziale,A,338249,43758,4277,22576,15845
+TOSCANA,AREZZO,2,Limitazione delle misure cautelari: abrogazione parziale,A,258778,43951,1420,25304,16642
+TOSCANA,FIRENZE,2,Limitazione delle misure cautelari: abrogazione parziale,A,743558,121048,2592,59060,57859
+TOSCANA,GROSSETO,2,Limitazione delle misure cautelari: abrogazione parziale,A,170631,30983,1148,17974,11344
+TOSCANA,LIVORNO,2,Limitazione delle misure cautelari: abrogazione parziale,A,260474,40806,1172,21037,18095
+TOSCANA,LUCCA,2,Limitazione delle misure cautelari: abrogazione parziale,A,307667,83323,5456,41651,34321
+TOSCANA,MASSA-CARRARA,2,Limitazione delle misure cautelari: abrogazione parziale,A,153085,43669,3246,22860,16672
+TOSCANA,PISA,2,Limitazione delle misure cautelari: abrogazione parziale,A,321928,53877,1290,28313,23556
+TOSCANA,PISTOIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,224118,70385,5957,33374,29172
+TOSCANA,PRATO,2,Limitazione delle misure cautelari: abrogazione parziale,A,175766,30506,499,16086,13524
+TOSCANA,SIENA,2,Limitazione delle misure cautelari: abrogazione parziale,A,200011,32040,1139,17162,13269
+TRENTINO-ALTO ADIGE,BOLZANO,2,Limitazione delle misure cautelari: abrogazione parziale,A,394081,43488,950,14899,27276
+TRENTINO-ALTO ADIGE,TRENTO,2,Limitazione delle misure cautelari: abrogazione parziale,A,416599,62231,1224,36040,24270
+UMBRIA,PERUGIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,490782,83404,3076,47338,31683
+UMBRIA,TERNI,2,Limitazione delle misure cautelari: abrogazione parziale,A,171410,30273,1057,17434,11269
+VALLE D'AOSTA,AOSTA,2,Limitazione delle misure cautelari: abrogazione parziale,A,98361,16249,514,9289,6147
+VENETO,BELLUNO,2,Limitazione delle misure cautelari: abrogazione parziale,A,162077,46448,3478,24661,17268
+VENETO,PADOVA,2,Limitazione delle misure cautelari: abrogazione parziale,A,715152,218330,11140,118579,85158
+VENETO,ROVIGO,2,Limitazione delle misure cautelari: abrogazione parziale,A,184152,44879,2572,26874,14672
+VENETO,TREVISO,2,Limitazione delle misure cautelari: abrogazione parziale,A,670354,166478,6355,99315,58254
+VENETO,VENEZIA,2,Limitazione delle misure cautelari: abrogazione parziale,A,649620,153304,5991,86410,58262
+VENETO,VERONA,2,Limitazione delle misure cautelari: abrogazione parziale,A,692360,218241,12832,117650,84668
+VENETO,VICENZA,2,Limitazione delle misure cautelari: abrogazione parziale,A,656511,153623,5819,90165,55532
+ABRUZZO,CHIETI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,305598,73093,6115,48653,16672
+ABRUZZO,L'AQUILA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,230544,70673,5519,47370,16189
+ABRUZZO,PESCARA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,253271,44822,2167,32022,9923
+ABRUZZO,TERAMO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,238919,40549,2251,29579,8084
+BASILICATA,MATERA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,154811,25548,2330,16177,6389
+BASILICATA,POTENZA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,293079,49539,4746,32037,11665
+CALABRIA,CATANZARO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,279742,76706,9745,44479,20773
+CALABRIA,COSENZA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,554658,98340,12885,57539,25314
+CALABRIA,CROTONE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,129179,14274,1694,9628,2768
+CALABRIA,REGGIO CALABRIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,413283,86827,7851,62308,15045
+CALABRIA,VIBO VALENTIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,123007,24329,3259,15202,5412
+CAMPANIA,AVELLINO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,334732,68607,9291,41703,16507
+CAMPANIA,BENEVENTO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,220829,36305,4077,23503,8045
+CAMPANIA,CASERTA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,716099,123217,16539,76541,28023
+CAMPANIA,NAPOLI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,2387537,352826,46618,199721,99122
+CAMPANIA,SALERNO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,861150,184015,22784,113940,43819
+EMILIA-ROMAGNA,BOLOGNA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,766820,138364,3449,93644,39540
+EMILIA-ROMAGNA,FERRARA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,269208,54564,1450,40461,12033
+EMILIA-ROMAGNA,FORLI'-CESENA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,296717,53482,1362,39366,12053
+EMILIA-ROMAGNA,MODENA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,518858,103484,3065,71441,27867
+EMILIA-ROMAGNA,PARMA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,328646,101189,5952,65260,28482
+EMILIA-ROMAGNA,PIACENZA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,209170,66190,4003,45647,15442
+EMILIA-ROMAGNA,RAVENNA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,292424,51507,1039,37387,12457
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,389111,67616,1739,46175,18937
+EMILIA-ROMAGNA,RIMINI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,257266,59580,2939,42621,13174
+FRIULI-VENEZIA GIULIA,GORIZIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,105999,41358,3068,25707,11752
+FRIULI-VENEZIA GIULIA,PORDENONE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,235732,65887,2999,48712,12924
+FRIULI-VENEZIA GIULIA,TRIESTE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,181484,32955,783,23730,8025
+FRIULI-VENEZIA GIULIA,UDINE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,414965,104133,4485,76243,21267
+LAZIO,FROSINONE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,384449,74421,5307,51608,15879
+LAZIO,LATINA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,440972,82161,5183,57647,17850
+LAZIO,RIETI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,120461,38510,3150,25231,9028
+LAZIO,ROMA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,3167038,529589,17284,370591,133197
+LAZIO,VITERBO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,242160,70438,4630,49812,14598
+LIGURIA,GENOVA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,651040,213676,14131,125484,69100
+LIGURIA,IMPERIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,161108,29301,1256,21723,5805
+LIGURIA,LA SPEZIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,169789,48848,3242,31982,12782
+LIGURIA,SAVONA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,215409,45196,1863,32305,10083
+LOMBARDIA,BERGAMO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,832392,188362,5480,146433,34146
+LOMBARDIA,BRESCIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,934220,193113,5767,153020,32437
+LOMBARDIA,COMO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,468188,113450,4449,83672,23532
+LOMBARDIA,CREMONA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,267621,62290,2095,47808,11563
+LOMBARDIA,LECCO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,260858,48717,1306,37713,9039
+LOMBARDIA,LODI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,170524,45102,2033,32083,10237
+LOMBARDIA,MANTOVA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,301515,67993,2896,50517,13835
+LOMBARDIA,MILANO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,2358194,488471,13662,354170,114348
+LOMBARDIA,MONZA E DELLA BRIANZA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,671922,173905,6485,126519,38425
+LOMBARDIA,PAVIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,409435,92267,3345,69914,17554
+LOMBARDIA,SONDRIO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,143913,25098,1151,19980,3513
+LOMBARDIA,VARESE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,685625,139400,3314,107545,26866
+MARCHE,ANCONA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,360195,75787,4044,50696,19710
+MARCHE,ASCOLI PICENO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,163061,24876,615,19301,4650
+MARCHE,FERMO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,131202,32275,2636,22342,6666
+MARCHE,MACERATA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,237543,63321,5370,41780,14822
+MARCHE,PESARO E URBINO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,274394,45417,1368,34308,9052
+MOLISE,CAMPOBASSO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,176896,25226,1510,17165,6101
+MOLISE,ISERNIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,67664,8958,395,6533,1889
+PIEMONTE,ALESSANDRIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,318654,89482,4668,62119,20861
+PIEMONTE,ASTI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,160041,50815,3825,32557,13105
+PIEMONTE,BIELLA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,140618,25553,559,19778,4736
+PIEMONTE,CUNEO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,442373,115865,7412,77468,27809
+PIEMONTE,NOVARA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,279168,57187,1928,42817,11570
+PIEMONTE,TORINO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,1724612,324333,10368,216444,90757
+PIEMONTE,VERBANO-CUSIO-OSSOLA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,126851,24595,1114,18247,4731
+PIEMONTE,VERCELLI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,132096,32424,1718,23059,6873
+PUGLIA,BARI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,1008253,232015,31747,131028,64483
+PUGLIA,BARLETTA-ANDRIA-TRANI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,310817,89561,16162,48448,23489
+PUGLIA,BRINDISI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,316611,31252,1280,22751,6781
+PUGLIA,FOGGIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,479472,58409,4131,39657,13717
+PUGLIA,LECCE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,643843,119823,19360,71267,27097
+PUGLIA,TARANTO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,462568,157289,22161,88113,43050
+SARDEGNA,CAGLIARI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,356046,50359,2706,35249,11772
+SARDEGNA,NUORO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,168901,20633,1691,13845,4769
+SARDEGNA,ORISTANO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,131053,29641,3328,18421,7231
+SARDEGNA,SASSARI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,396470,49156,3904,33586,10981
+SARDEGNA,SUD SARDEGNA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,292227,45120,5042,27835,11134
+SICILIA,AGRIGENTO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,341218,68339,10352,40814,15449
+SICILIA,CALTANISSETTA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,214525,35923,5281,22040,7953
+SICILIA,CATANIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,871401,166694,17227,101456,43722
+SICILIA,ENNA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,130876,20556,1835,13200,4909
+SICILIA,MESSINA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,494451,180267,29753,97552,47335
+SICILIA,PALERMO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,985757,303599,36808,162339,95680
+SICILIA,RAGUSA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,240821,46367,6370,25802,12850
+SICILIA,SIRACUSA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,318195,52158,5879,31649,13573
+SICILIA,TRAPANI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,338249,43762,4271,28304,10149
+TOSCANA,AREZZO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,258778,44000,1408,33446,8533
+TOSCANA,FIRENZE,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,743558,121101,2696,84470,32295
+TOSCANA,GROSSETO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,170631,30996,1165,23511,5822
+TOSCANA,LIVORNO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,260474,40814,1201,29003,10078
+TOSCANA,LUCCA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,307667,83309,5566,55836,20012
+TOSCANA,MASSA-CARRARA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,153085,43674,3186,29533,10080
+TOSCANA,PISA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,321928,53912,1355,38914,12885
+TOSCANA,PISTOIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,224118,70394,5948,44443,18159
+TOSCANA,PRATO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,175766,30534,515,22616,6990
+TOSCANA,SIENA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,200011,32066,1134,23172,7265
+TRENTINO-ALTO ADIGE,BOLZANO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,394081,43491,1119,22502,19482
+TRENTINO-ALTO ADIGE,TRENTO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,416599,62252,1299,47115,13114
+UMBRIA,PERUGIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,490782,83469,2995,62459,16685
+UMBRIA,TERNI,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,171410,30306,1080,22542,6192
+VALLE D'AOSTA,AOSTA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,98361,16242,528,12101,3303
+VENETO,BELLUNO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,162077,46430,3465,32216,9700
+VENETO,PADOVA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,715152,218376,11154,157656,46080
+VENETO,ROVIGO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,184152,44908,2594,33541,7967
+VENETO,TREVISO,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,670354,166541,6390,128939,28636
+VENETO,VENEZIA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,649620,153340,6053,112721,31883
+VENETO,VERONA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,692360,218410,12806,159952,42478
+VENETO,VICENZA,3,Separazione delle funzioni dei magistrati giudicanti e requirenti,A,656511,153698,5933,119088,26530
+ABRUZZO,CHIETI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,305598,73066,6656,46390,18271
+ABRUZZO,L'AQUILA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,230544,70596,6307,44778,17903
+ABRUZZO,PESCARA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,253271,44803,2587,30512,10880
+ABRUZZO,TERAMO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,238919,40543,2559,28415,8914
+BASILICATA,MATERA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,154811,25535,2607,15278,6961
+BASILICATA,POTENZA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,293079,49523,5019,30646,12732
+CALABRIA,CATANZARO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,279742,76707,10076,42281,22571
+CALABRIA,COSENZA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,554658,98293,13776,54583,27204
+CALABRIA,CROTONE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,129179,14275,1724,9374,2970
+CALABRIA,REGGIO CALABRIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,413283,86803,8275,60466,16392
+CALABRIA,VIBO VALENTIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,123007,24322,3392,14567,5888
+CAMPANIA,AVELLINO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,334732,68602,9798,39674,17936
+CAMPANIA,BENEVENTO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,220829,36298,4324,22329,8955
+CAMPANIA,CASERTA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,716099,123204,17102,72904,31017
+CAMPANIA,NAPOLI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,2387537,352785,48428,191211,105728
+CAMPANIA,SALERNO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,861150,184006,23974,108771,47573
+EMILIA-ROMAGNA,BOLOGNA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,766820,138284,4415,90749,41210
+EMILIA-ROMAGNA,FERRARA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,269208,54558,1749,39201,12918
+EMILIA-ROMAGNA,FORLI'-CESENA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,296717,53444,1625,38236,12781
+EMILIA-ROMAGNA,MODENA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,518858,103419,3775,69227,29182
+EMILIA-ROMAGNA,PARMA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,328646,101079,6874,62392,30205
+EMILIA-ROMAGNA,PIACENZA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,209170,66136,4680,43458,16805
+EMILIA-ROMAGNA,RAVENNA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,292424,51475,1417,36000,13359
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,389111,67570,2229,44535,19927
+EMILIA-ROMAGNA,RIMINI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,257266,59542,3355,41538,13737
+FRIULI-VENEZIA GIULIA,GORIZIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,105999,41301,3475,24459,12457
+FRIULI-VENEZIA GIULIA,PORDENONE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,235732,65837,3568,47342,13591
+FRIULI-VENEZIA GIULIA,TRIESTE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,181484,32925,1015,23151,8268
+FRIULI-VENEZIA GIULIA,UDINE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,414965,104049,5323,73938,22664
+LAZIO,FROSINONE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,384449,74404,5832,49430,17485
+LAZIO,LATINA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,440972,82139,5712,55263,19667
+LAZIO,RIETI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,120461,38482,3497,23992,9851
+LAZIO,ROMA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,3167038,529289,20945,355559,143236
+LAZIO,VITERBO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,242160,70396,5192,47667,16004
+LIGURIA,GENOVA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,651040,213436,16488,118415,72888
+LIGURIA,IMPERIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,161108,29288,1445,21048,6248
+LIGURIA,LA SPEZIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,169789,48795,3647,30188,14067
+LIGURIA,SAVONA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,215409,45158,2146,31267,10722
+LOMBARDIA,BERGAMO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,832392,188306,6442,143831,35484
+LOMBARDIA,BRESCIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,934220,193027,6937,149359,34618
+LOMBARDIA,COMO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,468188,113380,5239,81440,24739
+LOMBARDIA,CREMONA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,267621,62254,2640,46502,12207
+LOMBARDIA,LECCO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,260858,48695,1674,36784,9535
+LOMBARDIA,LODI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,170524,45106,2385,31269,10616
+LOMBARDIA,MANTOVA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,301515,67962,3336,49107,14691
+LOMBARDIA,MILANO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,2358194,487999,17108,344774,118944
+LOMBARDIA,MONZA E DELLA BRIANZA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,671922,173791,7836,122724,40465
+LOMBARDIA,PAVIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,409435,92256,3856,67939,18812
+LOMBARDIA,SONDRIO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,143913,25085,1339,19518,3763
+LOMBARDIA,VARESE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,685625,139353,4061,105316,28087
+MARCHE,ANCONA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,360195,75705,4748,48412,21090
+MARCHE,ASCOLI PICENO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,163061,24867,738,18532,5248
+MARCHE,FERMO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,131202,32264,2907,21291,7408
+MARCHE,MACERATA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,237543,63294,5966,39650,16211
+MARCHE,PESARO E URBINO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,274394,45402,1672,33068,9906
+MOLISE,CAMPOBASSO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,176896,25212,1646,16231,6853
+MOLISE,ISERNIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,67664,8954,431,6254,2118
+PIEMONTE,ALESSANDRIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,318654,89433,5341,60023,22111
+PIEMONTE,ASTI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,160041,50785,4270,31043,14039
+PIEMONTE,BIELLA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,140618,25538,724,19166,5120
+PIEMONTE,CUNEO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,442373,115775,8407,74570,29357
+PIEMONTE,NOVARA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,279168,57158,2242,41801,12121
+PIEMONTE,TORINO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,1724612,324196,12180,209388,95245
+PIEMONTE,VERBANO-CUSIO-OSSOLA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,126851,24585,1278,17741,5006
+PIEMONTE,VERCELLI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,132096,32412,1984,22117,7453
+PUGLIA,BARI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,1008253,231981,33229,124640,69025
+PUGLIA,BARLETTA-ANDRIA-TRANI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,310817,89556,16645,45611,25737
+PUGLIA,BRINDISI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,316611,31250,1456,21898,7421
+PUGLIA,FOGGIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,479472,58401,4492,37712,15257
+PUGLIA,LECCE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,643843,119806,20373,67718,29538
+PUGLIA,TARANTO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,462568,157250,23160,83609,46263
+SARDEGNA,CAGLIARI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,356046,50260,3064,33728,12650
+SARDEGNA,NUORO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,168901,20614,1856,13220,5204
+SARDEGNA,ORISTANO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,131053,29625,3665,17443,7853
+SARDEGNA,SASSARI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,396470,49133,4286,32280,11822
+SARDEGNA,SUD SARDEGNA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,292227,45111,5389,26666,11967
+SICILIA,AGRIGENTO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,341218,68329,10872,38648,17079
+SICILIA,CALTANISSETTA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,214525,35912,5327,21146,8746
+SICILIA,CATANIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,871401,166675,18474,97338,46592
+SICILIA,ENNA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,130876,20550,1948,12720,5236
+SICILIA,MESSINA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,494451,180237,30780,91678,51600
+SICILIA,PALERMO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,985757,303485,38286,152989,102773
+SICILIA,RAGUSA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,240821,46354,6582,24815,13570
+SICILIA,SIRACUSA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,318195,52152,6192,30195,14666
+SICILIA,TRAPANI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,338249,43753,4630,26920,11105
+TOSCANA,AREZZO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,258778,43957,1687,31875,9635
+TOSCANA,FIRENZE,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,743558,120984,3791,80724,34531
+TOSCANA,GROSSETO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,170631,30994,1348,22613,6428
+TOSCANA,LIVORNO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,260474,40795,1563,27567,11056
+TOSCANA,LUCCA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,307667,83232,6264,53230,21627
+TOSCANA,MASSA-CARRARA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,153085,43645,3612,28200,10892
+TOSCANA,PISA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,321928,53863,1736,37512,13757
+TOSCANA,PISTOIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,224118,70325,6709,42452,19181
+TOSCANA,PRATO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,175766,30521,702,21881,7444
+TOSCANA,SIENA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,200011,32030,1331,21547,8606
+TRENTINO-ALTO ADIGE,BOLZANO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,394081,43479,1403,22122,19518
+TRENTINO-ALTO ADIGE,TRENTO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,416599,62219,1774,46079,13549
+UMBRIA,PERUGIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,490782,83416,3501,59928,18505
+UMBRIA,TERNI,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,171410,30283,1276,21715,6763
+VALLE D'AOSTA,AOSTA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,98361,16224,698,11727,3469
+VENETO,BELLUNO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,162077,46404,4057,31068,10140
+VENETO,PADOVA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,715152,218259,13075,152716,48640
+VENETO,ROVIGO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,184152,44881,2948,32482,8608
+VENETO,TREVISO,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,670354,166471,7658,126059,29965
+VENETO,VENEZIA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,649620,153255,7004,109336,33998
+VENETO,VERONA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,692360,218305,14595,155008,45139
+VENETO,VICENZA,4,Valutazione dei magistrati: partecipazione dei membri laici ai consigli giudiziari,A,656511,153648,7122,116778,27381
+ABRUZZO,CHIETI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,305598,73075,6136,47042,17965
+ABRUZZO,L'AQUILA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,230544,70604,6039,45724,17290
+ABRUZZO,PESCARA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,253271,44813,2353,30890,10756
+ABRUZZO,TERAMO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,238919,40544,2406,28794,8674
+BASILICATA,MATERA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,154811,25542,2553,15576,6720
+BASILICATA,POTENZA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,293079,49523,4791,30973,12487
+CALABRIA,CATANZARO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,279742,76694,9782,43911,21277
+CALABRIA,COSENZA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,554658,98310,13418,55750,26462
+CALABRIA,CROTONE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,129179,14275,1685,9563,2836
+CALABRIA,REGGIO CALABRIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,413283,86843,7923,61453,15824
+CALABRIA,VIBO VALENTIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,123007,24323,3263,14709,5884
+CAMPANIA,AVELLINO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,334732,68596,9625,40379,17425
+CAMPANIA,BENEVENTO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,220829,36299,4225,22843,8529
+CAMPANIA,CASERTA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,716099,123215,16626,74583,29935
+CAMPANIA,NAPOLI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,2387537,352782,46579,195732,103303
+CAMPANIA,SALERNO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,861150,184002,23668,110523,45976
+EMILIA-ROMAGNA,BOLOGNA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,766820,138305,4231,91459,40702
+EMILIA-ROMAGNA,FERRARA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,269208,54547,1709,39392,12783
+EMILIA-ROMAGNA,FORLI'-CESENA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,296717,53458,1574,38531,12548
+EMILIA-ROMAGNA,MODENA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,518858,103437,3595,69534,29127
+EMILIA-ROMAGNA,PARMA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,328646,101093,6476,62953,30142
+EMILIA-ROMAGNA,PIACENZA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,209170,66125,4360,43998,16635
+EMILIA-ROMAGNA,RAVENNA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,292424,51462,1324,36299,13162
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,389111,67576,2039,44944,19746
+EMILIA-ROMAGNA,RIMINI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,257266,59546,3216,41858,13586
+FRIULI-VENEZIA GIULIA,GORIZIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,105999,41302,3284,24819,12342
+FRIULI-VENEZIA GIULIA,PORDENONE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,235732,65845,3310,47591,13659
+FRIULI-VENEZIA GIULIA,TRIESTE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,181484,32924,995,23354,8113
+FRIULI-VENEZIA GIULIA,UDINE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,414965,104041,4990,74488,22504
+LAZIO,FROSINONE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,384449,74394,5542,50107,17100
+LAZIO,LATINA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,440972,82149,5521,56343,18853
+LAZIO,RIETI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,120461,38477,3402,24043,9938
+LAZIO,ROMA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,3167038,529344,18594,363269,138467
+LAZIO,VITERBO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,242160,70410,4885,48355,15707
+LIGURIA,GENOVA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,651040,213484,15290,120378,72504
+LIGURIA,IMPERIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,161108,29283,1412,21157,6151
+LIGURIA,LA SPEZIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,169789,48800,3435,30771,13729
+LIGURIA,SAVONA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,215409,45139,2115,31086,10950
+LOMBARDIA,BERGAMO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,832392,188303,6886,143341,35654
+LOMBARDIA,BRESCIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,934220,193004,7001,149588,34399
+LOMBARDIA,COMO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,468188,113383,5289,81670,24549
+LOMBARDIA,CREMONA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,267621,62251,2497,46681,12194
+LOMBARDIA,LECCO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,260858,48687,1635,36871,9503
+LOMBARDIA,LODI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,170524,45085,2297,31344,10642
+LOMBARDIA,MANTOVA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,301515,67957,3338,49349,14469
+LOMBARDIA,MILANO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,2358194,487859,15809,347511,117715
+LOMBARDIA,MONZA E DELLA BRIANZA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,671922,173699,7455,123209,40469
+LOMBARDIA,PAVIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,409435,92258,3978,68075,18646
+LOMBARDIA,SONDRIO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,143913,25088,1324,19614,3686
+LOMBARDIA,VARESE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,685625,139346,3979,105647,27900
+MARCHE,ANCONA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,360195,75704,4512,49116,20740
+MARCHE,ASCOLI PICENO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,163061,24871,680,18803,5070
+MARCHE,FERMO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,131202,32265,2598,21763,7186
+MARCHE,MACERATA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,237543,63303,5706,40306,15887
+MARCHE,PESARO E URBINO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,274394,45412,1650,33456,9594
+MOLISE,CAMPOBASSO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,176896,25215,1624,16381,6752
+MOLISE,ISERNIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,67664,8955,425,6348,2034
+PIEMONTE,ALESSANDRIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,318654,89499,5182,60376,21982
+PIEMONTE,ASTI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,160041,50773,4077,31492,13827
+PIEMONTE,BIELLA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,140618,25540,697,19363,4975
+PIEMONTE,CUNEO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,442373,115772,8086,74507,29764
+PIEMONTE,NOVARA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,279168,57166,2190,41645,12379
+PIEMONTE,TORINO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,1724612,324175,11637,211259,94091
+PIEMONTE,VERBANO-CUSIO-OSSOLA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,126851,24585,1280,17778,5016
+PIEMONTE,VERCELLI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,132096,32411,1874,22206,7498
+PUGLIA,BARI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,1008253,231940,32140,126471,68372
+PUGLIA,BARLETTA-ANDRIA-TRANI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,310817,89556,16032,46802,25078
+PUGLIA,BRINDISI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,316611,31251,1363,22274,7157
+PUGLIA,FOGGIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,479472,58400,4301,38266,14915
+PUGLIA,LECCE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,643843,119791,19467,69323,28577
+PUGLIA,TARANTO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,462568,157245,22665,84667,46033
+SARDEGNA,CAGLIARI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,356046,50347,2817,34405,12396
+SARDEGNA,NUORO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,168901,20617,1827,13387,5069
+SARDEGNA,ORISTANO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,131053,29614,3475,17734,7776
+SARDEGNA,SASSARI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,396470,49129,4024,32827,11553
+SARDEGNA,SUD SARDEGNA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,292227,45116,5055,27114,11833
+SICILIA,AGRIGENTO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,341218,68331,10443,39802,16391
+SICILIA,CALTANISSETTA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,214525,35914,5253,21470,8526
+SICILIA,CATANIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,871401,166672,17773,99269,45504
+SICILIA,ENNA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,130876,20552,1891,12926,5112
+SICILIA,MESSINA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,494451,180128,29818,94443,50140
+SICILIA,PALERMO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,985757,303485,36467,157891,100187
+SICILIA,RAGUSA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,240821,46355,6489,25252,13281
+SICILIA,SIRACUSA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,318195,52154,6034,30829,14203
+SICILIA,TRAPANI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,338249,43760,4237,27616,10747
+TOSCANA,AREZZO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,258778,43956,1658,32487,9159
+TOSCANA,FIRENZE,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,743558,120986,3549,81967,33609
+TOSCANA,GROSSETO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,170631,30987,1334,22920,6159
+TOSCANA,LIVORNO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,260474,40785,1432,28033,10727
+TOSCANA,LUCCA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,307667,83238,5841,54229,21194
+TOSCANA,MASSA-CARRARA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,153085,43639,3447,28611,10686
+TOSCANA,PISA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,321928,53853,1621,37843,13555
+TOSCANA,PISTOIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,224118,70326,6241,42757,19406
+TOSCANA,PRATO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,175766,30506,681,21901,7446
+TOSCANA,SIENA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,200011,32025,1275,22356,7848
+TRENTINO-ALTO ADIGE,BOLZANO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,394081,43475,1440,22184,19422
+TRENTINO-ALTO ADIGE,TRENTO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,416599,62239,1656,46404,13383
+UMBRIA,PERUGIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,490782,83431,3482,60533,17982
+UMBRIA,TERNI,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,171410,30292,1230,21863,6690
+VALLE D'AOSTA,AOSTA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,98361,16220,678,11746,3456
+VENETO,BELLUNO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,162077,46394,3731,31346,10181
+VENETO,PADOVA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,715152,218239,12668,153728,48249
+VENETO,ROVIGO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,184152,44876,2777,32764,8511
+VENETO,TREVISO,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,670354,166478,7136,127183,29384
+VENETO,VENEZIA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,649620,153246,6779,110023,33575
+VENETO,VERONA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,692360,218256,13570,155973,45319
+VENETO,VICENZA,5,Elezione dei componenti togati del CSM: abolizione delle liste di presentatori,A,656511,153635,6419,116891,27902

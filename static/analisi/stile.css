@@ -157,3 +157,12 @@ h1 .anno { display: inline; margin-left: .4rem; }
 @media (max-width: 640px) { .tabella-voti td:first-child { min-width: 0; } .tabella-voti th, .tabella-voti td { padding: .35rem .3rem; font-size: .85rem; } }
 .barra-voti { display: block; height: 6px; margin-top: .25rem; border-radius: 3px; background: linear-gradient(90deg, var(--testo) calc(var(--p) * 1%), var(--bordo) 0); max-width: 100%; }
 .nota-fonte { font-size: .85rem; color: var(--neutro); max-width: 760px; }
+
+/* Referendum */
+.quesito { border-top: 1px solid var(--bordo); padding: .8rem 0; }
+.quesito:first-of-type { border-top: 0; }
+.quesito header { display: flex; justify-content: space-between; align-items: flex-start; gap: .6rem; }
+.quesito h3 { margin: 0; font-size: 1.02rem; }
+.si-no { height: 14px; border-radius: 7px; background: var(--neutro); overflow: hidden; margin: .5rem 0 .3rem; }
+.si-no .si { display: block; height: 100%; background: var(--testo); }
+.valori-si-no { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; }

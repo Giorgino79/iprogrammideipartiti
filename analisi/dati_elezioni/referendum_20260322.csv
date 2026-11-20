@@ -1,0 +1,111 @@
+regione,provincia,num,quesito,tipo,elettori,votanti,bianche,si,no
+ABRUZZO,CHIETI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,300788,180051,695,84085,94289
+ABRUZZO,L'AQUILA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,225852,141570,392,73708,66778
+ABRUZZO,PESCARA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,251482,151350,415,69443,80726
+ABRUZZO,TERAMO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,237377,141382,436,66641,73608
+BASILICATA,MATERA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,150376,78323,196,30078,47523
+BASILICATA,POTENZA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,282586,152270,613,61127,89474
+CALABRIA,CATANZARO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,273434,139114,364,55892,82161
+CALABRIA,COSENZA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,543375,262331,719,94315,165820
+CALABRIA,CROTONE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,126451,53914,108,22373,31194
+CALABRIA,REGGIO CALABRIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,403225,197774,510,104180,92048
+CALABRIA,VIBO VALENTIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,121312,57145,165,24373,32290
+CAMPANIA,AVELLINO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,326386,175201,615,68007,105673
+CAMPANIA,BENEVENTO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,213330,114934,430,49835,64007
+CAMPANIA,CASERTA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,714140,346542,797,140857,203295
+CAMPANIA,NAPOLI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,2349535,1158159,1618,328658,823834
+CAMPANIA,SALERNO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,847432,447156,1402,187208,256418
+EMILIA-ROMAGNA,BOLOGNA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,776517,545579,1065,197143,345615
+EMILIA-ROMAGNA,FERRARA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,264990,169028,417,84742,83263
+EMILIA-ROMAGNA,FORLI'-CESENA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,300321,198258,385,86483,110707
+EMILIA-ROMAGNA,MODENA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,524641,352547,977,147638,202746
+EMILIA-ROMAGNA,PARMA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,335345,217194,429,101263,114821
+EMILIA-ROMAGNA,PIACENZA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,211506,132885,306,74162,57900
+EMILIA-ROMAGNA,RAVENNA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,294467,196042,401,81340,113557
+EMILIA-ROMAGNA,REGGIO NELL'EMILIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,396915,265429,661,102057,161765
+EMILIA-ROMAGNA,RIMINI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,261198,167235,327,78918,87445
+FRIULI-VENEZIA GIULIA,GORIZIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,104519,64855,159,30956,33490
+FRIULI-VENEZIA GIULIA,PORDENONE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,237069,148784,351,85445,62380
+FRIULI-VENEZIA GIULIA,TRIESTE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,177086,104933,214,49008,55354
+FRIULI-VENEZIA GIULIA,UDINE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,413058,255598,602,145334,108497
+LAZIO,FROSINONE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,375558,217265,756,112594,102644
+LAZIO,LATINA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,437380,251805,504,134714,115482
+LAZIO,RIETI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,118351,72912,205,38146,34199
+LAZIO,ROMA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,3179453,1989961,2489,842300,1138787
+LAZIO,VITERBO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,239307,151871,306,84452,66477
+LIGURIA,GENOVA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,641849,406739,805,157136,247290
+LIGURIA,IMPERIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,157446,88028,186,46160,41324
+LIGURIA,LA SPEZIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,168265,107506,176,48079,58851
+LIGURIA,SAVONA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,213303,132695,308,62560,69218
+LOMBARDIA,BERGAMO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,846132,552152,1311,322810,226197
+LOMBARDIA,BRESCIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,951600,616227,1372,364400,248596
+LOMBARDIA,COMO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,470578,291315,629,167153,122355
+LOMBARDIA,CREMONA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,267762,170059,448,98865,70092
+LOMBARDIA,LECCO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,262117,170236,389,93550,75614
+LOMBARDIA,LODI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,171896,107672,258,59982,47000
+LOMBARDIA,MANTOVA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,302564,186807,444,99545,86198
+LOMBARDIA,MILANO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,2373107,1533211,2407,705745,820514
+LOMBARDIA,MONZA E DELLA BRIANZA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,681908,442281,794,232178,207882
+LOMBARDIA,PAVIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,411886,249861,509,140933,107331
+LOMBARDIA,SONDRIO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,143842,85348,221,53277,31473
+LOMBARDIA,VARESE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,689945,423806,768,234365,187097
+MARCHE,ANCONA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,358241,229914,696,95019,133301
+MARCHE,ASCOLI PICENO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,160960,102358,276,48751,52948
+MARCHE,FERMO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,129660,81875,324,40834,40331
+MARCHE,MACERATA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,234481,148042,470,74340,72513
+MARCHE,PESARO E URBINO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,274793,176148,444,80064,94918
+MOLISE,CAMPOBASSO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,172509,93321,289,40448,52120
+MOLISE,ISERNIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,64839,34864,157,17118,17397
+PIEMONTE,ALESSANDRIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,313373,191182,521,99647,90106
+PIEMONTE,ASTI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,159379,95425,300,49012,45615
+PIEMONTE,BIELLA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,138168,83179,197,44653,37932
+PIEMONTE,CUNEO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,441591,280068,877,148912,128763
+PIEMONTE,NOVARA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,280119,171370,378,91037,79223
+PIEMONTE,TORINO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,1716837,1095343,1906,439331,649507
+PIEMONTE,VERBANO-CUSIO-OSSOLA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,124753,74389,157,39884,34010
+PIEMONTE,VERCELLI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,129048,77166,190,42692,33882
+PUGLIA,BARI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,1001405,539669,1056,213094,323434
+PUGLIA,BARLETTA-ANDRIA-TRANI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,308816,162239,358,69519,91717
+PUGLIA,BRINDISI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,310028,153829,423,66285,86372
+PUGLIA,FOGGIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,467273,225212,458,99732,123996
+PUGLIA,LECCE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,632583,339233,956,155123,181730
+PUGLIA,TARANTO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,453326,229937,573,98807,129419
+SARDEGNA,CAGLIARI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,453801,245863,389,99993,144838
+SARDEGNA,GALLURA NORD-EST SARDEGNA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,128226,63093,85,30937,31900
+SARDEGNA,MEDIO CAMPIDANO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,77510,39744,72,14303,25205
+SARDEGNA,NUORO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,120438,63848,109,22777,40774
+SARDEGNA,OGLIASTRA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,45400,23787,34,9490,14165
+SARDEGNA,ORISTANO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,127219,64844,129,27847,36638
+SARDEGNA,SASSARI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,264201,143239,232,54953,87686
+SARDEGNA,SULCIS IGLESIENTE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,104026,53600,79,21560,31810
+SICILIA,AGRIGENTO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,332635,144139,389,56977,85960
+SICILIA,CALTANISSETTA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,200063,85320,201,37284,47455
+SICILIA,CATANIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,861952,397048,754,155713,238585
+SICILIA,ENNA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,126329,59936,138,22274,37117
+SICILIA,MESSINA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,485647,238862,870,103427,133089
+SICILIA,PALERMO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,972990,451111,944,157378,290485
+SICILIA,RAGUSA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,240784,114645,271,43458,70292
+SICILIA,SIRACUSA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,310837,139867,262,52201,86852
+SICILIA,TRAPANI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,329947,149796,458,60794,87677
+TOSCANA,AREZZO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,257375,169227,473,78581,89532
+TOSCANA,FIRENZE,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,739434,517919,1036,180137,334961
+TOSCANA,GROSSETO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,168518,105728,195,51691,53431
+TOSCANA,LIVORNO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,258772,167107,328,62633,103628
+TOSCANA,LUCCA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,303589,193061,362,93051,98863
+TOSCANA,MASSA-CARRARA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,150617,93223,152,42656,50016
+TOSCANA,PISA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,322641,215926,489,89364,125347
+TOSCANA,PISTOIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,225594,143337,417,66167,76063
+TOSCANA,PRATO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,173714,114858,253,52680,61485
+TOSCANA,SIENA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,197236,133421,346,53966,78605
+TRENTINO-ALTO ADIGE,BOLZANO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,396624,154234,854,74917,77884
+TRENTINO-ALTO ADIGE,TRENTO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,423283,275819,750,135999,138061
+UMBRIA,PERUGIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,490214,320640,771,153763,164742
+UMBRIA,TERNI,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,167827,107434,231,51716,55009
+VALLE D'AOSTA,AOSTA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,97949,57391,222,27395,29456
+VENETO,BELLUNO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,160625,94980,251,52581,41750
+VENETO,PADOVA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,721907,476094,1261,267211,206066
+VENETO,ROVIGO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,180245,107988,382,63555,43607
+VENETO,TREVISO,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,676837,427631,1031,256779,168336
+VENETO,VENEZIA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,646756,403295,824,215259,185730
+VENETO,VERONA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,700926,448509,830,276977,169347
+VENETO,VICENZA,1,Referendum costituzionale: ordinamento giurisdizionale e istituzione della Corte disciplinare,C,663437,422179,941,250118,169778
