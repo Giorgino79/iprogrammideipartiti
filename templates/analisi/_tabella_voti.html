@@ -1,0 +1,17 @@
+{% load humanize %}
+<div class="scroll-orizzontale">
+<table class="tabella tabella-voti">
+  <thead><tr><th>Lista</th><th class="num">Voti</th><th class="num">%</th>{% if con_differenza %}<th class="num" title="Differenza rispetto alla media nazionale">vs Italia</th>{% endif %}</tr></thead>
+  <tbody>
+  {% for r in righe %}
+    <tr>
+      <td>{{ r.lista }}{% if r.partito %} <span class="anno">oggi: {{ r.partito }}</span>{% endif %}
+        <span class="barra-voti" style="--p:{{ r.percento|stringformat:'.2f' }}"></span></td>
+      <td class="num">{{ r.voti|intcomma }}</td>
+      <td class="num">{{ r.percento|floatformat:2 }}</td>
+      {% if con_differenza %}<td class="num">{% if r.differenza > 0 %}+{% endif %}{{ r.differenza|floatformat:2 }}</td>{% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

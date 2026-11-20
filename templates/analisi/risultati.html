@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Risultati elettorali{% endblock %}
+{% block contenuto %}
+<h1>Risultati elettorali</h1>
+<p class="invito">I voti realmente ottenuti dai partiti, per provincia, dai dati ufficiali del Ministero dell'Interno. Le liste sono quelle presenti sulla scheda in ogni elezione.</p>
+<div class="griglia">
+  {% for slug, nome, presente in tipi %}
+    {% if presente %}<a class="card neutra" href="{% url 'risultati_tipo' slug %}">{{ nome }}</a>
+    {% else %}<span class="card neutra preparazione">{{ nome }} <span class="anno">in arrivo</span></span>{% endif %}
+  {% endfor %}
+</div>
+{% endblock %}

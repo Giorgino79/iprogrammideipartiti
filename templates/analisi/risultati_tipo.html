@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}{{ nome }}{% endblock %}
+{% block contenuto %}
+<p class="briciole"><a href="{% url 'risultati' %}">&larr; Risultati elettorali</a></p>
+<h1>{{ nome }}</h1>
+<div class="griglia">
+  {% for e in elezioni %}<a class="card neutra" href="{{ e.get_absolute_url }}">{{ e.nome }}<span class="anno">{{ e.data|date:"j F Y" }}</span></a>
+  {% empty %}<p class="vuoto">Nessuna elezione inserita.</p>{% endfor %}
+</div>
+{% endblock %}

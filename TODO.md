@@ -107,3 +107,27 @@ Dalla matrice di copertura (parole chiave) i temi dove ci sono più programmi co
 4. Like e dislike: anonimi o con identificazione?
 5. Il dominio osservatoriopartiti.it è già suo e va collegato?
 6. Colori: tenere rosso/blu nelle card dei partiti nella home o renderle tutte neutre?
+
+## 7. Risultati elettorali (macro argomento 2, iniziato il 20 novembre 2026)
+
+Fonte: Ministero dell'Interno, Eligendo - Archivio storico, sezione Open data (elezionistorico.interno.gov.it). Dati per comune, sommati per provincia con `analisi/preparazione_elezioni.py`; i file piccoli sono in `analisi/dati_elezioni/`; il comando `importa_elezioni` li carica nel database. Le liste restano come erano sulla scheda di ogni anno.
+
+- [x] **Europee 2004, 2009, 2014, 2019, 2024** per provincia (Italia, senza gli elettori all'estero). Controllate le percentuali nazionali con i risultati noti: coincidono entro pochi decimi.
+- [ ] **Referendum dal 2000** (21/05/2000, 07/10/2001, 15/06/2003, 12/06/2005, 25/06/2006, 21/06/2009, 12/06/2011, 17/04/2016, 04/12/2016, 20/09/2020, 12/06/2022, 08/06/2025, 22/03/2026): archivi già individuati nell'elenco del Ministero (`referendum/referendum-AAAAMMGG.zip`). Per ogni quesito: sì, no, quorum, affluenza.
+- [ ] **Politiche** (Camera e Senato) 2001, 2006, 2008, 2013, 2018, 2022: archivi `camera/` e `senato/` nello stesso elenco. Attenzione a coalizioni, liste, collegi uninominali e plurinominali (2018, 2022), Valle d'Aosta e Trentino-Alto Adige.
+- [ ] **Regionali** dal 2000: archivi `regionali/` (una elezione per Regione e data; Regioni a statuto speciale con regole proprie). Includere presidenti e liste.
+- [ ] **Grandi città** (Milano, Torino, Bologna, Roma, Napoli): comunali dal 2000, dopo i punti precedenti.
+- [ ] **Seggi** (europee, politiche, regionali): oggi ci sono solo i voti, non i seggi assegnati.
+- [ ] **Tabella dei collegamenti** tra liste di ieri e partiti di oggi: per ora solo i casi chiari (`COLLEGAMENTI` in `importa_elezioni.py`). Decidere con Luigi come trattare PdL, Ulivo, Margherita, DS, liste civiche, ecc.
+- [ ] **Province che cambiano** (Sardegna 2005-2016, Monza, Fermo, Barletta-Andria-Trani): tabella comune-provincia storica, per confrontare nel tempo.
+- [ ] Pagine di **confronto fra anni** per un partito (andamento dei voti e della percentuale) e **mappa/classifica delle province**.
+- [ ] **Voti all'estero** per le europee (non inclusi) e affluenza nazionale ufficiale.
+- [ ] Verificare la **licenza** di riuso dei dati del Ministero (non dichiarata sulla pagina).
+- [ ] Collegare i risultati ai **sondaggi** (andamento) e ai **programmi** del partito per quell'anno.
+
+## 8. Esame a tre anni di una legge (macro argomento 3, non iniziato)
+
+Decisioni di Giorgio (20 novembre 2026): le leggi da analizzare le forniscono lui e Luigi; ogni esito riceve un giudizio con punteggi.
+- [ ] Modello dati: Legge (data, numero, proponente, obiettivi dichiarati, misure, fonti) e Esito a 3 anni (indicatori con numeri e fonte, giudizio con punteggi 1-5: obiettivi raggiunti, costi rispetto alle previsioni, effetti collaterali, stabilità, attuazione).
+- [ ] Pagina per legge e collegamento alle promesse dei programmi dei partiti.
+- [ ] Prima legge pilota: da indicare (Luigi: "tassazione dei capitali del 2023", da identificare).

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static humanize %}
+{% block title %}{{ elezione.nome }}{% endblock %}
+{% block contenuto %}
+<p class="briciole"><a href="{% url 'risultati_tipo' 'europee' %}">&larr; Elezioni europee</a></p>
+<h1>{{ elezione.nome }} <span class="anno">{{ elezione.data|date:"j F Y" }}</span></h1>
+
+<section class="riquadro">
+  <h2 class="titoletto">Cerca una provincia</h2>
+  <form method="get" class="selettore">
+    <select name="provincia" id="provincia" aria-label="Provincia">
+      <option value="">Tutta Italia</option>
+      {% for t in territori %}<option value="{{ t.pk }}"{% if scelto and scelto.pk == t.pk %} selected{% endif %}>{{ t.provincia }} ({{ t.regione }})</option>{% endfor %}
+    </select>
+    <button type="submit" class="tasto">Mostra</button>
+  </form>
+</section>
+
+{% if scelto %}
+<section class="riquadro">
+  <h2>{{ scelto.provincia }} <span class="anno">{{ scelto.regione }}</span></h2>
+  {% if aff_loc %}<p class="costo">Elettori {{ aff_loc.elettori|intcomma }} · Votanti {{ aff_loc.votanti|intcomma }} · Affluenza <b>{{ affl_loc_pct|floatformat:2 }}%</b>{% if aff_loc.bianche is not None %} · Schede bianche {{ aff_loc.bianche|intcomma }}{% endif %}</p>{% endif %}
+  {% include 'analisi/_tabella_voti.html' with righe=locale con_differenza=True %}
+</section>
+{% else %}
+<p class="invito">Scegli una provincia per vedere il risultato locale. Sotto trovi il risultato in tutta Italia.</p>
+{% endif %}
+
+<section class="riquadro">
+  <h2>Italia</h2>
+  <p class="costo">Elettori {{ aff_naz.e|intcomma }} · Votanti {{ aff_naz.v|intcomma }} · Affluenza <b>{{ affl_naz_pct|floatformat:2 }}%</b>{% if aff_naz.b %} · Schede bianche {{ aff_naz.b|intcomma }}{% endif %}</p>
+  {% include 'analisi/_tabella_voti.html' with righe=nazionale con_differenza=False %}
+</section>
+
+<p class="nota-fonte"><strong>Fonte:</strong> <a href="{{ elezione.fonte_url }}" target="_blank" rel="noopener">{{ elezione.fonte }}</a>. {{ elezione.nota }}</p>
+{% endblock %}
+{% block script %}
+<link rel="stylesheet" href="{% static 'analisi/vendor/select2.min.css' %}">
+<script src="{% static 'analisi/vendor/jquery.min.js' %}"></script>
+<script src="{% static 'analisi/vendor/select2.min.js' %}"></script>
+<script>
+  $(function () { $('#provincia').select2({ width: '100%', placeholder: 'Scrivi il nome della provincia' }); });
+</script>
+{% endblock %}

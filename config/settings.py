@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     'analisi',
 ]
 
@@ -143,3 +144,5 @@ if IN_PRODUZIONE:
     SECURE_SSL_REDIRECT = True
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
+
+USE_THOUSAND_SEPARATOR = True  # 1.234.567 nei numeri

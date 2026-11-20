@@ -118,3 +118,80 @@ class Commento(models.Model):
     @property
     def da_verificare(self):
         return '[verificare]' in ' '.join([self.precedenti, self.fondi, self.rischi_benefici, self.motivazione, self.promessa])
+
+
+class Elezione(models.Model):
+    EUROPEE, POLITICHE_CAMERA, POLITICHE_SENATO, REGIONALI, REFERENDUM = 'EU', 'PC', 'PS', 'RG', 'RF'
+    TIPI = [(EUROPEE, 'Europee'), (POLITICHE_CAMERA, 'Politiche - Camera'), (POLITICHE_SENATO, 'Politiche - Senato'),
+            (REGIONALI, 'Regionali'), (REFERENDUM, 'Referendum')]
+
+    tipo = models.CharField(max_length=2, choices=TIPI)
+    data = models.DateField()
+    nome = models.CharField(max_length=200)
+    ambito = models.CharField(max_length=100, blank=True, help_text='Per le regionali: la Regione')
+    fonte = models.CharField(max_length=300, blank=True)
+    fonte_url = models.URLField(blank=True)
+    nota = models.TextField(blank=True)
+
+    class Meta:
+        ordering = ['-data']
+        unique_together = [('tipo', 'data', 'ambito')]
+        verbose_name_plural = 'elezioni'
+
+    def __str__(self):
+        return self.nome
+
+    @property
+    def anno(self):
+        return self.data.year
+
+    def get_absolute_url(self):
+        return reverse('risultati_elezione', args=[self.pk])
+
+
+class Territorio(models.Model):
+    regione = models.CharField(max_length=60)
+    provincia = models.CharField(max_length=80)
+
+    class Meta:
+        ordering = ['regione', 'provincia']
+        unique_together = [('regione', 'provincia')]
+        verbose_name_plural = 'territori'
+
+    def __str__(self):
+        return f'{self.provincia} ({self.regione})'
+
+
+class Lista(models.Model):
+    """Una lista come compariva sulla scheda in quella elezione. Il collegamento al partito di oggi è facoltativo."""
+    elezione = models.ForeignKey(Elezione, on_delete=models.CASCADE, related_name='liste')
+    nome = models.CharField(max_length=200)
+    partito = models.ForeignKey(Partito, null=True, blank=True, on_delete=models.SET_NULL, related_name='liste')
+
+    class Meta:
+        unique_together = [('elezione', 'nome')]
+        verbose_name_plural = 'liste'
+
+    def __str__(self):
+        return f'{self.nome} ({self.elezione.anno})'
+
+
+class RisultatoLista(models.Model):
+    elezione = models.ForeignKey(Elezione, on_delete=models.CASCADE, related_name='risultati')
+    territorio = models.ForeignKey(Territorio, on_delete=models.CASCADE, related_name='risultati')
+    lista = models.ForeignKey(Lista, on_delete=models.CASCADE, related_name='risultati')
+    voti = models.PositiveIntegerField()
+
+    class Meta:
+        indexes = [models.Index(fields=['elezione', 'territorio'])]
+
+
+class Affluenza(models.Model):
+    elezione = models.ForeignKey(Elezione, on_delete=models.CASCADE, related_name='affluenze')
+    territorio = models.ForeignKey(Territorio, on_delete=models.CASCADE, related_name='affluenze')
+    elettori = models.PositiveIntegerField()
+    votanti = models.PositiveIntegerField()
+    bianche = models.PositiveIntegerField(null=True, blank=True)
+
+    class Meta:
+        unique_together = [('elezione', 'territorio')]
