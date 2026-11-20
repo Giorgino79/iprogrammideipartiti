@@ -28,6 +28,8 @@ NOTA_REGIONALI = ('Voti di lista e ai candidati presidente, sommati per provinci
                   'e possono differire dai riepiloghi ufficiali. Sono presenti solo le elezioni pubblicate nell\'archivio '
                   'del Ministero: mancano, per esempio, Valle d\'Aosta, Trentino-Alto Adige, Sardegna e Friuli-Venezia '
                   'Giulia e quasi tutte le elezioni siciliane.')
+NOTA_COMUNALI = ('Voti al sindaco (primo turno ed eventuale ballottaggio) e alle liste del primo turno, dal Ministero dell\'Interno. '
+                 'Affluenza del primo turno. Le liste locali non sono collegate ai partiti di oggi.')
 MESI = ['', 'gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre',
         'novembre', 'dicembre']
 
@@ -112,6 +114,7 @@ class Command(BaseCommand):
                     for r in csv.DictReader(f)])
             self.stdout.write(f'{elezione}: {len(liste)} liste, {len(risultati)} risultati')
         self.regionali(partiti)
+        self.comunali(partiti)
         for percorso in sorted(DATI.glob('referendum_*.csv')):
             d = percorso.stem.split('_')[1]
             data = date(int(d[:4]), int(d[4:6]), int(d[6:]))
@@ -184,3 +187,35 @@ class Command(BaseCommand):
                               votanti=int(r['votanti']), bianche=int(r['bianche']) if r['bianche'] != '' else None)
                     for r in affluenze.get(regione, [])])
             self.stdout.write(f'Regionali {data}: {len(liste)} regioni')
+
+    def comunali(self, partiti):
+        """Una elezione per città e data, dai file comunali_<città>_<AAAAMMGG>.csv (sindaco per turno, liste, affluenza)."""
+        for percorso in sorted(DATI.glob('comunali_*.csv')):
+            _, citta, d = percorso.stem.split('_')
+            data = date(int(d[:4]), int(d[4:6]), int(d[6:]))
+            citta = citta.title()
+            with open(percorso, encoding='utf-8', newline='') as f:
+                righe = list(csv.DictReader(f))
+            regione = righe[0]['regione']
+            elezione, _ = Elezione.objects.get_or_create(
+                tipo=Elezione.COMUNALI, data=data, ambito=citta,
+                defaults=dict(nome=f'Elezioni comunali {data.year} - {citta}', fonte=FONTE, fonte_url=FONTE_URL,
+                              nota=NOTA_COMUNALI))
+            elezione.risultati.all().delete()
+            elezione.affluenze.all().delete()
+            elezione.risultati_candidati.all().delete()
+            terr, _ = Territorio.objects.get_or_create(regione=regione, provincia=citta.upper())
+            liste = {}
+            for r in righe:
+                if r['tipo'] == 'A' and r['turno'] == '1':
+                    Affluenza.objects.create(elezione=elezione, territorio=terr, elettori=int(r['elettori']),
+                                             votanti=int(r['votanti']), bianche=int(r['bianche'] or 0))
+                elif r['tipo'] == 'C':
+                    RisultatoCandidato.objects.create(elezione=elezione, territorio=terr, candidato=r['nome'][:150],
+                                                      voti=int(r['voti']), turno=int(r['turno']))
+                elif r['tipo'] == 'L':
+                    if r['nome'] not in liste:
+                        liste[r['nome']], _ = Lista.objects.get_or_create(
+                            elezione=elezione, nome=r['nome'], defaults=dict(partito=partito_di(r['nome'], partiti)))
+                    RisultatoLista.objects.create(elezione=elezione, territorio=terr, lista=liste[r['nome']], voti=int(r['voti']))
+            self.stdout.write(f'{elezione}: {len(liste)} liste')

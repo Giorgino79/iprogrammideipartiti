@@ -539,3 +539,54 @@ def prepara_regionali(cartella, cartella_europee, solo=None):
                     w.writerow([reg, prov, cand, n])
         esito[data] = (liste, candidati, affluenza, non_abbinati, totale)
     return esito
+
+
+# ------------------------------------------------------------------ comunali (grandi città)
+CITTA = ['ROMA', 'MILANO', 'TORINO', 'BOLOGNA', 'NAPOLI']
+DATE_COMUNALI = ['20010513', '20040612', '20060528', '20080413', '20090607', '20110515', '20130526', '20160605', '20211003']
+
+
+def prepara_comunali(cartella):
+    """Una riga per elezione e città: sindaco e liste per turno. Scrive comunali_<città>_<data>.csv."""
+    cartella = Path(cartella)
+    risultati = {}
+    for data in DATE_COMUNALI:
+        percorso = cartella / data / f'comunali-{data}.txt'
+        dati = {c: dict(cand={}, liste=defaultdict(int), aff={}, righe=set(), regione='') for c in CITTA}
+        with open(percorso, encoding='latin-1', errors='replace', newline='') as f:
+            r = csv.DictReader(f, delimiter=';')
+            r.fieldnames = [n.strip().upper() for n in r.fieldnames]
+            for riga in r:
+                com = pulisci(riga['COMUNE']).upper()
+                if com not in dati or pulisci(riga['PROVINCIA']).upper() != com:
+                    continue
+                d = dati[com]
+                d['regione'] = regione(riga['REGIONE'])
+                turno = pulisci(riga['TURNO']) or '1'
+                cogn, nome = pulisci(riga['COGNOME']), pulisci(riga['NOME'])
+                voti_c = _num(_alias(riga, 'VOTI_CANDIDATO|VOTICANDIDSINDACO'))
+                lista = pulisci(_alias(riga, 'LISTA|DESCRLISTA'))
+                voti_l = _num(_alias(riga, 'VOTI_LISTA|VOTILISTA'))
+                d['cand'].setdefault((turno, f'{cogn} {nome}'.strip()), voti_c)
+                if turno == '1' and lista and (cogn, nome, lista) not in d['righe']:
+                    d['righe'].add((cogn, nome, lista))
+                    d['liste'][lista] += voti_l
+                if turno not in d['aff']:
+                    d['aff'][turno] = (_num(_alias(riga, 'ELETTORI|ELETTORITOT')), _num(_alias(riga, 'VOTANTI|VOTANTITOT')),
+                                       _num(_alias(riga, 'SCHEDE_BIANCHE|SKBIANCHE')))
+        for com, d in dati.items():
+            if not d['cand']:
+                continue
+            USCITA.mkdir(exist_ok=True)
+            with open(USCITA / f'comunali_{com.lower()}_{data}.csv', 'w', encoding='utf-8', newline='') as f:
+                w = csv.writer(f)
+                w.writerow(['tipo', 'turno', 'nome', 'voti', 'elettori', 'votanti', 'bianche', 'regione'])
+                for turno, (e, v, b) in sorted(d['aff'].items()):
+                    w.writerow(['A', turno, '', '', e, v, b, d['regione']])
+                for (turno, nome), n in sorted(d['cand'].items()):
+                    w.writerow(['C', turno, nome, n, '', '', '', d['regione']])
+                for lista, n in sorted(d['liste'].items()):
+                    if n:
+                        w.writerow(['L', '1', lista, n, '', '', '', d['regione']])
+            risultati[(com, data)] = d
+    return risultati

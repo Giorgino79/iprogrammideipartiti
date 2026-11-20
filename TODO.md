@@ -117,8 +117,9 @@ Fonte: Ministero dell'Interno, Eligendo - Archivio storico, sezione Open data (e
   - [ ] Il **quorum ufficiale** si calcola con gli elettori all'estero, che qui mancano: per ora si mostra "sopra/sotto il 50%" solo come indicazione. Aggiungere i dati dell'estero (file `Estero` nello stesso archivio).
   - [ ] Nel 2016 (dicembre), 2020 e 2025 risultano 106-107 province contro 110: verificare quali nomi mancano.
   - [ ] **Titoli dei quesiti del 2022**: sono sintetici (il file non li riporta): sostituire con i testi ufficiali.
-- [ ] **Politiche** (Camera e Senato) 2001, 2006, 2008, 2013, 2018, 2022: archivi `camera/` e `senato/` nello stesso elenco. Attenzione a coalizioni, liste, collegi uninominali e plurinominali (2018, 2022), Valle d'Aosta e Trentino-Alto Adige.
-- [ ] **Regionali** dal 2000: archivi `regionali/` (una elezione per Regione e data; Regioni a statuto speciale con regole proprie). Includere presidenti e liste.
+- [x] **Politiche** (Camera e Senato) 2001, 2006, 2008, 2013, 2018, 2022: archivi `camera/` e `senato/` nello stesso elenco. Attenzione a coalizioni, liste, collegi uninominali e plurinominali (2018, 2022), Valle d'Aosta e Trentino-Alto Adige.
+- [x] **Regionali** dal 2000: archivi `regionali/` (una elezione per Regione e data; Regioni a statuto speciale con regole proprie). Includere presidenti e liste.
+- [x] **Grandi città** (Roma, Milano, Torino, Bologna, Napoli) dal 2001: sindaco al primo turno e al ballottaggio, liste del primo turno, affluenza (26 elezioni). Mancano: Bologna 2001, ballottaggi dove i dati sono in file a parte, giudizio con punteggi sugli esiti.
 - [ ] **Grandi città** (Milano, Torino, Bologna, Roma, Napoli): comunali dal 2000, dopo i punti precedenti.
 - [ ] **Seggi** (europee, politiche, regionali): oggi ci sono solo i voti, non i seggi assegnati.
 - [ ] **Tabella dei collegamenti** tra liste di ieri e partiti di oggi: per ora solo i casi chiari (`COLLEGAMENTI` in `importa_elezioni.py`). Decidere con Luigi come trattare PdL, Ulivo, Margherita, DS, liste civiche, ecc.

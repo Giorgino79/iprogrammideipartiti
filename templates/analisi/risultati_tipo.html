@@ -4,7 +4,7 @@
 <p class="briciole"><a href="{% url 'risultati' %}">&larr; Risultati elettorali</a></p>
 <h1>{{ nome }}</h1>
 {% if regioni %}
-  <h2 class="titoletto">Scegli una Regione</h2>
+  <h2 class="titoletto">Scegli {% if nome|slice:":8" == "Comunali" %}una città{% else %}una Regione{% endif %}</h2>
   <div class="griglia">
     {% for r in regioni %}<a class="card neutra{% if r == scelta %} attiva{% endif %}" href="?regione={{ r|urlencode }}">{{ r }}</a>{% endfor %}
   </div>

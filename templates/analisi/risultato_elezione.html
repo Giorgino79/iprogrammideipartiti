@@ -5,7 +5,7 @@
 <p class="briciole"><a href="{% url 'risultati_tipo' tipo_slug %}">&larr; {{ tipo_nome }}</a></p>
 <h1>{{ elezione.nome }} <span class="anno">{{ elezione.data|date:"j F Y" }}</span></h1>
 
-<section class="riquadro">
+{% if elezione.tipo != 'CM' %}<section class="riquadro">
   <h2 class="titoletto">Cerca una provincia</h2>
   <form method="get" class="selettore">
     <select name="provincia" id="provincia" aria-label="Provincia">
@@ -15,8 +15,9 @@
     <button type="submit" class="tasto">Mostra</button>
   </form>
 </section>
+{% endif %}
 
-{% if scelto %}
+{% if scelto and elezione.tipo != 'CM' %}
 <section class="riquadro">
   <h2>{{ scelto.provincia }} <span class="anno">{{ scelto.regione }}</span></h2>
   {% if aff_loc %}<p class="costo">Elettori {{ aff_loc.elettori|intcomma }} · Votanti {{ aff_loc.votanti|intcomma }} · Affluenza <b>{{ affl_loc_pct|floatformat:2 }}%</b>{% if aff_loc.bianche is not None %} · Schede bianche {{ aff_loc.bianche|intcomma }}{% endif %}</p>{% endif %}
@@ -24,12 +25,14 @@
   {% include 'analisi/_tabella_voti.html' with righe=locale con_differenza=True %}
 </section>
 {% else %}
-<p class="invito">Scegli una provincia per vedere il risultato locale. Sotto trovi il risultato complessivo.</p>
+{% if elezione.tipo != 'CM' %}<p class="invito">Scegli una provincia per vedere il risultato locale. Sotto trovi il risultato complessivo.</p>{% endif %}
 {% endif %}
 
 <section class="riquadro">
   <h2>{% if elezione.ambito %}{{ elezione.ambito }}{% else %}Italia{% endif %}</h2>
   <p class="costo">Elettori {{ aff_naz.e|intcomma }} · Votanti {{ aff_naz.v|intcomma }} · Affluenza <b>{{ affl_naz_pct|floatformat:2 }}%</b>{% if aff_naz.b %} · Schede bianche {{ aff_naz.b|intcomma }}{% endif %}</p>
+  {% for t, cand in turni %}<h3 class="titoletto">Sindaco - {% if t == 1 %}primo turno{% else %}ballottaggio{% endif %}</h3>{% include 'analisi/_tabella_voti.html' with righe=cand con_differenza=False %}{% endfor %}
+  {% if turni %}<h3 class="titoletto">Liste (primo turno)</h3>{% endif %}
   {% if cand_naz %}<h3 class="titoletto">Candidati presidente</h3>{% include 'analisi/_tabella_voti.html' with righe=cand_naz con_differenza=False %}<h3 class="titoletto">Liste</h3>{% endif %}
   {% include 'analisi/_tabella_voti.html' with righe=nazionale con_differenza=False %}
 </section>

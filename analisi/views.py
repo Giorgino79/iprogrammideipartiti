@@ -60,6 +60,7 @@ TIPI_RISULTATI = {
     'politiche': ((Elezione.POLITICHE_CAMERA, Elezione.POLITICHE_SENATO), 'Elezioni politiche'),
     'regionali': (Elezione.REGIONALI, 'Elezioni regionali'),
     'referendum': (Elezione.REFERENDUM, 'Referendum'),
+    'comunali': (Elezione.COMUNALI, 'Comunali (grandi città)'),
 }
 
 
@@ -83,7 +84,7 @@ def risultati_tipo(request, slug):
     sigla, nome = TIPI_RISULTATI[slug]
     elezioni = Elezione.objects.filter(tipo__in=_siglie(sigla)).order_by('-data', 'tipo')
     regioni = scelta = None
-    if sigla == Elezione.REGIONALI:  # molte elezioni: prima si sceglie la Regione
+    if sigla in (Elezione.REGIONALI, Elezione.COMUNALI):  # molte elezioni: prima si sceglie la Regione/città
         regioni = list(elezioni.order_by('ambito').values_list('ambito', flat=True).distinct())
         scelta = request.GET.get('regione') if request.GET.get('regione') in regioni else None
         elezioni = elezioni.filter(ambito=scelta) if scelta else elezioni.none()
@@ -167,8 +168,13 @@ def risultati_elezione(request, pk):
         aff_loc = aff.filter(territorio=scelto).first()
     cand_naz = _candidati(RisultatoCandidato.objects.filter(elezione=elezione))
     cand_loc = _candidati(RisultatoCandidato.objects.filter(elezione=elezione, territorio=scelto)) if scelto else None
+    turni = None
+    if elezione.tipo == Elezione.COMUNALI:
+        turni = [(t, _candidati(RisultatoCandidato.objects.filter(elezione=elezione, turno=t)))
+                 for t in sorted(RisultatoCandidato.objects.filter(elezione=elezione).values_list('turno', flat=True).distinct())]
+        cand_naz = None
     return render(request, 'analisi/risultato_elezione.html', {
-        'cand_naz': cand_naz, 'cand_loc': cand_loc, 'elezione': elezione, 'tipo_slug': _slug_tipo(elezione.tipo), 'tipo_nome': TIPI_RISULTATI[_slug_tipo(elezione.tipo)][1],
+        'turni': turni, 'cand_naz': cand_naz, 'cand_loc': cand_loc, 'elezione': elezione, 'tipo_slug': _slug_tipo(elezione.tipo), 'tipo_nome': TIPI_RISULTATI[_slug_tipo(elezione.tipo)][1],
         'nazionale': nazionale, 'aff_naz': aff_naz, 'territori': territori,
         'scelto': scelto, 'locale': locale, 'aff_loc': aff_loc,
         'affl_naz_pct': round(100 * aff_naz['v'] / aff_naz['e'], 2) if aff_naz['e'] else None,

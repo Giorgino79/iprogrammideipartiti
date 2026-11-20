@@ -121,14 +121,14 @@ class Commento(models.Model):
 
 
 class Elezione(models.Model):
-    EUROPEE, POLITICHE_CAMERA, POLITICHE_SENATO, REGIONALI, REFERENDUM = 'EU', 'PC', 'PS', 'RG', 'RF'
+    EUROPEE, POLITICHE_CAMERA, POLITICHE_SENATO, REGIONALI, REFERENDUM, COMUNALI = 'EU', 'PC', 'PS', 'RG', 'RF', 'CM'
     TIPI = [(EUROPEE, 'Europee'), (POLITICHE_CAMERA, 'Politiche - Camera'), (POLITICHE_SENATO, 'Politiche - Senato'),
-            (REGIONALI, 'Regionali'), (REFERENDUM, 'Referendum')]
+            (REGIONALI, 'Regionali'), (REFERENDUM, 'Referendum'), (COMUNALI, 'Comunali')]
 
     tipo = models.CharField(max_length=2, choices=TIPI)
     data = models.DateField()
     nome = models.CharField(max_length=200)
-    ambito = models.CharField(max_length=100, blank=True, help_text='Per le regionali: la Regione')
+    ambito = models.CharField(max_length=100, blank=True, help_text='Per le regionali: la Regione; per le comunali: la città')
     fonte = models.CharField(max_length=300, blank=True)
     fonte_url = models.URLField(blank=True)
     nota = models.TextField(blank=True)
@@ -234,6 +234,7 @@ class RisultatoCandidato(models.Model):
     territorio = models.ForeignKey(Territorio, on_delete=models.CASCADE, related_name='risultati_candidati')
     candidato = models.CharField(max_length=150)
     voti = models.PositiveIntegerField()
+    turno = models.PositiveSmallIntegerField(default=1)
 
     class Meta:
         indexes = [models.Index(fields=['elezione', 'territorio'])]
