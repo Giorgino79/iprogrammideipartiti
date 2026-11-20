@@ -169,15 +169,10 @@ def risultati_elezione(request, pk):
     quadro = None
     if elezione.tipo in (Elezione.EUROPEE, Elezione.POLITICHE_CAMERA, Elezione.POLITICHE_SENATO) and aff_naz['e']:
         e = aff_naz['e']
-        per_partito = {r['lista__partito']: r['tot'] for r in
-                       base.filter(lista__partito__isnull=False).values('lista__partito').annotate(tot=Sum('voti'))}
-        con, senza = [], []
-        for p in Partito.objects.filter(coalizione=False) if hasattr(Partito, 'coalizione') else Partito.objects.all():
-            if p.pk in per_partito:
-                con.append((p, round(100 * per_partito[p.pk] / e, 2)))
-            else:
-                senza.append((p, None))
-        quadro = dict(astensione=round(100 * (e - aff_naz['v']) / e, 2), partiti=sorted(con, key=lambda x: -x[1]) + senza)
+        voci = [dict(nome=r['lista__nome'], partito=Partito.objects.filter(pk=r['lista__partito']).first() if r['lista__partito'] else None,
+                     pct=round(100 * r['tot'] / e, 2))
+                for r in base.values('lista__nome', 'lista__partito').annotate(tot=Sum('voti')).order_by('-tot')]
+        quadro = dict(astensione=round(100 * (e - aff_naz['v']) / e, 2), liste=voci)
     cand_naz = _candidati(RisultatoCandidato.objects.filter(elezione=elezione))
     cand_loc = _candidati(RisultatoCandidato.objects.filter(elezione=elezione, territorio=scelto)) if scelto else None
     turni = None
