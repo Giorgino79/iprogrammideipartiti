@@ -166,6 +166,18 @@ def risultati_elezione(request, pk):
         for r in locale:
             r['differenza'] = round(r['percento'] - confronto.get(r['lista'], 0), 2)
         aff_loc = aff.filter(territorio=scelto).first()
+    quadro = None
+    if elezione.tipo in (Elezione.EUROPEE, Elezione.POLITICHE_CAMERA, Elezione.POLITICHE_SENATO) and aff_naz['e']:
+        e = aff_naz['e']
+        per_partito = {r['lista__partito']: r['tot'] for r in
+                       base.filter(lista__partito__isnull=False).values('lista__partito').annotate(tot=Sum('voti'))}
+        con, senza = [], []
+        for p in Partito.objects.filter(coalizione=False) if hasattr(Partito, 'coalizione') else Partito.objects.all():
+            if p.pk in per_partito:
+                con.append((p, round(100 * per_partito[p.pk] / e, 2)))
+            else:
+                senza.append((p, None))
+        quadro = dict(astensione=round(100 * (e - aff_naz['v']) / e, 2), partiti=sorted(con, key=lambda x: -x[1]) + senza)
     cand_naz = _candidati(RisultatoCandidato.objects.filter(elezione=elezione))
     cand_loc = _candidati(RisultatoCandidato.objects.filter(elezione=elezione, territorio=scelto)) if scelto else None
     turni = None
@@ -174,7 +186,7 @@ def risultati_elezione(request, pk):
                  for t in sorted(RisultatoCandidato.objects.filter(elezione=elezione).values_list('turno', flat=True).distinct())]
         cand_naz = None
     return render(request, 'analisi/risultato_elezione.html', {
-        'turni': turni, 'cand_naz': cand_naz, 'cand_loc': cand_loc, 'elezione': elezione, 'tipo_slug': _slug_tipo(elezione.tipo), 'tipo_nome': TIPI_RISULTATI[_slug_tipo(elezione.tipo)][1],
+        'quadro': quadro, 'turni': turni, 'cand_naz': cand_naz, 'cand_loc': cand_loc, 'elezione': elezione, 'tipo_slug': _slug_tipo(elezione.tipo), 'tipo_nome': TIPI_RISULTATI[_slug_tipo(elezione.tipo)][1],
         'nazionale': nazionale, 'aff_naz': aff_naz, 'territori': territori,
         'scelto': scelto, 'locale': locale, 'aff_loc': aff_loc,
         'affl_naz_pct': round(100 * aff_naz['v'] / aff_naz['e'], 2) if aff_naz['e'] else None,

@@ -5,6 +5,18 @@
 <p class="briciole"><a href="{% url 'risultati_tipo' tipo_slug %}">&larr; {{ tipo_nome }}</a></p>
 <h1>{{ elezione.nome }} <span class="anno">{{ elezione.data|date:"j F Y" }}</span></h1>
 
+{% if quadro %}
+<section class="riquadro">
+  <h2 class="titoletto">Quanti elettori hanno scelto ogni partito</h2>
+  <div class="quadro">
+    <div class="voce"><span class="simbolo no-voto" aria-hidden="true"></span><b>{{ quadro.astensione|floatformat:2 }}%</b><small>Non votanti</small></div>
+    {% for p, pct in quadro.partiti %}<a class="voce" href="{{ p.get_absolute_url }}">
+      <span class="simbolo{% if p.logo %} con-logo{% endif %}">{% if p.logo %}<img src="{{ p.logo.url }}" alt="{{ p.nome }}">{% else %}<span>{{ p.sigla }}</span>{% endif %}</span>
+      <b>{% if pct is None %}&ndash;{% else %}{{ pct|floatformat:2 }}%{% endif %}</b><small>{{ p.nome }}</small></a>{% endfor %}
+  </div>
+  <p class="costo">Percentuali sul totale degli aventi diritto al voto (liste collegate ai partiti di oggi). &ldquo;&ndash;&rdquo; = il partito non c&rsquo;era o non è collegabile in modo chiaro.</p>
+</section>
+{% endif %}
 {% if elezione.tipo != 'CM' %}<section class="riquadro">
   <h2 class="titoletto">Cerca una provincia</h2>
   <form method="get" class="selettore">
