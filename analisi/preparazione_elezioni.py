@@ -25,6 +25,10 @@ def pulisci(testo):
 
 def regione(r):
     r = pulisci(r).upper()
+    if r.startswith('TRENTINO'):
+        return 'TRENTINO-ALTO ADIGE'
+    if r.startswith("VALLE D'AOSTA"):
+        return "VALLE D'AOSTA"
     return REGIONI.get(r, r)
 
 
@@ -201,3 +205,159 @@ def prepara_referendum(cartella):
     for data, dati in risultati.items():
         scrivi_referendum(data, dati, data in COSTITUZIONALI)
     return risultati
+
+
+# ------------------------------------------------------------------ politiche
+import unicodedata  # noqa: E402
+
+
+def norma_comune(nome):
+    n = unicodedata.normalize('NFKD', nome or '')
+    n = ''.join(c for c in n if not unicodedata.combining(c)).upper()
+    return re.sub(r'\s+', ' ', re.sub(r"[’'`\-./]", ' ', n)).strip()
+
+
+def regione_da_circoscrizione(c):
+    """'LOMBARDIA 1' -> 'LOMBARDIA'"""
+    return regione(re.sub(r'\s*\d+\s*$', '', pulisci(c)))
+
+
+def mappe_comuni(cartella_europee):
+    """(anno europee) -> {(regione, comune normalizzato): provincia, oppure None se il nome è ambiguo}."""
+    c = Path(cartella_europee)
+    sorgenti = {2004: (c / 'europee-20040612.txt', COLONNE_VECCHIE, 'latin-1'),
+                2009: (c / 'europee-20090607.txt', COLONNE_VECCHIE, 'latin-1'),
+                2014: (c / 'europee-20140525.txt', COLONNE_VECCHIE, 'latin-1'),
+                2019: (c / 'europee-20190526.txt', COLONNE_VECCHIE, 'latin-1'),
+                2024: (c / 'Europee-20240609' / 'EUROPEE_SCRUTINI&LISTE_ITALIA_LivComune.csv', COLONNE_2024, 'cp1252')}
+    mappe = {}
+    for anno, (percorso, col, cod) in sorgenti.items():
+        visti = {}
+        with open(percorso, encoding=cod, errors='replace', newline='') as f:
+            for r in csv.DictReader(f, delimiter=';'):
+                k = (regione(r[col['regione']]), norma_comune(r[col['comune']]))
+                p = provincia(r[col['provincia']])
+                visti[k] = p if visti.get(k, p) == p else None
+        mappe[anno] = visti
+    return mappe
+
+
+def _num(v):
+    v = pulisci(str(v)).replace(' ', '')
+    if not v:
+        return 0
+    if ',' in v:
+        v = v.split(',')[0]
+    return int(v.replace('.', ''))
+
+
+def _righe_politiche(percorso, tipo, codifica='latin-1'):
+    """Restituisce tuple (regione, provincia o None, comune, chiave comune, elettori, votanti, bianche, lista, voti)."""
+    with open(percorso, encoding=codifica, errors='replace', newline='') as f:
+        for r in csv.DictReader(f, delimiter=';'):
+            if tipo in ('it_prov', 'taa_2013'):  # 2006-2013: Camera e Senato, di solito con la provincia
+                reg = regione_da_circoscrizione(r.get('CIRCOSCRIZIONE') or r.get('REGIONE'))
+                prov = provincia(r['PROVINCIA']) if r.get('PROVINCIA') else None
+                comune = pulisci(r['COMUNE'])
+                yield (reg, prov, comune, (r.get('COLLEGIO') if prov is None else prov, comune),
+                       _num(r.get('ELETTORI') or r.get('ELETTORI_TOTALI')),
+                       _num(r.get('VOTANTI') or r.get('VOTANTI_TOTALI')), _num(r['SCHEDE_BIANCHE']), pulisci(r['LISTA']),
+                       _num(r.get('VOTILISTA') or r.get('VOTI_LISTA')))
+            elif tipo == 'camera_2001':
+                yield (regione_da_circoscrizione(r['CIRCOSCRIZIONE']), None, pulisci(r['COMUNE']),
+                       (pulisci(r['COLLEGIO']), pulisci(r['COMUNE'])), _num(r['ELETTORI']), _num(r['VOTANTI']),
+                       _num(r['SCHEDE_BIANCHE']), pulisci(r['LISTA']), _num(r['VOTI_LISTA']))
+            elif tipo == 'senato_2001':
+                yield (regione(r['REGIONE']), None, pulisci(r['COMUNE']), (pulisci(r['COLLEGIO']), pulisci(r['COMUNE'])),
+                       _num(r['ELETTORI']), _num(r['VOTANTI']), _num(r['SCHEDE_BIANCHE']), pulisci(r['LISTA']),
+                       _num(r['VOTI_LISTA']))
+            elif tipo == 'camera_2018':
+                yield (regione_da_circoscrizione(r['CIRCOSCRIZIONE']), None, pulisci(r['COMUNE']),
+                       (pulisci(r['COLLEGIOUNINOMINALE']), pulisci(r['COMUNE'])), _num(r['ELETTORI']),
+                       _num(r['VOTANTI']), _num(r['SCHEDE_BIANCHE']), pulisci(r['LISTA']), _num(r['VOTI_LISTA']))
+            elif tipo == 'senato_2018':
+                yield (regione(r['REGIONE']), None, pulisci(r['COMUNE']),
+                       (pulisci(r['COLLEGIOUNINOMINALE']), pulisci(r['COMUNE'])), _num(r['ELETTORI']),
+                       _num(r['VOTANTI']), _num(r['SCHEDE_BIANCHE']), pulisci(r['LISTA']), _num(r['VOTI_LISTA']))
+            elif tipo == '2022':
+                yield (regione_da_circoscrizione(r['CIRC-REG']), None, pulisci(r['COMUNE']),
+                       (pulisci(r['COLLUNINOM']), pulisci(r['COMUNE'])), _num(r['ELETTORITOT']),
+                       _num(r['VOTANTITOT']), _num(r['SKBIANCHE']), pulisci(r['DESCRLISTA']), _num(r['VOTILISTA']))
+
+
+# camera/senato, anno -> [(file, tipo, codifica)], anni delle europee da cui ricavare le province
+SORGENTI_POLITICHE = {
+    ('camera', 2001): ([('camera-20010513/camera-20010513_Proporzionale.txt', 'camera_2001', 'latin-1')], [2004, 2009]),
+    ('camera', 2006): ([('camera-20060409/camera_italia-20060409.txt', 'it_prov', 'latin-1')], []),
+    ('camera', 2008): ([('camera-20080413/camera_italia-20080413.txt', 'it_prov', 'latin-1')], []),
+    ('camera', 2013): ([('camera-20130224/camera_italia-20130224.txt', 'it_prov', 'latin-1')], []),
+    ('camera', 2018): ([('camera-20180304/Camera2018_livComune.txt', 'camera_2018', 'latin-1')], [2019, 2014, 2024]),
+    ('camera', 2022): ([('camera-20220925/camera2022_Italia_LivComune.csv', '2022', 'latin-1')], [2024, 2019]),
+    ('senato', 2001): ([('senato-20010513/senato-20010513.txt', 'senato_2001', 'latin-1')], [2004, 2009]),
+    ('senato', 2006): ([('senato-20060409/senato_italia-20060409.txt', 'it_prov', 'latin-1'),
+                        ('senato-20060409/senato_vaosta_trentino-20060409.txt', 'taa_2013', 'latin-1')], [2009, 2004]),
+    ('senato', 2008): ([('senato-20080413/senato_italia-20080413.txt', 'it_prov', 'latin-1'),
+                        ('senato-20080413/senato_vaosta_trentino_20080413.txt', 'taa_2013', 'latin-1')], []),
+    ('senato', 2013): ([('senato-20130224/senato_italia-20130224.txt', 'it_prov', 'latin-1'),
+                        ('senato-20130224/senato_vaosta_trentino-20130224.txt', 'taa_2013', 'latin-1')], []),
+    ('senato', 2018): ([('senato-20180304/Senato2018_livComune.txt', 'senato_2018', 'latin-1')], [2019, 2014, 2024]),
+    ('senato', 2022): ([('senato-20220925/Senato_Italia_LivComune.csv', '2022', 'latin-1')], [2024, 2019]),
+}
+NON_ASSEGNATA = 'COMUNE NON ABBINATO'
+
+
+def _compatte(mappa):
+    """Stessa mappa, ma con i nomi senza spazi (SAN REMO = SANREMO)."""
+    out = {}
+    for (reg, nome), prov in mappa.items():
+        k = (reg, nome.replace(' ', ''))
+        out[k] = prov if out.get(k, prov) == prov else None
+    return out
+
+
+def trova_provincia(reg, comune, anni, mappe, compatte):
+    """Cerca la provincia di un comune; le zone di una città ('Roma - Trieste', 'Milano 1') cercano il nome della città."""
+    nome = norma_comune(comune)
+    nome = re.sub(r'^PARTE DI COMUNE ', '', nome)
+    nome = re.sub(r'\s+\d+$', '', nome)
+    parole = nome.split()
+    candidati = [' '.join(parole[:i]) for i in range(len(parole), 0, -1)]
+    for a in anni:
+        for c in candidati:
+            p = mappe[a].get((reg, c)) or compatte[a].get((reg, c.replace(' ', '')))
+            if p:
+                return p
+    return None
+
+
+def prepara_politiche(cartella, cartella_europee):
+    cartella = Path(cartella)
+    mappe = mappe_comuni(cartella_europee)
+    compatte = {a: _compatte(m) for a, m in mappe.items()}
+    esito = {}
+    for (camera_senato, anno), (file_tipo, anni_mappa) in SORGENTI_POLITICHE.items():
+        voti = defaultdict(int)
+        affluenza = {}
+        liste_viste = set()
+        aff_viste = set()
+        non_abbinati = 0
+        totale = 0
+        for rel, tipo, cod in file_tipo:
+            for reg, prov, comune, chiave, el, vo, bi, lista, n in _righe_politiche(cartella / rel, tipo, cod):
+                if prov is None:
+                    prov = trova_provincia(reg, comune, anni_mappa, mappe, compatte) or NON_ASSEGNATA
+                if (chiave, lista) not in liste_viste:  # lo stesso comune compare su più righe (candidati)
+                    liste_viste.add((chiave, lista))
+                    voti[(reg, prov, lista)] += n
+                    totale += n
+                    if prov == NON_ASSEGNATA:
+                        non_abbinati += n
+                if chiave not in aff_viste:
+                    aff_viste.add(chiave)
+                    a = affluenza.setdefault((reg, prov), [0, 0, 0])
+                    a[0] += el
+                    a[1] += vo
+                    a[2] += bi
+        scrivi(f'politiche_{camera_senato}_{anno}', voti, affluenza)
+        esito[(camera_senato, anno)] = (voti, affluenza, non_abbinati, totale)
+    return esito

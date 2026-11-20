@@ -26,6 +26,14 @@ MESI = ['', 'gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'lugli
         'novembre', 'dicembre']
 
 # file -> (tipo, data)
+NOTA_POLITICHE = ('Voti di lista in Italia, sommati per provincia dai dati per comune del Ministero dell\'Interno. '
+                  'Non comprendono la circoscrizione Estero. Le percentuali sono sui voti di lista validi. Per il Senato '
+                  'del 2001 le \"liste\" sono le coalizioni dei candidati nei collegi uninominali. I comuni che non si '
+                  'riesce ad abbinare a una provincia (meno dell\'1% dei voti) sono conteggiati solo nel totale '
+                  'nazionale. Il Ministero precisa che i dati per comune in parte sono ufficiosi e possono differire '
+                  'dai riepiloghi ufficiali.')
+DATE_POLITICHE = {2001: date(2001, 5, 13), 2006: date(2006, 4, 9), 2008: date(2008, 4, 13), 2013: date(2013, 2, 24),
+                  2018: date(2018, 3, 4), 2022: date(2022, 9, 25)}
 ELEZIONI = {
     'europee_2004': (Elezione.EUROPEE, date(2004, 6, 12)),
     'europee_2009': (Elezione.EUROPEE, date(2009, 6, 7)),
@@ -33,11 +41,19 @@ ELEZIONI = {
     'europee_2019': (Elezione.EUROPEE, date(2019, 5, 26)),
     'europee_2024': (Elezione.EUROPEE, date(2024, 6, 9)),
 }
+for _anno, _data in DATE_POLITICHE.items():
+    ELEZIONI[f'politiche_camera_{_anno}'] = (Elezione.POLITICHE_CAMERA, _data)
+    ELEZIONI[f'politiche_senato_{_anno}'] = (Elezione.POLITICHE_SENATO, _data)
+
+NOMI = {Elezione.EUROPEE: 'Elezioni europee {anno}',
+        Elezione.POLITICHE_CAMERA: 'Elezioni politiche {anno} - Camera dei Deputati',
+        Elezione.POLITICHE_SENATO: 'Elezioni politiche {anno} - Senato della Repubblica'}
+NOTE = {Elezione.EUROPEE: NOTA_EUROPEE, Elezione.POLITICHE_CAMERA: NOTA_POLITICHE, Elezione.POLITICHE_SENATO: NOTA_POLITICHE}
 
 # Collegamento alle liste con i partiti di oggi, solo dove la continuità è chiara (testo contenuto nel nome della lista)
 COLLEGAMENTI = [
     ("FRATELLI D'ITALIA", 'fdi'), ('PARTITO DEMOCRATICO', 'pd'), ('MOVIMENTO 5 STELLE', 'm5s'),
-    ('FORZA ITALIA', 'forza-italia'), ('LEGA NORD', 'lega'), ('LEGA SALVINI PREMIER', 'lega'),
+    ('FORZA ITALIA', 'forza-italia'), ('LEGA NORD', 'lega'), ('LEGA SALVINI PREMIER', 'lega'), ('LEGA PER SALVINI', 'lega'),
     ('ALLEANZA VERDI E SINISTRA', 'avs'), ('AZIONE - SIAMO EUROPEI', 'azione'),
     ('+EUROPA', 'piu-europa'), ('NOI MODERATI', 'noi-moderati'),
 ]
@@ -63,7 +79,7 @@ class Command(BaseCommand):
                 continue
             elezione, _ = Elezione.objects.get_or_create(
                 tipo=tipo, data=data, ambito='',
-                defaults=dict(nome=f'Elezioni europee {data.year}', fonte=FONTE, fonte_url=FONTE_URL, nota=NOTA_EUROPEE))
+                defaults=dict(nome=NOMI[tipo].format(anno=data.year), fonte=FONTE, fonte_url=FONTE_URL, nota=NOTE[tipo]))
             elezione.risultati.all().delete()
             elezione.affluenze.all().delete()
             territori = {}

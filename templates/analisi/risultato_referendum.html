@@ -2,7 +2,7 @@
 {% load static %}
 {% block title %}{{ elezione.nome }}{% endblock %}
 {% block contenuto %}
-<p class="briciole"><a href="{% url 'risultati_tipo' 'referendum' %}">&larr; Referendum</a></p>
+<p class="briciole"><a href="{% url 'risultati_tipo' tipo_slug %}">&larr; {{ tipo_nome }}</a></p>
 <h1>{{ elezione.nome }}</h1>
 
 <section class="riquadro">

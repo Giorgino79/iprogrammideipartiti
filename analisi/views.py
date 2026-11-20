@@ -57,15 +57,23 @@ def confronto_tema(request, slug):
 
 TIPI_RISULTATI = {
     'europee': (Elezione.EUROPEE, 'Elezioni europee'),
-    'politiche': (Elezione.POLITICHE_CAMERA, 'Elezioni politiche'),
+    'politiche': ((Elezione.POLITICHE_CAMERA, Elezione.POLITICHE_SENATO), 'Elezioni politiche'),
     'regionali': (Elezione.REGIONALI, 'Elezioni regionali'),
     'referendum': (Elezione.REFERENDUM, 'Referendum'),
 }
 
 
+def _siglie(sigla):
+    return sigla if isinstance(sigla, tuple) else (sigla,)
+
+
+def _slug_tipo(tipo):
+    return next(slug for slug, (sigla, _) in TIPI_RISULTATI.items() if tipo in _siglie(sigla))
+
+
 def risultati(request):
     presenti = set(Elezione.objects.values_list('tipo', flat=True).distinct())
-    tipi = [(slug, nome, sigla in presenti) for slug, (sigla, nome) in TIPI_RISULTATI.items()]
+    tipi = [(slug, nome, bool(set(_siglie(sigla)) & presenti)) for slug, (sigla, nome) in TIPI_RISULTATI.items()]
     return render(request, 'analisi/risultati.html', {'tipi': tipi})
 
 
@@ -74,7 +82,7 @@ def risultati_tipo(request, slug):
         raise Http404
     sigla, nome = TIPI_RISULTATI[slug]
     return render(request, 'analisi/risultati_tipo.html', {
-        'nome': nome, 'elezioni': Elezione.objects.filter(tipo=sigla),
+        'nome': nome, 'elezioni': Elezione.objects.filter(tipo__in=_siglie(sigla)).order_by('-data', 'tipo'),
     })
 
 
@@ -112,7 +120,8 @@ def _referendum(request, elezione):
             ita = nazionale.get(n, {})
             r['diff_si'] = round(r['si_pct'] - ita['si_pct'], 2) if r['si_pct'] is not None and ita.get('si_pct') is not None else None
     return render(request, 'analisi/risultato_referendum.html', {
-        'elezione': elezione, 'nazionale': list(nazionale.values()), 'territori': territori, 'scelto': scelto,
+        'elezione': elezione, 'tipo_slug': 'referendum', 'tipo_nome': 'Referendum',
+        'nazionale': list(nazionale.values()), 'territori': territori, 'scelto': scelto,
         'locale': list(locale.values()) if locale else None,
     })
 
@@ -130,7 +139,7 @@ def risultati_elezione(request, pk):
     nazionale, tot_nazionale = _tabella(righe(base))
     aff = Affluenza.objects.filter(elezione=elezione)
     aff_naz = aff.aggregate(e=Sum('elettori'), v=Sum('votanti'), b=Sum('bianche'))
-    territori = Territorio.objects.filter(affluenze__elezione=elezione)
+    territori = Territorio.objects.filter(affluenze__elezione=elezione).exclude(provincia='COMUNE NON ABBINATO')
     scelto = None
     locale = None
     aff_loc = None
@@ -145,7 +154,8 @@ def risultati_elezione(request, pk):
             r['differenza'] = round(r['percento'] - confronto.get(r['lista'], 0), 2)
         aff_loc = aff.filter(territorio=scelto).first()
     return render(request, 'analisi/risultato_elezione.html', {
-        'elezione': elezione, 'nazionale': nazionale, 'aff_naz': aff_naz, 'territori': territori,
+        'elezione': elezione, 'tipo_slug': _slug_tipo(elezione.tipo), 'tipo_nome': TIPI_RISULTATI[_slug_tipo(elezione.tipo)][1],
+        'nazionale': nazionale, 'aff_naz': aff_naz, 'territori': territori,
         'scelto': scelto, 'locale': locale, 'aff_loc': aff_loc,
         'affl_naz_pct': round(100 * aff_naz['v'] / aff_naz['e'], 2) if aff_naz['e'] else None,
         'affl_loc_pct': round(100 * aff_loc.votanti / aff_loc.elettori, 2) if aff_loc and aff_loc.elettori else None,

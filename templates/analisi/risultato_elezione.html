@@ -2,7 +2,7 @@
 {% load static humanize %}
 {% block title %}{{ elezione.nome }}{% endblock %}
 {% block contenuto %}
-<p class="briciole"><a href="{% url 'risultati_tipo' 'europee' %}">&larr; Elezioni europee</a></p>
+<p class="briciole"><a href="{% url 'risultati_tipo' tipo_slug %}">&larr; {{ tipo_nome }}</a></p>
 <h1>{{ elezione.nome }} <span class="anno">{{ elezione.data|date:"j F Y" }}</span></h1>
 
 <section class="riquadro">
