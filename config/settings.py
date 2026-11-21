@@ -30,8 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'chiave-solo-per-sviluppo-locale')
 IN_PRODUZIONE = 'DYNO' in os.environ
 DEBUG = not IN_PRODUZIONE
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
-CSRF_TRUSTED_ORIGINS = ['https://*.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com', 'osservatoriopartiti.it', 'www.osservatoriopartiti.it']
+CSRF_TRUSTED_ORIGINS = ['https://*.herokuapp.com', 'https://osservatoriopartiti.it', 'https://www.osservatoriopartiti.it']
 
 
 # Application definition
